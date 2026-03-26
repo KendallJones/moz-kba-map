@@ -772,6 +772,9 @@ function navPhoto(dir) {
   });
 }
 
+// Global species list built from all sites (used by italiciseLatin)
+let ALL_SPECIES = [];
+
 // ── Load GeoJSON ─────────────────────────────────────────────────────────────
 function loadKBAData() {
   if (typeof KBA_GEOJSON === 'undefined') {
@@ -780,21 +783,17 @@ function loadKBAData() {
   }
   document.getElementById('loading').style.display = 'none';
 
-  // Build a global species list from all sites for italics matching
-  const ALL_SPECIES = (() => {
-    const seen = new Set();
-    const list = [];
-    for (const f of KBA_GEOJSON.features) {
-      const p = f.properties;
-      for (const sp of [...(p.trigger_species || []), ...(p.trigger_species_pt || [])]) {
-        if (sp && sp.name && !seen.has(sp.name)) {
-          seen.add(sp.name);
-          list.push(sp);
-        }
+  // Build global species list from all sites for italics matching
+  const seen = new Set();
+  for (const f of KBA_GEOJSON.features) {
+    const p = f.properties;
+    for (const sp of [...(p.trigger_species || []), ...(p.trigger_species_pt || [])]) {
+      if (sp && sp.name && !seen.has(sp.name)) {
+        seen.add(sp.name);
+        ALL_SPECIES.push(sp);
       }
     }
-    return list;
-  })();
+  }
 
   const geojsonLayer = L.geoJSON(KBA_GEOJSON, {
     style: feature => MARINE_SITES.has(feature.properties.name) ? styleMarine : styleDefault,
