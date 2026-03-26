@@ -25,7 +25,7 @@
       --ember:    #c4541a;
       --sky:      #e8f4f0;
       --ink:      #1a2620;
-      --panel-w:  420px;
+      --panel-w:  840px;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -422,13 +422,47 @@
       margin-top: 8px;
     }
 
+    .photo-nav-wrap {
+      position: relative;
+      border-radius: 5px;
+      overflow: hidden;
+      background: var(--canopy);
+    }
+
     .photo-main {
       width: 100%;
       height: 200px;
       object-fit: cover;
-      border-radius: 5px;
       display: block;
-      background: var(--canopy);
+    }
+
+    .photo-nav-btn {
+      position: absolute;
+      top: 50%; transform: translateY(-50%);
+      background: rgba(10, 26, 18, 0.65);
+      border: none;
+      color: white;
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 20px;
+      line-height: 1;
+      display: flex; align-items: center; justify-content: center;
+      z-index: 2;
+      transition: background 0.2s;
+    }
+    .photo-nav-btn:hover { background: rgba(10,26,18,0.9); }
+    .photo-nav-btn.prev { left: 8px; }
+    .photo-nav-btn.next { right: 8px; }
+
+    .photo-counter {
+      position: absolute;
+      bottom: 6px; right: 8px;
+      font-size: 0.65rem;
+      color: rgba(255,255,255,0.8);
+      background: rgba(0,0,0,0.35);
+      padding: 1px 6px;
+      border-radius: 10px;
     }
 
     .photo-thumbs {
@@ -436,14 +470,16 @@
       gap: 5px;
       margin-top: 6px;
       overflow-x: auto;
-      padding-bottom: 4px;
+      padding-bottom: 6px;
+      scroll-behavior: smooth;
     }
 
-    .photo-thumbs::-webkit-scrollbar { height: 3px; }
-    .photo-thumbs::-webkit-scrollbar-thumb { background: var(--mist); }
+    .photo-thumbs::-webkit-scrollbar { height: 5px; }
+    .photo-thumbs::-webkit-scrollbar-track { background: var(--mist); border-radius: 3px; }
+    .photo-thumbs::-webkit-scrollbar-thumb { background: var(--leaf); border-radius: 3px; }
 
     .photo-thumb {
-      width: 56px; height: 40px;
+      width: 64px; height: 48px;
       border-radius: 3px;
       border: 2px solid transparent;
       overflow: hidden;
@@ -587,8 +623,8 @@
         <span id="legend-kba">Key Biodiversity Area</span>
       </div>
       <div class="legend-item">
-        <div class="legend-swatch" style="background:#c4541a; opacity:0.8;"></div>
-        <span id="legend-selected">Selected Site</span>
+        <div class="legend-swatch" style="background:#2196F3; border: 1px solid #0d4a7a;"></div>
+        <span id="legend-marine">Marine KBA</span>
       </div>
     </div>
   </div>
@@ -618,7 +654,7 @@ const UI = {
     instructions:   'Click any highlighted area to explore a KBA site',
     legendTitle:    'KBA Sites',
     legendKBA:      'Key Biodiversity Area',
-    legendSelected: 'Selected Site',
+    legendMarine:   'Marine KBA',
     adminRegion:    'Admin Region',
     kbaArea:        'KBA Area',
     coordinates:    'Coordinates',
@@ -642,7 +678,7 @@ const UI = {
     instructions:   'Clique numa área para explorar o sítio KBA',
     legendTitle:    'Sítios KBA',
     legendKBA:      'Área Chave de Biodiversidade',
-    legendSelected: 'Sítio Seleccionado',
+    legendMarine:   'KBA Marinha',
     adminRegion:    'Região Admin',
     kbaArea:        'Área da KBA',
     coordinates:    'Coordenadas',
@@ -675,7 +711,7 @@ function applyUILanguage() {
   document.getElementById('instructions').textContent   = t.instructions;
   document.getElementById('legend-title').textContent   = t.legendTitle;
   document.getElementById('legend-kba').textContent     = t.legendKBA;
-  document.getElementById('legend-selected').textContent= t.legendSelected;
+  document.getElementById('legend-marine').textContent  = t.legendMarine;
   document.getElementById('sat-placeholder').textContent= t.noPhoto;
 }
 
@@ -696,6 +732,29 @@ const styleDefault  = { color:'#2d5a3d', weight:1.5, opacity:0.8, fillColor:'#4a
 const styleHover    = { color:'#1a3a2a', weight:2.5, fillOpacity:0.55 };
 const styleSelected = { color:'#8b3a10', weight:2.5, fillColor:'#c4541a', fillOpacity:0.45 };
 
+const styleMarine        = { color:'#0d4a7a', weight:1.5, opacity:0.8, fillColor:'#2196F3', fillOpacity:0.35 };
+const styleMarineHover   = { color:'#083560', weight:2.5, fillOpacity:0.55 };
+
+const MARINE_SITES = new Set(['Vamizi', 'Great Bazaruto', 'Tofo', 'Ponta do Ouro Marine Partial Reserve']);
+const layerIsMarine = new Map();
+
+// ── Photo navigation state ────────────────────────────────────────────────────
+let photoList = [];
+let photoIdx  = 0;
+
+function navPhoto(dir) {
+  if (photoList.length < 2) return;
+  photoIdx = (photoIdx + dir + photoList.length) % photoList.length;
+  const img = document.getElementById('main-photo');
+  if (img) img.src = photoList[photoIdx];
+  const counter = document.getElementById('photo-counter');
+  if (counter) counter.textContent = `${photoIdx + 1} / ${photoList.length}`;
+  document.querySelectorAll('.photo-thumb').forEach((th, i) => {
+    th.classList.toggle('active', i === photoIdx);
+    if (i === photoIdx) th.scrollIntoView({ inline: 'nearest', behavior: 'smooth', block: 'nearest' });
+  });
+}
+
 // ── Load GeoJSON ─────────────────────────────────────────────────────────────
 function loadKBAData() {
   if (typeof KBA_GEOJSON === 'undefined') {
@@ -705,16 +764,20 @@ function loadKBAData() {
   document.getElementById('loading').style.display = 'none';
 
   const geojsonLayer = L.geoJSON(KBA_GEOJSON, {
-    style: styleDefault,
+    style: feature => MARINE_SITES.has(feature.properties.name) ? styleMarine : styleDefault,
     onEachFeature(feature, layer) {
       const p = feature.properties;
+      const marine = MARINE_SITES.has(p.name);
+      layerIsMarine.set(layer, marine);
+      const defStyle = marine ? styleMarine : styleDefault;
+      const hvStyle  = marine ? styleMarineHover : styleHover;
 
       layer.bindTooltip(() => (window.LANG === 'pt' && p.name_pt) ? p.name_pt : (p.name || 'KBA'), {
         className: 'map-tooltip', direction: 'top', sticky: true,
       });
 
-      layer.on('mouseover', function() { if (layer !== selectedLayer) layer.setStyle(styleHover); });
-      layer.on('mouseout',  function() { if (layer !== selectedLayer) layer.setStyle(styleDefault); });
+      layer.on('mouseover', function() { if (layer !== selectedLayer) layer.setStyle(hvStyle); });
+      layer.on('mouseout',  function() { if (layer !== selectedLayer) layer.setStyle(defStyle); });
       layer.on('click',     function() { openPanel(feature, layer); });
     }
   }).addTo(map);
@@ -731,7 +794,9 @@ function openPanel(feature, layer) {
   const isPT = window.LANG === 'pt';
 
   // Style
-  if (selectedLayer && selectedLayer !== layer) selectedLayer.setStyle(styleDefault);
+  if (selectedLayer && selectedLayer !== layer) {
+    selectedLayer.setStyle(layerIsMarine.get(selectedLayer) ? styleMarine : styleDefault);
+  }
   selectedLayer = layer;
   layer.setStyle(styleSelected);
 
@@ -803,17 +868,27 @@ function openPanel(feature, layer) {
 
   // Photos
   const photos = p.photos || [];
+  photoList = photos;
+  photoIdx  = 0;
   let photosHTML = '';
   if (photos.length > 0) {
+    const navBtns = photos.length > 1
+      ? `<button class="photo-nav-btn prev" onclick="navPhoto(-1)">&#8249;</button>
+         <button class="photo-nav-btn next" onclick="navPhoto(1)">&#8250;</button>
+         <span class="photo-counter" id="photo-counter">1 / ${photos.length}</span>`
+      : '';
     const thumbsHTML = photos.length > 1
       ? `<div class="photo-thumbs">${photos.map((src, i) =>
-          `<div class="photo-thumb ${i===0?'active':''}" onclick="switchPhoto('${src}',this)">
-            <img src="${src}" alt="" onerror="this.parentElement.style.display='none'">
+          `<div class="photo-thumb ${i===0?'active':''}" onclick="switchPhoto(${i})">
+            <img src="${src}" alt="" loading="lazy" onerror="this.parentElement.style.display='none'">
           </div>`).join('')}</div>`
       : '';
     photosHTML = `<div class="section-label">${t.photos}</div>
       <div class="photo-strip">
-        <img class="photo-main" id="main-photo" src="${photos[0]}" alt="${siteName}" onerror="this.style.display='none'">
+        <div class="photo-nav-wrap">
+          <img class="photo-main" id="main-photo" src="${photos[0]}" alt="${siteName}" onerror="this.style.display='none'">
+          ${navBtns}
+        </div>
         ${thumbsHTML}
       </div>`;
   }
@@ -855,15 +930,21 @@ function openPanel(feature, layer) {
   if (instr) { instr.style.opacity = '0'; setTimeout(() => instr.remove(), 600); }
 }
 
-function switchPhoto(src, thumbEl) {
-  document.getElementById('main-photo').src = src;
-  document.querySelectorAll('.photo-thumb').forEach(t => t.classList.remove('active'));
-  thumbEl.classList.add('active');
+function switchPhoto(idx) {
+  photoIdx = idx;
+  const img = document.getElementById('main-photo');
+  if (img) img.src = photoList[idx];
+  const counter = document.getElementById('photo-counter');
+  if (counter) counter.textContent = `${idx + 1} / ${photoList.length}`;
+  document.querySelectorAll('.photo-thumb').forEach((th, i) => th.classList.toggle('active', i === idx));
 }
 
 document.getElementById('panel-close').addEventListener('click', () => {
   panel.classList.remove('open');
-  if (selectedLayer) { selectedLayer.setStyle(styleDefault); selectedLayer = null; }
+  if (selectedLayer) {
+    selectedLayer.setStyle(layerIsMarine.get(selectedLayer) ? styleMarine : styleDefault);
+    selectedLayer = null;
+  }
 });
 
 // ── Boot ─────────────────────────────────────────────────────────────────────
