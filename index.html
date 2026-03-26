@@ -98,6 +98,26 @@
       font-weight: 600;
     }
 
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .header-logos {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .header-logos img {
+      height: 36px;
+      width: auto;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+      opacity: 0.85;
+    }
+
     /* ── Layout ── */
     .app-body {
       display: flex;
@@ -436,8 +456,15 @@
       <p class="subtitle">Mozambique</p>
     </div>
   </div>
-  <div class="site-count">
-    <span id="kba-count">—</span> Sites Mapped
+  <div class="header-right">
+    <div class="site-count">
+      <span id="kba-count">—</span> Sites Mapped
+    </div>
+    <div class="header-logos">
+      <img src="logos/WCS_LOGOTYPE-1024x365.webp" alt="WCS">
+      <img src="logos/KBA-text-logo-colour.svg" alt="KBA">
+      <img src="logos/portuguese-mozambique-people-s-republic-of-mozambique-emblem-of-mozambique-coat-of-arms-national-emblem-of-nepal.jpg" alt="Mozambique">
+    </div>
   </div>
 </header>
 
