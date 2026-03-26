@@ -40,7 +40,7 @@ MANUAL_MATCHES = {
     "Manhiça-Bilene (Limpopo floodlain)":   "Manhiça-Bilene",
     "Ponta do Ouro Marine Partial Reserve": "Ponta do Ouro",
     "Chimanimani National Park":             "Chimanimani",
-    "Nkwichi Bay":                          None,   # not in PDF — skip
+    "Nkwichi Bay":                          "Nkwichi Bay",
 }
 
 

@@ -3138,5 +3138,56 @@
     },
     "pt_site_name": "Ponta do Ouro",
     "page": 68
+  },
+  "Nkwichi Bay": {
+    "pt_site_name": "Baía de Nkwichi",
+    "en": {
+      "site_name": "Nkwichi Bay",
+      "admin_region": "Niassa",
+      "coordinates": "-12.22 S, 34.71 E",
+      "protection_category": "Lake Niassa Partial Reserve / Ramsar site",
+      "preexisting_designation": "Ramsar site, Lake Niassa Partial Reserve",
+      "kba_criteria": "A1c",
+      "description": "The Nkwichi Bay KBA is located on the eastern shore of Lake Niassa in Mozambique. The Cobue–Nkwichi area extends approximately between the coordinates (34.805, -12.105) and (34.707, -12.337), including Nkwichi Bay, which is delimited between (34.702, -12.189) and (34.708, -12.238). The area extends up to 3 nautical miles from the shoreline into the lake, aligning with the boundaries of the Lake Niassa Partial Reserve, which is also designated as a Ramsar site. The Cobue–Nkwichi area includes the mouth of the Cobue River, located north of the KBA, as well as Nkwichi Lodge, which lies within its boundaries. Nkwichi Bay is effectively under a restricted-use regime, resulting from an agreement between the lodge and the local community that limits fishing activities. From a biophysical perspective, the area is characterized by a diversity of habitats, predominantly rocky, which contribute to the ecological heterogeneity of the system.",
+      "rationale": "The designation of Nkwichi Bay as a KBA is based on the presence of freshwater fish species, particularly the trigger species Oreochromis squamipinnis (chambo), which is classified as Critically Endangered on the IUCN Red List, as well as on the ecological importance of the area for critical life-cycle processes of several freshwater species. The mouth of the Cobue River constitutes an important spawning area for large cyprinids, including species locally known as mpasa, sanjika, and nchila, reinforcing the site's importance for maintaining regional fish populations. The combination of diverse habitats, dominated by rocky substrates, and low fishing pressure has resulted in high species richness and greater abundance of key groups, particularly chambo (Oreochromis spp.) and catfish. Additionally, local fishing communities have reported declining catch rates, especially for large cyprinids, highlighting the need for conservation measures. Community support for closed areas and participatory monitoring initiatives are positive factors for effective management. In this context, restricting beach seining within the KBA is considered a priority measure to ensure the conservation of freshwater fish species and the sustainability of fisheries resources.",
+      "trigger_species": [
+        {
+          "name": "Oreochromis squamipinnis",
+          "iucn_status": "CR",
+          "note": "",
+          "icon": "icons/fish.png"
+        }
+      ],
+      "threats": [
+        "Fishing and harvesting of aquatic resources",
+        "Fire regimes and fire suppression",
+        "Urban wastewater discharge (domestic)",
+        "Habitat alteration and degradation"
+      ]
+    },
+    "pt": {
+      "site_name": "Baía de Nkwichi",
+      "admin_region": "Niassa",
+      "coordinates": "-12.22 S, 34.71 E",
+      "protection_category": "Reserva Parcial do Lago Niassa / Sítio Ramsar",
+      "preexisting_designation": "Sítio Ramsar, Reserva Parcial do Lago Niassa",
+      "kba_criteria": "A1C",
+      "description": "A KBA da Baía de Nkwichi situa-se na margem oriental do Lago Niassa, em Moçambique. A área de Cobue–Nkwichi estende-se aproximadamente entre as coordenadas (34.805, -12.105) e (34.707, -12.337), incluindo a Baía de Nkwichi, delimitada entre (34.702, -12.189) e (34.708, -12.238). A área prolonga-se até 3 milhas náuticas a partir da linha de costa em direcção ao lago, de modo a coincidir com os limites da Reserva Parcial do Lago Niassa, também classificada como sítio Ramsar. A área de Cobue–Nkwichi abrange a foz do rio Cobue, localizada a norte da KBA, bem como o Nkwichi Lodge, que se encontra dentro dos seus limites. A Baía de Nkwichi está sujeita a um regime de uso restrito, decorrente de um acordo entre o lodge e a comunidade local que limita a actividade pesqueira. Do ponto de vista biofísico, a área caracteriza-se por uma diversidade de habitats, predominantemente rochosos, que contribuem para a heterogeneidade ecológica do sistema.",
+      "rationale": "A designação da Baía de Nkwichi como KBA baseia-se na presença de espécies de peixes de água doce particularmente a espécie activadora: Oreochromis squamipinnis (Chambo), criticamente em perigo pela lista vermelha da IUCN, bem como na relevância ecológica da área para processos críticos do ciclo de vida de varias espécies de agua doce. A foz do rio Cobue constitui uma zona importante de desova para grandes ciprinídeos, incluindo espécies localmente conhecidas como mpasa, sanjika e nchila, reforçando a importância da área para a manutenção das populações regionais. A combinação de habitats diversificados, dominados por substratos rochosos, e a reduzida pressão de pesca tem resultado numa elevada riqueza de espécies e numa maior abundância de grupos-chave, nomeadamente chambo (Oreochromis spp.) e peixes-gato. Adicionalmente, as comunidades piscatórias locais têm identificado uma diminuição nas taxas de captura, sobretudo de grandes ciprinídeos, o que reforça a necessidade de medidas de conservação. O apoio comunitário às áreas de defeso e as iniciativas de monitorização participativa constituem elementos favoráveis à eficácia da gestão. Neste contexto, a restrição da pesca de praia no interior da KBA é considerada uma medida prioritária para assegurar a conservação das espécies de peixes de água doce presentes e a sustentabilidade dos recursos pesqueiros.",
+      "trigger_species": [
+        {
+          "name": "Oreochromis squamipinnis",
+          "iucn_status": "CR",
+          "note": "Chambo",
+          "icon": "icons/fish.png"
+        }
+      ],
+      "threats": [
+        "Pesca e exploração de recursos aquáticos",
+        "Regimes de fogo e supressão de incêndios",
+        "Descarga de águas residuais urbanas (domésticas)",
+        "Alteração e degradação de habitats"
+      ]
+    }
   }
 }
