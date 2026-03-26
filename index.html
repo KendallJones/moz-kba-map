@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Key Biodiversity Areas — Mozambique</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --forest:   #1a3a2a;
+      --canopy:   #2d5a3d;
+      --leaf:     #4a8c5c;
+      --moss:     #7ab893;
+      --mist:     #c8dfd0;
+      --sand:     #f0ebe0;
+      --bark:     #8b6f47;
+      --ember:    #c4541a;
+      --sky:      #e8f4f0;
+      --ink:      #1a2620;
+      --panel-w:  400px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Source Serif 4', Georgia, serif;
+      background: var(--forest);
+      color: var(--ink);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--forest);
+      color: var(--mist);
+      padding: 0 28px;
+      height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-shrink: 0;
+      border-bottom: 1px solid var(--canopy);
+      z-index: 1000;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .header-emblem {
+      width: 32px; height: 32px;
+      background: var(--leaf);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      color: var(--sand);
+    }
+
+    header p.subtitle {
+      font-size: 0.72rem;
+      color: var(--moss);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-style: italic;
+    }
+
+    .site-count {
+      font-size: 0.78rem;
+      color: var(--moss);
+      border: 1px solid var(--canopy);
+      padding: 4px 12px;
+      border-radius: 20px;
+      letter-spacing: 0.05em;
+    }
+
+    .site-count span {
+      color: var(--mist);
+      font-weight: 600;
+    }
+
+    /* ── Layout ── */
+    .app-body {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    /* ── Map ── */
+    #map {
+      flex: 1;
+      background: var(--sky);
+    }
+
+    /* ── Side Panel ── */
+    #side-panel {
+      width: var(--panel-w);
+      background: var(--sand);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      border-left: 3px solid var(--leaf);
+      transform: translateX(var(--panel-w));
+      transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      flex-shrink: 0;
+    }
+
+    #side-panel.open {
+      transform: translateX(0);
+    }
+
+    .panel-close {
+      position: absolute;
+      top: 12px; right: 12px;
+      background: none;
+      border: 1px solid var(--mist);
+      color: var(--ink);
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 14px;
+      display: flex; align-items: center; justify-content: center;
+      transition: background 0.2s, color 0.2s;
+      z-index: 10;
+    }
+    .panel-close:hover { background: var(--ember); color: white; border-color: var(--ember); }
+
+    /* Photo strip */
+    .panel-photos {
+      position: relative;
+      height: 220px;
+      background: var(--canopy);
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    .panel-photos img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      opacity: 0.9;
+    }
+
+    .panel-photos .photo-placeholder {
+      width: 100%; height: 100%;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      background: linear-gradient(160deg, var(--canopy) 0%, var(--forest) 100%);
+      color: var(--moss);
+      gap: 8px;
+    }
+
+    .panel-photos .photo-placeholder .icon { font-size: 2.5rem; }
+    .panel-photos .photo-placeholder p { font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; }
+
+    /* Thumbnail nav */
+    .photo-thumbs {
+      position: absolute;
+      bottom: 8px; left: 50%;
+      transform: translateX(-50%);
+      display: flex; gap: 6px;
+    }
+
+    .photo-thumb {
+      width: 44px; height: 32px;
+      border-radius: 3px;
+      border: 2px solid transparent;
+      overflow: hidden;
+      cursor: pointer;
+      transition: border-color 0.2s;
+    }
+    .photo-thumb.active { border-color: var(--sand); }
+    .photo-thumb img { width: 100%; height: 100%; object-fit: cover; }
+
+    /* KBA badge */
+    .kba-badge {
+      position: absolute;
+      top: 12px; left: 12px;
+      background: var(--ember);
+      color: white;
+      font-size: 0.62rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 2px;
+    }
+
+    /* Panel body */
+    .panel-body {
+      flex: 1;
+      overflow-y: auto;
+      padding: 22px 24px 32px;
+    }
+
+    .panel-body::-webkit-scrollbar { width: 4px; }
+    .panel-body::-webkit-scrollbar-thumb { background: var(--mist); border-radius: 2px; }
+
+    .site-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--forest);
+      line-height: 1.25;
+      margin-bottom: 4px;
+    }
+
+    .site-region {
+      font-size: 0.75rem;
+      color: var(--bark);
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .divider {
+      height: 1px;
+      background: var(--mist);
+      margin: 16px 0;
+    }
+
+    .section-label {
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--leaf);
+      margin-bottom: 7px;
+    }
+
+    .section-text {
+      font-size: 0.88rem;
+      line-height: 1.65;
+      color: #2a3a30;
+      font-style: italic;
+    }
+
+    .threats-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 4px;
+    }
+
+    .threat-tag {
+      background: #fce8dc;
+      color: var(--ember);
+      border: 1px solid #f0c4a8;
+      font-size: 0.74rem;
+      padding: 3px 10px;
+      border-radius: 20px;
+      letter-spacing: 0.03em;
+    }
+
+    .species-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 4px;
+    }
+
+    .species-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      background: #eef5ef;
+      border-radius: 6px;
+      padding: 8px 12px;
+    }
+
+    .species-icon { font-size: 1.2rem; flex-shrink: 0; margin-top: 1px; }
+
+    .species-name {
+      font-size: 0.83rem;
+      font-weight: 600;
+      color: var(--forest);
+    }
+
+    .species-iucn {
+      font-size: 0.7rem;
+      font-style: italic;
+      color: var(--bark);
+    }
+
+    /* ── Legend ── */
+    .legend {
+      position: absolute;
+      bottom: 30px; left: 14px;
+      background: rgba(248, 244, 236, 0.95);
+      border: 1px solid var(--mist);
+      border-radius: 6px;
+      padding: 12px 16px;
+      font-size: 0.75rem;
+      z-index: 800;
+      min-width: 140px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    }
+
+    .legend h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 0.8rem;
+      color: var(--forest);
+      margin-bottom: 8px;
+    }
+
+    .legend-item {
+      display: flex; align-items: center; gap: 8px;
+      margin-bottom: 5px;
+      color: var(--ink);
+    }
+
+    .legend-swatch {
+      width: 14px; height: 14px;
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+      margin: 14px 0 18px;
+    }
+
+    .meta-item {
+      background: #eef5ef;
+      border-radius: 5px;
+      padding: 7px 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .meta-label {
+      font-size: 0.62rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--leaf);
+    }
+
+    .meta-val {
+      font-size: 0.82rem;
+      color: var(--forest);
+      font-style: italic;
+    }
+
+    /* Leaflet overrides */
+    .leaflet-popup-content-wrapper {
+      border-radius: 6px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.18);
+      border: none;
+    }
+
+    .leaflet-popup-content {
+      margin: 0;
+      font-family: 'Source Serif 4', Georgia, serif;
+    }
+
+    .map-tooltip {
+      padding: 6px 12px;
+      background: var(--forest);
+      color: var(--sand);
+      border: none;
+      border-radius: 4px;
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 0.8rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .leaflet-tooltip-top:before { border-top-color: var(--forest); }
+
+    /* Instructions overlay */
+    .instructions {
+      position: absolute;
+      top: 14px; left: 50%;
+      transform: translateX(-50%);
+      background: rgba(26, 58, 42, 0.88);
+      color: var(--mist);
+      font-size: 0.76rem;
+      padding: 7px 16px;
+      border-radius: 20px;
+      letter-spacing: 0.04em;
+      z-index: 800;
+      pointer-events: none;
+      white-space: nowrap;
+      backdrop-filter: blur(4px);
+      transition: opacity 0.5s;
+    }
+
+    /* Spinner */
+    .loading-overlay {
+      position: absolute; inset: 0;
+      background: rgba(240, 235, 224, 0.85);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 2000;
+      gap: 12px;
+      font-size: 0.85rem;
+      color: var(--forest);
+      font-style: italic;
+    }
+
+    @media (max-width: 700px) {
+      :root { --panel-w: 100vw; }
+      #side-panel { position: absolute; top: 0; right: 0; bottom: 0; z-index: 900; border-left: none; border-top: 3px solid var(--leaf); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <div class="header-emblem">🌿</div>
+    <div>
+      <h1>Key Biodiversity Areas</h1>
+      <p class="subtitle">Mozambique</p>
+    </div>
+  </div>
+  <div class="site-count">
+    <span id="kba-count">—</span> Sites Mapped
+  </div>
+</header>
+
+<div class="app-body">
+  <div id="map">
+    <div class="loading-overlay" id="loading">
+      <span>🗺</span> Loading biodiversity data…
+    </div>
+    <div class="instructions" id="instructions">Click any highlighted area to explore a KBA site</div>
+    <div class="legend">
+      <h4>KBA Sites</h4>
+      <div class="legend-item">
+        <div class="legend-swatch" style="background:#4a8c5c; border: 1px solid #2d5a3d;"></div>
+        Key Biodiversity Area
+      </div>
+      <div class="legend-item">
+        <div class="legend-swatch" style="background:#c4541a; opacity:0.8;"></div>
+        Selected Site
+      </div>
+    </div>
+  </div>
+
+  <div id="side-panel">
+    <button class="panel-close" id="panel-close" title="Close">✕</button>
+
+    <div class="panel-photos" id="panel-photos">
+      <!-- Photos injected here -->
+    </div>
+
+    <div class="panel-body" id="panel-body">
+      <!-- Content injected here -->
+    </div>
+  </div>
+</div>
+
+<script src="kba-data.js"></script>
+<script>
+// ── Map init ──────────────────────────────────────────────────────────────
+const map = L.map('map', {
+  center: [-18.0, 35.0],
+  zoom: 6,
+  zoomControl: true,
+});
+
+// Base tile layer (CartoDB Positron – clean, neutral, free)
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/">CARTO</a>',
+  subdomains: 'abcd',
+  maxZoom: 19
+}).addTo(map);
+
+// ── State ─────────────────────────────────────────────────────────────────
+let selectedLayer = null;
+let kbaLayers = [];
+const panel = document.getElementById('side-panel');
+const panelClose = document.getElementById('panel-close');
+
+// ── Styles ────────────────────────────────────────────────────────────────
+const styleDefault = {
+  color: '#2d5a3d',
+  weight: 1.5,
+  opacity: 0.8,
+  fillColor: '#4a8c5c',
+  fillOpacity: 0.35,
+};
+
+const styleHover = {
+  color: '#1a3a2a',
+  weight: 2.5,
+  fillOpacity: 0.55,
+};
+
+const styleSelected = {
+  color: '#8b3a10',
+  weight: 2.5,
+  fillColor: '#c4541a',
+  fillOpacity: 0.45,
+};
+
+// ── Load GeoJSON ──────────────────────────────────────────────────────────
+function loadKBAData() {
+  if (typeof KBA_GEOJSON === 'undefined') {
+    document.getElementById('loading').innerHTML =
+      '<span>⚠️</span> kba-data.js not found — see README for setup instructions.';
+    return;
+  }
+
+  document.getElementById('loading').style.display = 'none';
+
+  const geojsonLayer = L.geoJSON(KBA_GEOJSON, {
+    style: styleDefault,
+    onEachFeature: function(feature, layer) {
+      kbaLayers.push(layer);
+      const p = feature.properties;
+
+      // Tooltip
+      layer.bindTooltip(p.name || 'Unnamed KBA', {
+        className: 'map-tooltip',
+        direction: 'top',
+        sticky: true,
+      });
+
+      // Hover
+      layer.on('mouseover', function() {
+        if (layer !== selectedLayer) layer.setStyle(styleHover);
+        this.openTooltip();
+      });
+
+      layer.on('mouseout', function() {
+        if (layer !== selectedLayer) layer.setStyle(styleDefault);
+        this.closeTooltip();
+      });
+
+      // Click → open panel
+      layer.on('click', function() {
+        openPanel(feature, layer);
+      });
+    }
+  }).addTo(map);
+
+  // Update count
+  const count = KBA_GEOJSON.features ? KBA_GEOJSON.features.length : 0;
+  document.getElementById('kba-count').textContent = count;
+
+  // Fit map to data
+  if (count > 0) {
+    try { map.fitBounds(geojsonLayer.getBounds(), { padding: [30, 30] }); } catch(e) {}
+  }
+}
+
+// ── Panel ──────────────────────────────────────────────────────────────────
+function openPanel(feature, layer) {
+  const p = feature.properties;
+
+  // Reset previous selection
+  if (selectedLayer && selectedLayer !== layer) {
+    selectedLayer.setStyle(styleDefault);
+  }
+  selectedLayer = layer;
+  layer.setStyle(styleSelected);
+
+  // ── Photos ──
+  const photosEl = document.getElementById('panel-photos');
+  const photos = p.photos || [];
+
+  if (photos.length > 0) {
+    let thumbsHTML = photos.length > 1
+      ? `<div class="photo-thumbs">${photos.map((src, i) =>
+          `<div class="photo-thumb ${i===0?'active':''}" onclick="switchPhoto('${src}', this)">
+            <img src="${src}" alt="thumb" onerror="this.parentElement.style.display='none'">
+          </div>`).join('')}</div>`
+      : '';
+
+    photosEl.innerHTML = `
+      <span class="kba-badge">KBA</span>
+      <img id="main-photo" src="${photos[0]}" alt="${p.name}" 
+           onerror="this.style.display='none'">
+      ${thumbsHTML}
+    `;
+  } else {
+    photosEl.innerHTML = `
+      <span class="kba-badge">KBA</span>
+      <div class="photo-placeholder">
+        <div class="icon">🌿</div>
+        <p>Photos coming soon</p>
+      </div>
+    `;
+  }
+
+  // ── Meta chips (criteria, classification, type, area) ──
+  const metaItems = [
+    p.kba_criteria    ? { label: 'Criteria',        val: p.kba_criteria }    : null,
+    p.classification  ? { label: 'Classification',  val: p.classification }  : null,
+    p.site_type       ? { label: 'Type',             val: p.site_type }       : null,
+    p.area_ha         ? { label: 'Area',             val: Number(p.area_ha).toLocaleString(undefined,{maximumFractionDigits:0}) + ' ha' } : null,
+    p.trigger_groups  ? { label: 'Trigger groups',  val: p.trigger_groups }  : null,
+  ].filter(Boolean);
+  const metaHTML = metaItems.length > 0
+    ? `<div class="meta-grid">${metaItems.map(m =>
+        `<div class="meta-item"><span class="meta-label">${m.label}</span><span class="meta-val">${m.val}</span></div>`
+      ).join('')}</div>`
+    : '';
+
+  // ── Threats ──
+  const threats = Array.isArray(p.threats) ? p.threats : (p.threats ? [p.threats] : []);
+  const threatTags = threats.length > 0
+    ? `<ul class="threats-list">${threats.map(t => `<li class="threat-tag">${t}</li>`).join('')}` + `</ul>`
+    : '<p class="section-text">No threats recorded.</p>';
+
+  // ── Trigger species ──
+  const species = Array.isArray(p.trigger_species) ? p.trigger_species : [];
+  const speciesHTML = species.length > 0
+    ? `<div class="species-grid">${species.map(s => `
+        <div class="species-item">
+          <span class="species-icon">${s.icon || '🐾'}</span>
+          <div>
+            <div class="species-name">${s.common_name || s.name}</div>
+            <div class="species-iucn">${s.scientific ? `<em>${s.scientific}</em>` : ''}${s.iucn_status ? ` · ${s.iucn_status}` : ''}</div>
+          </div>
+        </div>`).join('')}</div>`
+    : '<p class="section-text">Species data to be added.</p>';
+
+  // ── Body ──
+  document.getElementById('panel-body').innerHTML = `
+    <div class="site-name">${p.name || 'Unnamed Site'}</div>
+    <div class="site-region">${[p.adm_region || p.region, p.broad_region].filter(Boolean).join(' · ')}</div>
+
+    ${metaHTML}
+
+    ${p.description ? `<div class="section-label">Description</div>
+    <p class="section-text">${p.description}</p><div class="divider"></div>` : ''}
+
+    <div class="section-label">KBA Rationale</div>
+    <p class="section-text">${p.kba_rationale || 'Rationale not yet recorded.'}</p>
+
+    <div class="divider"></div>
+
+    <div class="section-label">Main Threats</div>
+    ${threatTags}
+
+    <div class="divider"></div>
+
+    <div class="section-label">Trigger Species</div>
+    ${speciesHTML}
+  `;
+
+  panel.classList.add('open');
+
+  // Fade out instructions
+  const instr = document.getElementById('instructions');
+  if (instr) { instr.style.opacity = '0'; setTimeout(() => instr.remove(), 600); }
+}
+
+function switchPhoto(src, thumbEl) {
+  document.getElementById('main-photo').src = src;
+  document.querySelectorAll('.photo-thumb').forEach(t => t.classList.remove('active'));
+  thumbEl.classList.add('active');
+}
+
+panelClose.addEventListener('click', () => {
+  panel.classList.remove('open');
+  if (selectedLayer) {
+    selectedLayer.setStyle(styleDefault);
+    selectedLayer = null;
+  }
+});
+
+// ── Boot ──────────────────────────────────────────────────────────────────
+loadKBAData();
+</script>
+</body>
+</html>
