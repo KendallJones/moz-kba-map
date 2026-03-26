@@ -33,6 +33,7 @@ MANUAL_MATCHES = {
     "Gorongosa and Marromeu Complex":       "Gorongosa-Marromeu",
     "Great Bazaruto":                       "Grande Bazaruto",
     "Tchuma-Tchato_Cahora Bassa Lake":      "Tchuma Tchato",
+    "Tchuma-Tchato Cahora Bassa Lake":      "Tchuma Tchato",
     "Mount_Mabu":                           "Mount Mabu",
     "Mount_Chiperoni":                      "Mount Chiperone",
     "Mount_Inago":                          "Mount Inago",
@@ -85,7 +86,7 @@ def best_match(shp_name, factsheet_keys):
 
 # ── Photo discovery ─────────────────────────────────────────────────────────
 
-IMG_EXTS = {'.jpg', '.jpeg', '.png', '.webp', '.gif', '.heic', '.heif'}
+IMG_EXTS = {'.jpg', '.jpeg', '.png', '.webp', '.gif'}
 
 def find_photos_for_site(site_id):
     """
