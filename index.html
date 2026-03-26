@@ -978,7 +978,8 @@ function italiciseLatin(text, speciesList) {
   if (!nameList.length) return text;
   let result = text;
   for (const name of nameList) {
-    const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    // Allow any whitespace (including newlines from PDF extraction) between words
+    const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/ /g, '\\s+');
     result = result.replace(new RegExp(`\\b${escaped}\\b`, 'gi'), `<em>${name}</em>`);
   }
   return result;
