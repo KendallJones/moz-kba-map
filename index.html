@@ -861,7 +861,7 @@ function openPanel(feature, layer) {
   // Description
   const descHTML = desc
     ? `<div class="section-label">${t.description}</div>
-       <p class="section-text">${italiciseLatin(desc)}</p><div class="divider"></div>`
+       <p class="section-text">${italiciseLatin(desc, species)}</p><div class="divider"></div>`
     : '';
 
   // Threats
@@ -940,7 +940,7 @@ function openPanel(feature, layer) {
     <div class="divider"></div>
 
     <div class="section-label">${t.rationale}</div>
-    <p class="section-text">${italiciseLatin(rationale) || t.noRationale}</p>
+    <p class="section-text">${italiciseLatin(rationale, species) || t.noRationale}</p>
 
     ${photosHTML ? `<div class="divider"></div>${photosHTML}` : ''}
   `;
@@ -951,13 +951,20 @@ function openPanel(feature, layer) {
   if (instr) { instr.style.opacity = '0'; setTimeout(() => instr.remove(), 600); }
 }
 
-// Wrap binomial Latin names (Genus species) in <em> tags
-function italiciseLatin(text) {
-  if (!text) return text;
-  // Match: capital letter + lowercase word(s), followed by one or two lowercase words
-  // Avoids matching ordinary sentence starts by requiring the second word to be lowercase
-  return text.replace(/\b([A-Z][a-z]{1,})\s+([a-z]{2,}(?:\s+[a-z]{2,})?)\b/g,
-    (match, genus, rest) => `<em>${genus} ${rest}</em>`);
+// Wrap only known trigger species names in <em> tags
+function italiciseLatin(text, speciesList) {
+  if (!text || !speciesList || speciesList.length === 0) return text;
+  // Sort longest names first to avoid partial-match issues
+  const names = speciesList
+    .map(s => s.name)
+    .filter(Boolean)
+    .sort((a, b) => b.length - a.length);
+  let result = text;
+  for (const name of names) {
+    const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    result = result.replace(new RegExp(`\\b${escaped}\\b`, 'g'), `<em>${name}</em>`);
+  }
+  return result;
 }
 
 function switchPhoto(idx) {
