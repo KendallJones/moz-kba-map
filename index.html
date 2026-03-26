@@ -386,7 +386,23 @@
       justify-content: space-between;
       background: #eef5ef;
       border-radius: 5px;
-      padding: 7px 10px;
+      padding: 6px 10px;
+      gap: 8px;
+    }
+
+    .species-icon {
+      width: 28px;
+      height: 22px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .species-icon img {
+      max-width: 28px;
+      max-height: 22px;
+      object-fit: contain;
     }
 
     .species-name {
@@ -860,7 +876,11 @@ function openPanel(feature, layer) {
         const status = s.iucn_status || '';
         const iucnClass = status ? `iucn-badge iucn-${status}` : 'iucn-badge iucn-DD';
         const note = s.note ? `<span class="species-note">(${s.note})</span>` : '';
+        const iconHTML = s.icon
+          ? `<div class="species-icon"><img src="icons/${s.icon}.png" alt="${s.icon}"></div>`
+          : `<div class="species-icon"></div>`;
         return `<div class="species-item">
+          ${iconHTML}
           <span class="species-name"><em>${s.name}</em>${note}</span>
           ${status ? `<span class="${iucnClass}">${status}</span>` : ''}
         </div>`;

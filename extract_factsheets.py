@@ -29,6 +29,45 @@ PT_PDF = ATLAS / "Ficha Tecnica das KBAs_Port vol ii_Actualizado_Junho 2021 .pdf
 
 OUTPUT = BASE / "factsheet_data.json"
 
+# ── Icon detection ────────────────────────────────────────────────────────────
+# Maps PDF vector fill colour (rounded to 2dp) → taxonomy icon name.
+# Colours identified by inspecting drawings on factsheet pages.
+FILL_TO_ICON = {
+    (0.40, 0.40, 0.50): 'bird',
+    (0.60, 0.51, 0.44): 'reptile',
+    (0.05, 0.17, 0.11): 'mammal',
+    (0.29, 0.58, 0.79): 'fish',
+    (0.61, 0.61, 0.21): 'amphibian',
+    (0.42, 0.54, 0.46): 'plant',
+}
+
+def fill_to_icon(fill, tol=0.06):
+    """Match a fill tuple to a known icon type within a colour tolerance."""
+    if not fill or len(fill) < 3:
+        return None
+    for ref, name in FILL_TO_ICON.items():
+        if all(abs(fill[i] - ref[i]) < tol for i in range(3)):
+            return name
+    return None
+
+
+def get_page_icon_map(fitz_page):
+    """
+    Return dict mapping y-centre-of-drawing → icon_type for all small
+    taxonomy silhouette drawings on a page.
+    """
+    result = []
+    for d in fitz_page.get_drawings():
+        r = d['rect']
+        icon = fill_to_icon(d.get('fill'))
+        if not icon:
+            continue
+        w, h = r.width, r.height
+        if not (5 < w < 35 and 4 < h < 30):
+            continue
+        result.append({'y': (r.y0 + r.y1) / 2, 'icon': icon})
+    return result
+
 # Pages where factsheets start (0-indexed). Both PDFs start at page 11.
 FACTSHEET_START_PAGE = 11
 
@@ -261,6 +300,24 @@ def process_pdf(pdf_path, labels, sections_map, rationale_hdr, references_hdr, l
                 if sp['name'] not in existing_names:
                     trigger_species.append(sp)
                     existing_names.add(sp['name'])
+
+        # Attach taxonomy icon types using PDF drawing positions
+        icon_map = get_page_icon_map(doc[page_idx])
+        if icon_map:
+            page_text_dict = doc[page_idx].get_text("dict")
+            # Build y-position map for species name spans
+            for block in page_text_dict["blocks"]:
+                if block.get("type") != 0:
+                    continue
+                for line in block["lines"]:
+                    for span in line["spans"]:
+                        span_txt = span["text"].strip().rstrip(',').rstrip()
+                        span_y = (span["bbox"][1] + span["bbox"][3]) / 2
+                        for sp in trigger_species:
+                            if sp["name"] and sp["name"] in span_txt or span_txt in sp["name"]:
+                                closest = min(icon_map, key=lambda d: abs(d['y'] - span_y))
+                                if abs(closest['y'] - span_y) < 15 and 'icon' not in sp:
+                                    sp['icon'] = closest['icon']
 
         threats = parse_threats(sections.get("threats", ""))
 
