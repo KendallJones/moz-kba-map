@@ -14,13 +14,13 @@
           "name": "Artisornis sousae",
           "iucn_status": "EN",
           "note": "NJESI ENDEMIC",
-          "icon": "bird"
+          "icon": "icons/species/artisornis_sousae.png"
         },
         {
           "name": "Cordylus meculae",
           "iucn_status": "LC",
           "note": "NORTH MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/cordylus_meculae.png"
         }
       ],
       "threats": [
@@ -44,13 +44,13 @@
           "name": "Artisornis sousae",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "bird"
+          "icon": "icons/species/artisornis_sousae.png"
         },
         {
           "name": "Cordylus meculae",
           "iucn_status": "LC",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/cordylus_meculae.png"
         }
       ],
       "threats": [
@@ -77,39 +77,39 @@
         {
           "name": "Loxodonta africana",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/loxodonta_africana.png"
         },
         {
           "name": "Hippopotamus amphibius",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/hippopotamus_amphibius.png"
         },
         {
           "name": "Lycaon pictus",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/lycaon_pictus.png"
         },
         {
           "name": "Panthera leo",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/panthera_leo.png"
         },
         {
           "name": "Cycloderma frenatum",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/cycloderma_frenatum.png"
         },
         {
           "name": "Cordylus meculae",
           "iucn_status": "LC",
           "note": "NORTH MOZAMBIQUE ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/cordylus_meculae.png"
         },
         {
           "name": "Nothobranchius niassa",
           "iucn_status": "VU",
           "note": "NSR ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/nothobranchius_niassa.png"
         }
       ],
       "threats": [
@@ -133,39 +133,39 @@
         {
           "name": "Loxodonta africana",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/loxodonta_africana.png"
         },
         {
           "name": "Hippopotamus amphibius",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/hippopotamus_amphibius.png"
         },
         {
           "name": "Lycaon pictus",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/lycaon_pictus.png"
         },
         {
           "name": "Panthera leo",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/panthera_leo.png"
         },
         {
           "name": "Cycloderma frenatum",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/cycloderma_frenatum.png"
         },
         {
           "name": "Cordylus meculae",
           "iucn_status": "LC",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/cordylus_meculae.png"
         },
         {
           "name": "Nothobranchius niassa",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/nothobranchius_niassa.png"
         }
       ],
       "threats": [
@@ -195,95 +195,95 @@
           "name": "Scolecoseps broadleyi",
           "iucn_status": "LC",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/scolecoseps_broadleyi.png"
         },
         {
           "name": "Nothobranchius krammeri",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/nothobranchius_krammeri.png"
         },
         {
           "name": "Nothobranchius hengstleri",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/nothobranchius_hengstleri.png"
         },
         {
           "name": "Chassalia colorata",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/chassalia_colorata.png"
         },
         {
           "name": "Grewia limae",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/grewia_limae.png"
         },
         {
           "name": "Pavetta lindina",
           "iucn_status": "EN",
-          "icon": "reptile"
+          "icon": "icons/species/pavetta_lindina.png"
         },
         {
           "name": "Crossopetalum mossambicense",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/crossopetalum_mossambicense.png"
         },
         {
           "name": "Vepris allenii",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/vepris_allenii.png"
         },
         {
           "name": "Clerodendrum lutambense",
           "iucn_status": "VU",
-          "icon": "reptile"
+          "icon": "icons/species/clerodendrum_lutambense.png"
         },
         {
           "name": "Coffea schliebenii",
           "iucn_status": "VU",
-          "icon": "reptile"
+          "icon": "icons/species/coffea_schliebenii.png"
         },
         {
           "name": "Oxyanthus strigosus",
           "iucn_status": "EN",
-          "icon": "reptile"
+          "icon": "icons/species/oxyanthus_strigosus.png"
         },
         {
           "name": "Ormocarpum schliebenii",
           "iucn_status": "NT",
-          "icon": "reptile"
+          "icon": "icons/species/ormocarpum_schliebenii.png"
         },
         {
           "name": "Oxyanthus biflorus",
           "iucn_status": "EN",
-          "icon": "reptile"
+          "icon": "icons/species/oxyanthus_biflorus.png"
         },
         {
           "name": "Ochna dolicharthros",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/ochna_dolicharthros.png"
         },
         {
           "name": "Acacia quiterajoensis",
           "iucn_status": "LC",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/acacia_quiterajoensis.png"
         },
         {
           "name": "Mimosa busseana",
           "iucn_status": "LC",
-          "icon": "reptile"
+          "icon": "icons/species/mimosa_busseana.png"
         },
         {
           "name": "Didymosalpinx callianthus",
           "iucn_status": "EN",
-          "icon": "reptile"
+          "icon": "icons/species/didymosalpinx_callianthus.png"
         }
       ],
       "threats": [
@@ -308,95 +308,95 @@
           "name": "Scolecoseps broadleyi",
           "iucn_status": "LC",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/scolecoseps_broadleyi.png"
         },
         {
           "name": "Nothobranchius krammeri",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/nothobranchius_krammeri.png"
         },
         {
           "name": "Nothobranchius hengstleri",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/nothobranchius_hengstleri.png"
         },
         {
           "name": "Chassalia colorata",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/chassalia_colorata.png"
         },
         {
           "name": "Grewia limae",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/grewia_limae.png"
         },
         {
           "name": "Pavetta lindina",
           "iucn_status": "EN",
-          "icon": "reptile"
+          "icon": "icons/species/pavetta_lindina.png"
         },
         {
           "name": "Crossopetalum mossambicense",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/crossopetalum_mossambicense.png"
         },
         {
           "name": "Vepris allenii",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/vepris_allenii.png"
         },
         {
           "name": "Clerodendrum lutambense",
           "iucn_status": "VU",
-          "icon": "reptile"
+          "icon": "icons/species/clerodendrum_lutambense.png"
         },
         {
           "name": "Coffea schliebenii",
           "iucn_status": "VU",
-          "icon": "reptile"
+          "icon": "icons/species/coffea_schliebenii.png"
         },
         {
           "name": "Oxyanthus strigosus",
           "iucn_status": "EN",
-          "icon": "reptile"
+          "icon": "icons/species/oxyanthus_strigosus.png"
         },
         {
           "name": "Ormocarpum schliebenii",
           "iucn_status": "NT",
-          "icon": "reptile"
+          "icon": "icons/species/ormocarpum_schliebenii.png"
         },
         {
           "name": "Oxyanthus biflorus",
           "iucn_status": "EN",
-          "icon": "reptile"
+          "icon": "icons/species/oxyanthus_biflorus.png"
         },
         {
           "name": "Ochna dolicharthros",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/ochna_dolicharthros.png"
         },
         {
           "name": "Acacia quiterajoensis",
           "iucn_status": "LC",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/acacia_quiterajoensis.png"
         },
         {
           "name": "Mimosa busseana",
           "iucn_status": "LC",
-          "icon": "reptile"
+          "icon": "icons/species/mimosa_busseana.png"
         },
         {
           "name": "Didymosalpinx callianthus",
           "iucn_status": "EN",
-          "icon": "reptile"
+          "icon": "icons/species/didymosalpinx_callianthus.png"
         }
       ],
       "threats": [
@@ -424,7 +424,7 @@
         {
           "name": "Caranx ignobilis",
           "iucn_status": "LC",
-          "icon": "fish"
+          "icon": "icons/species/caranx_ignobilis.png"
         }
       ],
       "threats": [
@@ -450,7 +450,7 @@
         {
           "name": "Caranx ignobilis",
           "iucn_status": "LC",
-          "icon": "fish"
+          "icon": "icons/species/caranx_ignobilis.png"
         }
       ],
       "threats": [
@@ -481,86 +481,86 @@
           "name": "Warneckea cordiformis",
           "iucn_status": "CR",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/warneckea_cordiformis.png"
         },
         {
           "name": "Grewia limae",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/grewia_limae.png"
         },
         {
           "name": "Oxyanthus strigosus",
           "iucn_status": "EN",
-          "icon": "plant"
+          "icon": "icons/species/oxyanthus_strigosus.png"
         },
         {
           "name": "Pseudomussaenda mozambicensis",
           "iucn_status": "EN",
-          "icon": "plant"
+          "icon": "icons/species/pseudomussaenda_mozambicensis.png"
         },
         {
           "name": "Pavetta lindina",
           "iucn_status": "EN",
-          "icon": "plant"
+          "icon": "icons/species/pavetta_lindina.png"
         },
         {
           "name": "Vepris allenii",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/vepris_allenii.png"
         },
         {
           "name": "Tarenna pembensis",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/tarenna_pembensis.png"
         },
         {
           "name": "Micklethwaitia carvalhoi",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/micklethwaitia_carvalhoi.png"
         },
         {
           "name": "Stylochaeton tortispathus",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/stylochaeton_tortispathus.png"
         },
         {
           "name": "Acacia latispina",
           "iucn_status": "LC",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/acacia_latispina.png"
         },
         {
           "name": "Acacia quiterajoensis",
           "iucn_status": "LC",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/acacia_quiterajoensis.png"
         },
         {
           "name": "Justicia gorongozana",
           "iucn_status": "LC",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/justicia_gorongozana.png"
         },
         {
           "name": "Maerua andradae",
           "iucn_status": "LC",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/maerua_andradae.png"
         },
         {
           "name": "Mimosa busseana",
           "iucn_status": "LC",
-          "icon": "plant"
+          "icon": "icons/species/mimosa_busseana.png"
         },
         {
           "name": "Ormocarpum schliebenii",
           "iucn_status": "LC",
-          "icon": "plant"
+          "icon": "icons/species/ormocarpum_schliebenii.png"
         }
       ],
       "threats": [
@@ -585,86 +585,86 @@
           "name": "Warneckea cordiformis",
           "iucn_status": "CR",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/warneckea_cordiformis.png"
         },
         {
           "name": "Grewia limae",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/grewia_limae.png"
         },
         {
           "name": "Oxyanthus strigosus",
           "iucn_status": "EN",
-          "icon": "plant"
+          "icon": "icons/species/oxyanthus_strigosus.png"
         },
         {
           "name": "Pseudomussaenda mozambicensis",
           "iucn_status": "EN",
-          "icon": "plant"
+          "icon": "icons/species/pseudomussaenda_mozambicensis.png"
         },
         {
           "name": "Pavetta lindina",
           "iucn_status": "EN",
-          "icon": "plant"
+          "icon": "icons/species/pavetta_lindina.png"
         },
         {
           "name": "Vepris allenii",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/vepris_allenii.png"
         },
         {
           "name": "Tarenna pembensis",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/tarenna_pembensis.png"
         },
         {
           "name": "Micklethwaitia carvalhoi",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/micklethwaitia_carvalhoi.png"
         },
         {
           "name": "Stylochaeton tortispathus",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/stylochaeton_tortispathus.png"
         },
         {
           "name": "Acacia latispina",
           "iucn_status": "LC",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/acacia_latispina.png"
         },
         {
           "name": "Acacia quiterajoensis",
           "iucn_status": "LC",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/acacia_quiterajoensis.png"
         },
         {
           "name": "Justicia gorongozana",
           "iucn_status": "LC",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/justicia_gorongozana.png"
         },
         {
           "name": "Maerua andradae",
           "iucn_status": "LC",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/maerua_andradae.png"
         },
         {
           "name": "Mimosa busseana",
           "iucn_status": "LC",
-          "icon": "plant"
+          "icon": "icons/species/mimosa_busseana.png"
         },
         {
           "name": "Ormocarpum schliebenii",
           "iucn_status": "LC",
-          "icon": "plant"
+          "icon": "icons/species/ormocarpum_schliebenii.png"
         }
       ],
       "threats": [
@@ -693,13 +693,13 @@
           "name": "Nothophryne unilurio",
           "iucn_status": "CR",
           "note": "TARATIBU ENDEMIC",
-          "icon": "amphibian"
+          "icon": "icons/species/nothophryne_unilurio.png"
         },
         {
           "name": "Rytigynia torrei",
           "iucn_status": "EN",
           "note": "TARATIBU ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/rytigynia_torrei.png"
         }
       ],
       "threats": [
@@ -724,13 +724,13 @@
           "name": "Nothophryne unilurio",
           "iucn_status": "CR",
           "note": "ENDÊMICA",
-          "icon": "amphibian"
+          "icon": "icons/species/nothophryne_unilurio.png"
         },
         {
           "name": "Rytigynia torrei",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/rytigynia_torrei.png"
         }
       ],
       "threats": [
@@ -759,7 +759,7 @@
           "name": "Allophylus torrei",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/allophylus_torrei.png"
         }
       ],
       "threats": [
@@ -782,7 +782,7 @@
           "name": "Allophylus torrei",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/allophylus_torrei.png"
         }
       ],
       "threats": [
@@ -809,7 +809,7 @@
           "name": "Icuria dunensis",
           "iucn_status": "EN",
           "note": "NORTH MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/icuria_dunensis.png"
         }
       ],
       "threats": [
@@ -834,7 +834,7 @@
           "name": "Icuria dunensis",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/icuria_dunensis.png"
         }
       ],
       "threats": [
@@ -863,79 +863,79 @@
           "name": "Dipsadoboa montisilva",
           "iucn_status": "NT",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/dipsadoboa_montisilva.png"
         },
         {
           "name": "Rhampholeon tilburyi",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/rhampholeon_tilburyi.png"
         },
         {
           "name": "Nothophryne ribauensis",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/nothophryne_ribauensis.png"
         },
         {
           "name": "Aloe rulkensii",
           "iucn_status": "CR",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/aloe_rulkensii.png"
         },
         {
           "name": "Aloe ribauensis",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/aloe_ribauensis.png"
         },
         {
           "name": "Streptocarpus myoporoides",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/streptocarpus_myoporoides.png"
         },
         {
           "name": "Dombeya leachii",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/dombeya_leachii.png"
         },
         {
           "name": "Polysphaeria ribauensis",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/polysphaeria_ribauensis.png"
         },
         {
           "name": "Memecylon nubigenum",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/memecylon_nubigenum.png"
         },
         {
           "name": "Cynanchum oresbium",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/cynanchum_oresbium.png"
         },
         {
           "name": "Cissus aristolochiifolia",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/cissus_aristolochiifolia.png"
         },
         {
           "name": "Vepris macedoi",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/vepris_macedoi.png"
         },
         {
           "name": "Plectranthus cucullatus",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/plectranthus_cucullatus.png"
         }
       ],
       "threats": [
@@ -959,79 +959,79 @@
           "name": "Dipsadoboa montisilva",
           "iucn_status": "NT",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/dipsadoboa_montisilva.png"
         },
         {
           "name": "Rhampholeon tilburyi",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/rhampholeon_tilburyi.png"
         },
         {
           "name": "Nothophryne ribauensis",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "amphibian"
+          "icon": "icons/species/nothophryne_ribauensis.png"
         },
         {
           "name": "Aloe rulkensii",
           "iucn_status": "CR",
           "note": "ENDÊMICA",
-          "icon": "amphibian"
+          "icon": "icons/species/aloe_rulkensii.png"
         },
         {
           "name": "Aloe ribauensis",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "amphibian"
+          "icon": "icons/species/aloe_ribauensis.png"
         },
         {
           "name": "Streptocarpus myoporoides",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "amphibian"
+          "icon": "icons/species/streptocarpus_myoporoides.png"
         },
         {
           "name": "Dombeya leachii",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "amphibian"
+          "icon": "icons/species/dombeya_leachii.png"
         },
         {
           "name": "Polysphaeria ribauensis",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "amphibian"
+          "icon": "icons/species/polysphaeria_ribauensis.png"
         },
         {
           "name": "Memecylon nubigenum",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "amphibian"
+          "icon": "icons/species/memecylon_nubigenum.png"
         },
         {
           "name": "Cynanchum oresbium",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "amphibian"
+          "icon": "icons/species/cynanchum_oresbium.png"
         },
         {
           "name": "Cissus aristolochiifolia",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "amphibian"
+          "icon": "icons/species/cissus_aristolochiifolia.png"
         },
         {
           "name": "Vepris macedoi",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "amphibian"
+          "icon": "icons/species/vepris_macedoi.png"
         },
         {
           "name": "Plectranthus cucullatus",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "amphibian"
+          "icon": "icons/species/plectranthus_cucullatus.png"
         }
       ],
       "threats": [
@@ -1058,13 +1058,13 @@
           "name": "Rhampholeon bruessoworum",
           "iucn_status": "CR",
           "note": "MOZ. ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/rhampholeon_bruessoworum.png"
         },
         {
           "name": "Nothophryne inagoensis",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/nothophryne_inagoensis.png"
         }
       ],
       "threats": [
@@ -1090,13 +1090,13 @@
           "name": "Rhampholeon bruessoworum",
           "iucn_status": "CR",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/rhampholeon_bruessoworum.png"
         },
         {
           "name": "Nothophryne inagoensis",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/nothophryne_inagoensis.png"
         }
       ],
       "threats": [
@@ -1125,7 +1125,7 @@
           "name": "Icuria dunensis",
           "iucn_status": "EN",
           "note": "NORTH MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/icuria_dunensis.png"
         }
       ],
       "threats": [
@@ -1149,7 +1149,7 @@
           "name": "Icuria dunensis",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/icuria_dunensis.png"
         }
       ],
       "threats": [
@@ -1177,129 +1177,129 @@
           "name": "Paraxerus vincenti",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/paraxerus_vincenti.png"
         },
         {
           "name": "Apalis lynesi",
           "iucn_status": "NT",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/apalis_lynesi.png"
         },
         {
           "name": "Arcanator orostruthus",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/arcanator_orostruthus.png"
         },
         {
           "name": "Chamaetylas choloensis",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/chamaetylas_choloensis.png"
         },
         {
           "name": "Atheris mabuensis",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/atheris_mabuensis.png"
         },
         {
           "name": "Rhampholeon tilburyi",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/rhampholeon_tilburyi.png"
         },
         {
           "name": "Arthroleptis francei",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/arthroleptis_francei.png"
         },
         {
           "name": "Hyperolius spinigularis",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/hyperolius_spinigularis.png"
         },
         {
           "name": "Nothophryne baylissi",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/nothophryne_baylissi.png"
         },
         {
           "name": "Agelanthus patelii",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/agelanthus_patelii.png"
         },
         {
           "name": "Alloeochaete namuliensis",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/alloeochaete_namuliensis.png"
         },
         {
           "name": "Brachystelma nutans",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/brachystelma_nutans.png"
         },
         {
           "name": "Coleus namuliensis",
           "iucn_status": "LC",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/coleus_namuliensis.png"
         },
         {
           "name": "Faurea racemosa",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/faurea_racemosa.png"
         },
         {
           "name": "Helixanthera schizocalyx",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/helixanthera_schizocalyx.png"
         },
         {
           "name": "Isoglossa namuliensis",
           "iucn_status": "CR",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/isoglossa_namuliensis.png"
         },
         {
           "name": "Memecylon nubigenum",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/memecylon_nubigenum.png"
         },
         {
           "name": "Pavetta gurueensis",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/pavetta_gurueensis.png"
         },
         {
           "name": "Plectranthus mandalensis",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/plectranthus_mandalensis.png"
         },
         {
           "name": "Sclerochiton hirsutus",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/sclerochiton_hirsutus.png"
         },
         {
           "name": "Xerophyta kirkii",
           "iucn_status": "LC",
-          "icon": "mammal"
+          "icon": "icons/species/xerophyta_kirkii.png"
         },
         {
           "name": "Xerophyta pseudopinifolia",
           "iucn_status": "LC",
-          "icon": "mammal"
+          "icon": "icons/species/xerophyta_pseudopinifolia.png"
         },
         {
           "name": "Crotalaria namuliensis",
           "iucn_status": "LC",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/crotalaria_namuliensis.png"
         }
       ],
       "threats": [
@@ -1325,129 +1325,129 @@
           "name": "Paraxerus vincenti",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/paraxerus_vincenti.png"
         },
         {
           "name": "Apalis lynesi",
           "iucn_status": "NT",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/apalis_lynesi.png"
         },
         {
           "name": "Arcanator orostruthus",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/arcanator_orostruthus.png"
         },
         {
           "name": "Chamaetylas choloensis",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/chamaetylas_choloensis.png"
         },
         {
           "name": "Atheris mabuensis",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/atheris_mabuensis.png"
         },
         {
           "name": "Rhampholeon tilburyi",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/rhampholeon_tilburyi.png"
         },
         {
           "name": "Arthroleptis francei",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/arthroleptis_francei.png"
         },
         {
           "name": "Hyperolius spinigularis",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/hyperolius_spinigularis.png"
         },
         {
           "name": "Nothophryne baylissi",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/nothophryne_baylissi.png"
         },
         {
           "name": "Agelanthus patelii",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/agelanthus_patelii.png"
         },
         {
           "name": "Alloeochaete namuliensis",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/alloeochaete_namuliensis.png"
         },
         {
           "name": "Brachystelma nutans",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/brachystelma_nutans.png"
         },
         {
           "name": "Coleus namuliensis",
           "iucn_status": "LC",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/coleus_namuliensis.png"
         },
         {
           "name": "Faurea racemosa",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/faurea_racemosa.png"
         },
         {
           "name": "Helixanthera schizocalyx",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/helixanthera_schizocalyx.png"
         },
         {
           "name": "Isoglossa namuliensis",
           "iucn_status": "CR",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/isoglossa_namuliensis.png"
         },
         {
           "name": "Memecylon nubigenum",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/memecylon_nubigenum.png"
         },
         {
           "name": "Pavetta gurueensis",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/pavetta_gurueensis.png"
         },
         {
           "name": "Plectranthus mandalensis",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/plectranthus_mandalensis.png"
         },
         {
           "name": "Sclerochiton hirsutus",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/sclerochiton_hirsutus.png"
         },
         {
           "name": "Xerophyta kirkii",
           "iucn_status": "LC",
-          "icon": "mammal"
+          "icon": "icons/species/xerophyta_kirkii.png"
         },
         {
           "name": "Xerophyta pseudopinifolia",
           "iucn_status": "LC",
-          "icon": "mammal"
+          "icon": "icons/species/xerophyta_pseudopinifolia.png"
         },
         {
           "name": "Crotalaria namuliensis",
           "iucn_status": "LC",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/crotalaria_namuliensis.png"
         }
       ],
       "threats": [
@@ -1475,69 +1475,69 @@
         {
           "name": "Chamaetylas choloensis",
           "iucn_status": "VU",
-          "icon": "bird"
+          "icon": "icons/species/chamaetylas_choloensis.png"
         },
         {
           "name": "Arcanator orostruthus",
           "iucn_status": "VU",
-          "icon": "bird"
+          "icon": "icons/species/arcanator_orostruthus.png"
         },
         {
           "name": "Swynnertonia swynnertoni",
           "iucn_status": "VU",
-          "icon": "bird"
+          "icon": "icons/species/swynnertonia_swynnertoni.png"
         },
         {
           "name": "Atheris mabuensis",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/atheris_mabuensis.png"
         },
         {
           "name": "Dipsadoboa montisilva",
           "iucn_status": "NT",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/dipsadoboa_montisilva.png"
         },
         {
           "name": "Nadzikambia baylissi",
           "iucn_status": "NT",
           "note": "MOUNT MABU ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/nadzikambia_baylissi.png"
         },
         {
           "name": "Rhampholeon maspictus",
           "iucn_status": "NT",
           "note": "MOUNT MABU ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/rhampholeon_maspictus.png"
         },
         {
           "name": "Arthroleptis francei",
           "iucn_status": "VU",
-          "icon": "reptile"
+          "icon": "icons/species/arthroleptis_francei.png"
         },
         {
           "name": "Faurea racemose",
           "iucn_status": "EN",
-          "icon": "reptile"
+          "icon": "icons/species/faurea_racemose.png"
         },
         {
           "name": "Helixanthera schizocalyx",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/helixanthera_schizocalyx.png"
         },
         {
           "name": "Pavetta gurueensis",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/pavetta_gurueensis.png"
         },
         {
           "name": "Sclerochiton hirsutus",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/sclerochiton_hirsutus.png"
         }
       ],
       "threats": [
@@ -1560,69 +1560,69 @@
         {
           "name": "Chamaetylas choloensis",
           "iucn_status": "VU",
-          "icon": "bird"
+          "icon": "icons/species/chamaetylas_choloensis.png"
         },
         {
           "name": "Arcanator orostruthus",
           "iucn_status": "VU",
-          "icon": "bird"
+          "icon": "icons/species/arcanator_orostruthus.png"
         },
         {
           "name": "Swynnertonia swynnertoni",
           "iucn_status": "VU",
-          "icon": "bird"
+          "icon": "icons/species/swynnertonia_swynnertoni.png"
         },
         {
           "name": "Atheris mabuensis",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/atheris_mabuensis.png"
         },
         {
           "name": "Dipsadoboa montisilva",
           "iucn_status": "NT",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/dipsadoboa_montisilva.png"
         },
         {
           "name": "Nadzikambia baylissi",
           "iucn_status": "NT",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/nadzikambia_baylissi.png"
         },
         {
           "name": "Rhampholeon maspictus",
           "iucn_status": "NT",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/rhampholeon_maspictus.png"
         },
         {
           "name": "Arthroleptis francei",
           "iucn_status": "VU",
-          "icon": "reptile"
+          "icon": "icons/species/arthroleptis_francei.png"
         },
         {
           "name": "Faurea racemose",
           "iucn_status": "EN",
-          "icon": "reptile"
+          "icon": "icons/species/faurea_racemose.png"
         },
         {
           "name": "Helixanthera schizocalyx",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/helixanthera_schizocalyx.png"
         },
         {
           "name": "Pavetta gurueensis",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/pavetta_gurueensis.png"
         },
         {
           "name": "Sclerochiton hirsutus",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/sclerochiton_hirsutus.png"
         }
       ],
       "threats": [
@@ -1649,13 +1649,13 @@
         {
           "name": "Chamaetylas choloensis",
           "iucn_status": "VU",
-          "icon": "bird"
+          "icon": "icons/species/chamaetylas_choloensis.png"
         },
         {
           "name": "Rhampholeon nebulauctor",
           "iucn_status": "VU",
           "note": "CHIPERONE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/rhampholeon_nebulauctor.png"
         }
       ],
       "threats": [
@@ -1680,13 +1680,13 @@
         {
           "name": "Chamaetylas choloensis",
           "iucn_status": "VU",
-          "icon": "bird"
+          "icon": "icons/species/chamaetylas_choloensis.png"
         },
         {
           "name": "Rhampholeon nebulauctor",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/rhampholeon_nebulauctor.png"
         }
       ],
       "threats": [
@@ -1717,13 +1717,13 @@
           "name": "Nothobranchius krysanovi",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "fish"
+          "icon": "icons/species/nothobranchius_krysanovi.png"
         },
         {
           "name": "Tarenna longipedicellata",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "fish"
+          "icon": "icons/species/tarenna_longipedicellata.png"
         }
       ],
       "threats": [
@@ -1749,13 +1749,13 @@
           "name": "Nothobranchius krysanovi",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "fish"
+          "icon": "icons/species/nothobranchius_krysanovi.png"
         },
         {
           "name": "Tarenna longipedicellata",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "fish"
+          "icon": "icons/species/tarenna_longipedicellata.png"
         }
       ],
       "threats": [
@@ -1784,12 +1784,12 @@
         {
           "name": "Hippopotamus amphibius",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/hippopotamus_amphibius.png"
         },
         {
           "name": "Oreochromis mortimeri",
           "iucn_status": "CR",
-          "icon": "fish"
+          "icon": "icons/species/oreochromis_mortimeri.png"
         }
       ],
       "threats": [
@@ -1812,12 +1812,12 @@
         {
           "name": "Hippopotamus amphibius",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/hippopotamus_amphibius.png"
         },
         {
           "name": "Oreochromis mortimeri",
           "iucn_status": "CR",
-          "icon": "fish"
+          "icon": "icons/species/oreochromis_mortimeri.png"
         }
       ],
       "threats": [
@@ -1844,7 +1844,7 @@
         {
           "name": "Hirundo atrocaerulea",
           "iucn_status": "VU",
-          "icon": "bird"
+          "icon": "icons/species/hirundo_atrocaerulea.png"
         }
       ],
       "threats": [
@@ -1870,7 +1870,7 @@
         {
           "name": "Hirundo atrocaerulea",
           "iucn_status": "VU",
-          "icon": "bird"
+          "icon": "icons/species/hirundo_atrocaerulea.png"
         }
       ],
       "threats": [
@@ -1900,12 +1900,12 @@
         {
           "name": "Carpitalpa arendsi",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/carpitalpa_arendsi.png"
         },
         {
           "name": "Hirundo atrocaerulea",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/hirundo_atrocaerulea.png"
         }
       ],
       "threats": [
@@ -1928,12 +1928,12 @@
         {
           "name": "Carpitalpa arendsi",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/carpitalpa_arendsi.png"
         },
         {
           "name": "Hirundo atrocaerulea",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/hirundo_atrocaerulea.png"
         }
       ],
       "threats": [
@@ -1960,69 +1960,69 @@
         {
           "name": "Carpitalpa arendsi",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/carpitalpa_arendsi.png"
         },
         {
           "name": "Rhampholeon marshalli",
           "iucn_status": "VU",
-          "icon": "reptile"
+          "icon": "icons/species/rhampholeon_marshalli.png"
         },
         {
           "name": "Smaug mossambicus",
           "iucn_status": "LC",
-          "icon": "reptile"
+          "icon": "icons/species/smaug_mossambicus.png"
         },
         {
           "name": "Hyperolius swynnertoni",
           "iucn_status": "LC",
-          "icon": "amphibian"
+          "icon": "icons/species/hyperolius_swynnertoni.png"
         },
         {
           "name": "Strongylopus rhodesianus",
           "iucn_status": "VU",
-          "icon": "amphibian"
+          "icon": "icons/species/strongylopus_rhodesianus.png"
         },
         {
           "name": "Pterocephalus centennii",
           "iucn_status": "CR",
           "note": "MOZ. ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/pterocephalus_centennii.png"
         },
         {
           "name": "Danthoniopsis chimanimaniensis",
           "iucn_status": "EN",
           "note": "AREA ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/danthoniopsis_chimanimaniensis.png"
         },
         {
           "name": "Morella chimanimaniana",
           "iucn_status": "EN",
           "note": "AREA ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/morella_chimanimaniana.png"
         },
         {
           "name": "Neobolusia ciliata",
           "iucn_status": "EN",
           "note": "AREA ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/neobolusia_ciliata.png"
         },
         {
           "name": "Olinia chimanimani",
           "iucn_status": "EN",
           "note": "AREA ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/olinia_chimanimani.png"
         },
         {
           "name": "Empogona jenniferae",
           "iucn_status": "EN",
           "note": "AREA ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/empogona_jenniferae.png"
         },
         {
           "name": "Ficus muelleriana",
           "iucn_status": "EN",
           "note": "MOZ. ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/ficus_muelleriana.png"
         }
       ],
       "threats": [
@@ -2046,69 +2046,69 @@
         {
           "name": "Carpitalpa arendsi",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/carpitalpa_arendsi.png"
         },
         {
           "name": "Rhampholeon marshalli",
           "iucn_status": "VU",
-          "icon": "reptile"
+          "icon": "icons/species/rhampholeon_marshalli.png"
         },
         {
           "name": "Smaug mossambicus",
           "iucn_status": "LC",
-          "icon": "reptile"
+          "icon": "icons/species/smaug_mossambicus.png"
         },
         {
           "name": "Hyperolius swynnertoni",
           "iucn_status": "LC",
-          "icon": "amphibian"
+          "icon": "icons/species/hyperolius_swynnertoni.png"
         },
         {
           "name": "Strongylopus rhodesianus",
           "iucn_status": "VU",
-          "icon": "amphibian"
+          "icon": "icons/species/strongylopus_rhodesianus.png"
         },
         {
           "name": "Pterocephalus centennii",
           "iucn_status": "CR",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/pterocephalus_centennii.png"
         },
         {
           "name": "Danthoniopsis chimanimaniensis",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/danthoniopsis_chimanimaniensis.png"
         },
         {
           "name": "Morella chimanimaniana",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/morella_chimanimaniana.png"
         },
         {
           "name": "Neobolusia ciliata",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/neobolusia_ciliata.png"
         },
         {
           "name": "Olinia chimanimani",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/olinia_chimanimani.png"
         },
         {
           "name": "Empogona jenniferae",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/empogona_jenniferae.png"
         },
         {
           "name": "Ficus muelleriana",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/ficus_muelleriana.png"
         }
       ],
       "threats": [
@@ -2136,105 +2136,105 @@
         {
           "name": "Lycaon pictus",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/lycaon_pictus.png"
         },
         {
           "name": "Hippopotamus amphibius",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/hippopotamus_amphibius.png"
         },
         {
           "name": "Panthera leo",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/panthera_leo.png"
         },
         {
           "name": "Loxodonta africana",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/loxodonta_africana.png"
         },
         {
           "name": "Gyps africanus",
           "iucn_status": "CR",
-          "icon": "bird"
+          "icon": "icons/species/gyps_africanus.png"
         },
         {
           "name": "Trigonoceps occipitalis",
           "iucn_status": "CR",
-          "icon": "bird"
+          "icon": "icons/species/trigonoceps_occipitalis.png"
         },
         {
           "name": "Balearica regulorum",
           "iucn_status": "EN",
-          "icon": "bird"
+          "icon": "icons/species/balearica_regulorum.png"
         },
         {
           "name": "Bugeranus carunculatus",
           "iucn_status": "VU",
-          "icon": "bird"
+          "icon": "icons/species/bugeranus_carunculatus.png"
         },
         {
           "name": "Afroedura gorongosa",
           "iucn_status": "LC",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/afroedura_gorongosa.png"
         },
         {
           "name": "Cycloderma frenatum",
           "iucn_status": "EN",
-          "icon": "reptile"
+          "icon": "icons/species/cycloderma_frenatum.png"
         },
         {
           "name": "Rhampholeon gorongosae",
           "iucn_status": "EN",
           "note": "GORONGOSA ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/rhampholeon_gorongosae.png"
         },
         {
           "name": "Nothobranchius kadleci",
           "iucn_status": "NT",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/nothobranchius_kadleci.png"
         },
         {
           "name": "Acacia torrei",
           "iucn_status": "LC",
-          "icon": "plant"
+          "icon": "icons/species/acacia_torrei.png"
         },
         {
           "name": "Impatiens wuerstenii",
           "iucn_status": "VU",
-          "icon": "reptile"
+          "icon": "icons/species/impatiens_wuerstenii.png"
         },
         {
           "name": "Justicia gorongozana",
           "iucn_status": "LC",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/justicia_gorongozana.png"
         },
         {
           "name": "Streptocarpus brachynema",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/streptocarpus_brachynema.png"
         },
         {
           "name": "Cordia stuhlmannii",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/cordia_stuhlmannii.png"
         },
         {
           "name": "Dorstenia zambesiaca",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/dorstenia_zambesiaca.png"
         },
         {
           "name": "Tarenna longipedicellata",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "reptile"
+          "icon": "icons/species/tarenna_longipedicellata.png"
         }
       ],
       "threats": [
@@ -2262,105 +2262,105 @@
         {
           "name": "Lycaon pictus",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/lycaon_pictus.png"
         },
         {
           "name": "Hippopotamus amphibius",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/hippopotamus_amphibius.png"
         },
         {
           "name": "Panthera leo",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/panthera_leo.png"
         },
         {
           "name": "Loxodonta africana",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/loxodonta_africana.png"
         },
         {
           "name": "Gyps africanus",
           "iucn_status": "CR",
-          "icon": "bird"
+          "icon": "icons/species/gyps_africanus.png"
         },
         {
           "name": "Trigonoceps occipitalis",
           "iucn_status": "CR",
-          "icon": "bird"
+          "icon": "icons/species/trigonoceps_occipitalis.png"
         },
         {
           "name": "Balearica regulorum",
           "iucn_status": "EN",
-          "icon": "bird"
+          "icon": "icons/species/balearica_regulorum.png"
         },
         {
           "name": "Bugeranus carunculatus",
           "iucn_status": "VU",
-          "icon": "bird"
+          "icon": "icons/species/bugeranus_carunculatus.png"
         },
         {
           "name": "Afroedura gorongosa",
           "iucn_status": "LC",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/afroedura_gorongosa.png"
         },
         {
           "name": "Cycloderma frenatum",
           "iucn_status": "EN",
-          "icon": "reptile"
+          "icon": "icons/species/cycloderma_frenatum.png"
         },
         {
           "name": "Rhampholeon gorongosae",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/rhampholeon_gorongosae.png"
         },
         {
           "name": "Nothobranchius kadleci",
           "iucn_status": "NT",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/nothobranchius_kadleci.png"
         },
         {
           "name": "Acacia torrei",
           "iucn_status": "LC",
-          "icon": "reptile"
+          "icon": "icons/species/acacia_torrei.png"
         },
         {
           "name": "Impatiens wuerstenii",
           "iucn_status": "VU",
-          "icon": "reptile"
+          "icon": "icons/species/impatiens_wuerstenii.png"
         },
         {
           "name": "Justicia gorongozana",
           "iucn_status": "LC",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/justicia_gorongozana.png"
         },
         {
           "name": "Streptocarpus brachynema",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/streptocarpus_brachynema.png"
         },
         {
           "name": "Cordia stuhlmannii",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/cordia_stuhlmannii.png"
         },
         {
           "name": "Dorstenia zambesiaca",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/dorstenia_zambesiaca.png"
         },
         {
           "name": "Tarenna longipedicellata",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "reptile"
+          "icon": "icons/species/tarenna_longipedicellata.png"
         }
       ],
       "threats": [
@@ -2393,31 +2393,31 @@
           "name": "Croton inhambanensis",
           "iucn_status": "VU",
           "note": "MOZ. ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/croton_inhambanensis.png"
         },
         {
           "name": "Ecbolium hastatum",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/ecbolium_hastatum.png"
         },
         {
           "name": "Ozoroa gomesiana",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/ozoroa_gomesiana.png"
         },
         {
           "name": "Croton aceroides",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/croton_aceroides.png"
         },
         {
           "name": "Xylia mendoncae",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/xylia_mendoncae.png"
         }
       ],
       "threats": [
@@ -2443,31 +2443,31 @@
           "name": "Croton inhambanensis",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/croton_inhambanensis.png"
         },
         {
           "name": "Ecbolium hastatum",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/ecbolium_hastatum.png"
         },
         {
           "name": "Ozoroa gomesiana",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/ozoroa_gomesiana.png"
         },
         {
           "name": "Croton aceroides",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/croton_aceroides.png"
         },
         {
           "name": "Xylia mendoncae",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/xylia_mendoncae.png"
         }
       ],
       "threats": [
@@ -2496,41 +2496,41 @@
         {
           "name": "Dugong dugon",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/dugong_dugon.png"
         },
         {
           "name": "Sousa plumbea",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/sousa_plumbea.png"
         },
         {
           "name": "Sterna balaenarum",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/sterna_balaenarum.png"
         },
         {
           "name": "Mochlus lanceolatus",
           "iucn_status": "LC",
           "note": "G. BAZARUTO ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/mochlus_lanceolatus.png"
         },
         {
           "name": "Scelotes insularis",
           "iucn_status": "LC",
           "note": "G. BAZARUTO ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/scelotes_insularis.png"
         },
         {
           "name": "Scelotes duttoni",
           "iucn_status": "LC",
           "note": "BAZARUTO ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/scelotes_duttoni.png"
         },
         {
           "name": "Jatropha subaequiloba",
           "iucn_status": "VU",
           "note": "G. BAZARUTO ENDEMIC",
-          "icon": "mammal"
+          "icon": "icons/species/jatropha_subaequiloba.png"
         }
       ],
       "threats": [
@@ -2553,41 +2553,41 @@
         {
           "name": "Dugong dugon",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/dugong_dugon.png"
         },
         {
           "name": "Sousa plumbea",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/sousa_plumbea.png"
         },
         {
           "name": "Sterna balaenarum",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/sterna_balaenarum.png"
         },
         {
           "name": "Mochlus lanceolatus",
           "iucn_status": "LC",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/mochlus_lanceolatus.png"
         },
         {
           "name": "Scelotes insularis",
           "iucn_status": "LC",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/scelotes_insularis.png"
         },
         {
           "name": "Scelotes duttoni",
           "iucn_status": "LC",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/scelotes_duttoni.png"
         },
         {
           "name": "Jatropha subaequiloba",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "mammal"
+          "icon": "icons/species/jatropha_subaequiloba.png"
         }
       ],
       "threats": [
@@ -2614,22 +2614,22 @@
         {
           "name": "Mobula alfredi",
           "iucn_status": "VU",
-          "icon": "fish"
+          "icon": "icons/species/mobula_alfredi.png"
         },
         {
           "name": "Mobula birostris",
           "iucn_status": "EN",
-          "icon": "fish"
+          "icon": "icons/species/mobula_birostris.png"
         },
         {
           "name": "Rhincodon typus",
           "iucn_status": "EN",
-          "icon": "fish"
+          "icon": "icons/species/rhincodon_typus.png"
         },
         {
           "name": "Stegostoma tigrinum",
           "iucn_status": "EN",
-          "icon": "fish"
+          "icon": "icons/species/stegostoma_tigrinum.png"
         }
       ],
       "threats": [
@@ -2655,22 +2655,22 @@
         {
           "name": "Mobula alfredi",
           "iucn_status": "VU",
-          "icon": "fish"
+          "icon": "icons/species/mobula_alfredi.png"
         },
         {
           "name": "Mobula birostris",
           "iucn_status": "EN",
-          "icon": "fish"
+          "icon": "icons/species/mobula_birostris.png"
         },
         {
           "name": "Rhincodon typus",
           "iucn_status": "EN",
-          "icon": "fish"
+          "icon": "icons/species/rhincodon_typus.png"
         },
         {
           "name": "Stegostoma tigrinum",
           "iucn_status": "EN",
-          "icon": "fish"
+          "icon": "icons/species/stegostoma_tigrinum.png"
         }
       ],
       "threats": [
@@ -2751,18 +2751,18 @@
         {
           "name": "Chetia brevis",
           "iucn_status": "EN",
-          "icon": "fish"
+          "icon": "icons/species/chetia_brevis.png"
         },
         {
           "name": "Memecylon incisilobum",
           "iucn_status": "CR",
           "note": "MANHIÇA BILENE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/memecylon_incisilobum.png"
         },
         {
           "name": "Raphia australis",
           "iucn_status": "VU",
-          "icon": "plant"
+          "icon": "icons/species/raphia_australis.png"
         }
       ],
       "threats": [
@@ -2786,18 +2786,18 @@
         {
           "name": "Chetia brevis",
           "iucn_status": "EN",
-          "icon": "fish"
+          "icon": "icons/species/chetia_brevis.png"
         },
         {
           "name": "Memecylon incisilobum",
           "iucn_status": "CR",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/memecylon_incisilobum.png"
         },
         {
           "name": "Raphia australis",
           "iucn_status": "VU",
-          "icon": "plant"
+          "icon": "icons/species/raphia_australis.png"
         }
       ],
       "threats": [
@@ -2826,13 +2826,13 @@
           "name": "Polygala francisci",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/polygala_francisci.png"
         },
         {
           "name": "Sclerochiton apiculatus",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/sclerochiton_apiculatus.png"
         }
       ],
       "threats": [
@@ -2855,13 +2855,13 @@
           "name": "Polygala francisci",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/polygala_francisci.png"
         },
         {
           "name": "Sclerochiton apiculatus",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/sclerochiton_apiculatus.png"
         }
       ],
       "threats": [
@@ -2888,33 +2888,33 @@
           "name": "Xylopia torrei",
           "iucn_status": "EN",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/xylopia_torrei.png"
         },
         {
           "name": "Sclerochiton apiculatus",
           "iucn_status": "VU",
-          "icon": "plant"
+          "icon": "icons/species/sclerochiton_apiculatus.png"
         },
         {
           "name": "Psydrax fragrantissima",
           "iucn_status": "NT",
-          "icon": "plant"
+          "icon": "icons/species/psydrax_fragrantissima.png"
         },
         {
           "name": "Empogona maputensis",
           "iucn_status": "EN",
-          "icon": "plant"
+          "icon": "icons/species/empogona_maputensis.png"
         },
         {
           "name": "Warneckea parvifolia",
           "iucn_status": "EN",
-          "icon": "plant"
+          "icon": "icons/species/warneckea_parvifolia.png"
         },
         {
           "name": "Polygala francisci",
           "iucn_status": "VU",
           "note": "MOZAMBIQUE ENDEMIC",
-          "icon": "plant"
+          "icon": "icons/species/polygala_francisci.png"
         }
       ],
       "threats": [
@@ -2937,33 +2937,33 @@
           "name": "Xylopia torrei",
           "iucn_status": "EN",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/xylopia_torrei.png"
         },
         {
           "name": "Sclerochiton apiculatus",
           "iucn_status": "VU",
-          "icon": "plant"
+          "icon": "icons/species/sclerochiton_apiculatus.png"
         },
         {
           "name": "Psydrax fragrantissima",
           "iucn_status": "NT",
-          "icon": "plant"
+          "icon": "icons/species/psydrax_fragrantissima.png"
         },
         {
           "name": "Empogona maputensis",
           "iucn_status": "EN",
-          "icon": "plant"
+          "icon": "icons/species/empogona_maputensis.png"
         },
         {
           "name": "Warneckea parvifolia",
           "iucn_status": "EN",
-          "icon": "plant"
+          "icon": "icons/species/warneckea_parvifolia.png"
         },
         {
           "name": "Polygala francisci",
           "iucn_status": "VU",
           "note": "ENDÊMICA",
-          "icon": "plant"
+          "icon": "icons/species/polygala_francisci.png"
         }
       ],
       "threats": [
@@ -2989,27 +2989,27 @@
         {
           "name": "Loxodonta africana",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/loxodonta_africana.png"
         },
         {
           "name": "Silhouettea sibayi",
           "iucn_status": "EN",
-          "icon": "fish"
+          "icon": "icons/species/silhouettea_sibayi.png"
         },
         {
           "name": "Scarabaeus bornemizzai",
           "iucn_status": "NT",
-          "icon": "fish"
+          "icon": "icons/species/scarabaeus_bornemizzai.png"
         },
         {
           "name": "Amblyphymus adspersus",
           "iucn_status": "NT",
-          "icon": "plant"
+          "icon": "icons/species/amblyphymus_adspersus.png"
         },
         {
           "name": "Sclerochiton apiculatus",
           "iucn_status": "VU",
-          "icon": "plant"
+          "icon": "icons/species/sclerochiton_apiculatus.png"
         }
       ],
       "threats": [
@@ -3033,27 +3033,27 @@
         {
           "name": "Loxodonta africana",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/loxodonta_africana.png"
         },
         {
           "name": "Silhouettea sibayi",
           "iucn_status": "EN",
-          "icon": "fish"
+          "icon": "icons/species/silhouettea_sibayi.png"
         },
         {
           "name": "Scarabaeus bornemizzai",
           "iucn_status": "NT",
-          "icon": "fish"
+          "icon": "icons/species/scarabaeus_bornemizzai.png"
         },
         {
           "name": "Amblyphymus adspersus",
           "iucn_status": "NT",
-          "icon": "plant"
+          "icon": "icons/species/amblyphymus_adspersus.png"
         },
         {
           "name": "Sclerochiton apiculatus",
           "iucn_status": "VU",
-          "icon": "plant"
+          "icon": "icons/species/sclerochiton_apiculatus.png"
         }
       ],
       "threats": [
@@ -3080,17 +3080,17 @@
         {
           "name": "Sousa plumbea",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/sousa_plumbea.png"
         },
         {
           "name": "Caranx ignobilis",
           "iucn_status": "LC",
-          "icon": "mammal"
+          "icon": "icons/species/caranx_ignobilis.png"
         },
         {
           "name": "Parablennius lodosus",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/parablennius_lodosus.png"
         }
       ],
       "threats": [
@@ -3115,17 +3115,17 @@
         {
           "name": "Sousa plumbea",
           "iucn_status": "EN",
-          "icon": "mammal"
+          "icon": "icons/species/sousa_plumbea.png"
         },
         {
           "name": "Caranx ignobilis",
           "iucn_status": "LC",
-          "icon": "mammal"
+          "icon": "icons/species/caranx_ignobilis.png"
         },
         {
           "name": "Parablennius lodosus",
           "iucn_status": "VU",
-          "icon": "mammal"
+          "icon": "icons/species/parablennius_lodosus.png"
         }
       ],
       "threats": [

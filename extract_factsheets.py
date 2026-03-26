@@ -21,6 +21,13 @@ try:
 except ImportError:
     sys.exit("PyMuPDF not found. Run: pip install pymupdf")
 
+try:
+    from PIL import Image
+    import numpy as np
+    HAS_PIL = True
+except ImportError:
+    HAS_PIL = False
+
 BASE = Path(__file__).parent
 ATLAS = BASE / "Moz KBAs_Atlas" / "00_Factsheets_PT&EN_VOL II"
 
@@ -29,10 +36,12 @@ PT_PDF = ATLAS / "Ficha Tecnica das KBAs_Port vol ii_Actualizado_Junho 2021 .pdf
 
 OUTPUT = BASE / "factsheet_data.json"
 
-# ── Icon detection ────────────────────────────────────────────────────────────
-# Maps PDF vector fill colour (rounded to 2dp) → taxonomy icon name.
-# Colours identified by inspecting drawings on factsheet pages.
-FILL_TO_ICON = {
+# ── Per-species icon extraction ───────────────────────────────────────────────
+# Each species has its own silhouette in the PDF (e.g. elephant, hippo, lion…).
+# Icons share a fill colour per taxonomic group but differ in shape.
+# We render each icon individually and cache by species-name slug.
+
+KNOWN_FILL_GROUPS = {
     (0.40, 0.40, 0.50): 'bird',
     (0.60, 0.51, 0.44): 'reptile',
     (0.05, 0.17, 0.11): 'mammal',
@@ -41,32 +50,101 @@ FILL_TO_ICON = {
     (0.42, 0.54, 0.46): 'plant',
 }
 
-def fill_to_icon(fill, tol=0.06):
-    """Match a fill tuple to a known icon type within a colour tolerance."""
+ICON_RENDER_MAT = fitz.Matrix(6, 6)
+SPECIES_ICONS_DIR = BASE / "icons" / "species"
+_icon_slug_cache: dict = {}   # slug → relative web path (avoid re-rendering)
+
+
+def _is_known_fill(fill, tol=0.06):
     if not fill or len(fill) < 3:
-        return None
-    for ref, name in FILL_TO_ICON.items():
-        if all(abs(fill[i] - ref[i]) < tol for i in range(3)):
-            return name
-    return None
+        return False
+    return any(all(abs(fill[i] - ref[i]) < tol for i in range(3))
+               for ref in KNOWN_FILL_GROUPS)
 
 
-def get_page_icon_map(fitz_page):
+def _slugify(name):
+    return re.sub(r'[^a-z0-9]+', '_', name.strip().lower()).strip('_')
+
+
+def _remove_bg(pix):
+    """Make the sandy PDF background transparent."""
+    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples).convert("RGBA")
+    data = np.array(img)
+    r, g, b = data[:, :, 0], data[:, :, 1], data[:, :, 2]
+    data[:, :, 3] = np.where((r > 200) & (g > 190) & (b > 170), 0, 255)
+    return Image.fromarray(data)
+
+
+def extract_species_icons(fitz_page, trigger_species):
     """
-    Return dict mapping y-centre-of-drawing → icon_type for all small
-    taxonomy silhouette drawings on a page.
+    For each species in trigger_species, find the matching silhouette drawing
+    on the page (by y-position proximity), render it as a transparent PNG and
+    save to icons/species/<slug>.png.  Adds an 'icon' key to each species dict.
     """
-    result = []
+    if not HAS_PIL:
+        return
+
+    # Collect candidate icon drawings (small filled shapes)
+    icon_drawings = []
     for d in fitz_page.get_drawings():
         r = d['rect']
-        icon = fill_to_icon(d.get('fill'))
-        if not icon:
+        if not _is_known_fill(d.get('fill')):
             continue
         w, h = r.width, r.height
-        if not (5 < w < 35 and 4 < h < 30):
+        if 5 < w < 35 and 4 < h < 30:
+            icon_drawings.append({'rect': r, 'y': (r.y0 + r.y1) / 2})
+
+    if not icon_drawings:
+        return
+
+    # Build y-position index from species text spans on the page
+    text_dict = fitz_page.get_text("dict")
+    species_spans = []
+    for block in text_dict.get("blocks", []):
+        if block.get("type") != 0:
             continue
-        result.append({'y': (r.y0 + r.y1) / 2, 'icon': icon})
-    return result
+        for line in block["lines"]:
+            for span in line["spans"]:
+                txt = span["text"].strip()
+                if "AvenirNextCondensed-Demi" in span.get("font", "") and len(txt) > 4 and ' ' in txt:
+                    species_spans.append({'text': txt, 'y': (span["bbox"][1] + span["bbox"][3]) / 2})
+
+    SPECIES_ICONS_DIR.mkdir(parents=True, exist_ok=True)
+
+    for sp in trigger_species:
+        name = sp.get('name', '')
+        if not name:
+            continue
+        slug = _slugify(name)
+
+        # Use cached path if already rendered
+        if slug in _icon_slug_cache:
+            sp['icon'] = _icon_slug_cache[slug]
+            continue
+
+        # Find the text span for this species
+        matching_span = next(
+            (s for s in species_spans if name in s['text'] or s['text'] in name),
+            None
+        )
+        if not matching_span:
+            continue
+
+        # Find the closest icon drawing by y position
+        closest = min(icon_drawings, key=lambda d: abs(d['y'] - matching_span['y']))
+        if abs(closest['y'] - matching_span['y']) > 15:
+            continue
+
+        # Render and save
+        r = closest['rect']
+        clip = fitz.Rect(r.x0 - 1, r.y0 - 1, r.x1 + 1, r.y1 + 1)
+        pix = fitz_page.get_pixmap(matrix=ICON_RENDER_MAT, clip=clip)
+        img = _remove_bg(pix)
+        img.save(str(SPECIES_ICONS_DIR / f"{slug}.png"))
+
+        rel_path = f"icons/species/{slug}.png"
+        _icon_slug_cache[slug] = rel_path
+        sp['icon'] = rel_path
 
 # Pages where factsheets start (0-indexed). Both PDFs start at page 11.
 FACTSHEET_START_PAGE = 11
@@ -301,23 +379,8 @@ def process_pdf(pdf_path, labels, sections_map, rationale_hdr, references_hdr, l
                     trigger_species.append(sp)
                     existing_names.add(sp['name'])
 
-        # Attach taxonomy icon types using PDF drawing positions
-        icon_map = get_page_icon_map(doc[page_idx])
-        if icon_map:
-            page_text_dict = doc[page_idx].get_text("dict")
-            # Build y-position map for species name spans
-            for block in page_text_dict["blocks"]:
-                if block.get("type") != 0:
-                    continue
-                for line in block["lines"]:
-                    for span in line["spans"]:
-                        span_txt = span["text"].strip().rstrip(',').rstrip()
-                        span_y = (span["bbox"][1] + span["bbox"][3]) / 2
-                        for sp in trigger_species:
-                            if sp["name"] and sp["name"] in span_txt or span_txt in sp["name"]:
-                                closest = min(icon_map, key=lambda d: abs(d['y'] - span_y))
-                                if abs(closest['y'] - span_y) < 15 and 'icon' not in sp:
-                                    sp['icon'] = closest['icon']
+        # Attach per-species silhouette icons (renders each icon as a PNG)
+        extract_species_icons(doc[page_idx], trigger_species)
 
         threats = parse_threats(sections.get("threats", ""))
 
