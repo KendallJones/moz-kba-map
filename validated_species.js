@@ -161,6 +161,7 @@ var VALIDATED_SPECIES = [
   "Orcinus orca",
   "Oreochromis mortimeri",
   "Oreochromis niloticus",
+  "Oreochromis squamipinnis",
   "Ormocarpum schliebenii",
   "Otiophora lanceolata",
   "Oxyanthus biflorus",
