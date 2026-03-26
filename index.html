@@ -488,6 +488,18 @@
       border-radius: 10px;
     }
 
+    .photo-species-label {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      background: linear-gradient(transparent, rgba(0,0,0,0.65));
+      color: white;
+      font-size: 0.78rem;
+      font-style: italic;
+      padding: 18px 10px 7px;
+      pointer-events: none;
+      display: none;
+    }
+
     .photo-thumbs {
       display: flex;
       gap: 5px;
@@ -906,6 +918,33 @@ const layerIsMarine = new Map();
 let photoList = [];
 let photoIdx  = 0;
 
+function isSpeciesPhoto(path) {
+  return /\/[Ss]pe[ci]i?es\//i.test(path);
+}
+
+function photoCaption(path) {
+  if (!isSpeciesPhoto(path)) return '';
+  const filename = path.split('/').pop().replace(/\.[^.]+$/, '');
+  // Remove photographer credits in parentheses and trailing numbers/spaces
+  return filename
+    .replace(/\s*\(.*?\)\s*/g, '')
+    .replace(/\s+\d+\s*$/, '')
+    .replace(/_/g, ' ')
+    .trim();
+}
+
+function updateSpeciesLabel(path) {
+  const label = document.getElementById('photo-species-label');
+  if (!label) return;
+  const caption = photoCaption(path);
+  if (caption) {
+    label.textContent = caption;
+    label.style.display = 'block';
+  } else {
+    label.style.display = 'none';
+  }
+}
+
 function navPhoto(dir) {
   if (photoList.length < 2) return;
   photoIdx = (photoIdx + dir + photoList.length) % photoList.length;
@@ -917,6 +956,7 @@ function navPhoto(dir) {
     th.classList.toggle('active', i === photoIdx);
     if (i === photoIdx) th.scrollIntoView({ inline: 'nearest', behavior: 'smooth', block: 'nearest' });
   });
+  updateSpeciesLabel(photoList[photoIdx]);
 }
 
 // Global species list built from all sites (used by italiciseLatin)
@@ -1076,6 +1116,7 @@ function openPanel(feature, layer) {
       <div class="photo-strip">
         <div class="photo-nav-wrap">
           <img class="photo-main" id="main-photo" src="${photos[0]}" alt="${siteName}" onerror="this.style.display='none'">
+          <div class="photo-species-label" id="photo-species-label"></div>
           ${navBtns}
         </div>
         ${thumbsHTML}
@@ -1114,6 +1155,7 @@ function openPanel(feature, layer) {
   `;
 
   panel.classList.add('open');
+  if (photos.length > 0) updateSpeciesLabel(photos[0]);
 
   const instr = document.getElementById('instructions');
   if (instr) { instr.style.opacity = '0'; setTimeout(() => instr.remove(), 600); }
@@ -1191,6 +1233,7 @@ function switchPhoto(idx) {
   const counter = document.getElementById('photo-counter');
   if (counter) counter.textContent = `${idx + 1} / ${photoList.length}`;
   document.querySelectorAll('.photo-thumb').forEach((th, i) => th.classList.toggle('active', i === idx));
+  updateSpeciesLabel(photoList[idx]);
 }
 
 document.getElementById('panel-close').addEventListener('click', () => {
