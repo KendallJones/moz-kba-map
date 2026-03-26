@@ -728,7 +728,7 @@
     </div>
   </div>
   <div class="header-right">
-    <button id="lang-toggle-btn" onclick="toggleLanguage()">PT</button>
+    <button id="lang-toggle-btn" onclick="toggleLanguage()">🇲🇿 PT</button>
     <button id="sites-list-btn" onclick="toggleSitesDrawer()">&#9776; <span id="sites-list-label">All Sites</span></button>
     <div class="site-count">
       <span id="kba-count">—</span> <span id="sites-label">Sites Mapped</span>
@@ -874,7 +874,7 @@ function applyUILanguage() {
   document.getElementById('sites-list-label').textContent  = t.allSites;
   document.getElementById('sites-drawer-title').textContent = t.drawerTitle;
   document.getElementById('sites-search').placeholder      = t.searchPlaceholder;
-  document.getElementById('lang-toggle-btn').textContent   = window.LANG === 'en' ? 'PT' : 'EN';
+  document.getElementById('lang-toggle-btn').textContent   = window.LANG === 'en' ? '🇲🇿 PT' : '🇬🇧 EN';
   buildSitesList();
 }
 
