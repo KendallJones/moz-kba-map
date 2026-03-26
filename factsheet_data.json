@@ -414,7 +414,78 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1a, A1b, A1e, B1, B2",
       "description": "The Quiterajo KBA is a coastal area found in Macomia \ndistrict, about 45 km south of Mocímboa da Praia in Cabo \nDelgado province, Northern Mozambique. This site covers \nan area of about 3,063.80 km2 and it runs southward into \nthe Quirimbas National Park which has been declared \na Biosphere Reserve by UNESCO. The annual average \ntemperatures range between 24 ºC and 26 ºC (MAE, 2014). \nThe rainfall average is around 900 -1,100 mm/year. Potential \nevapotranspiration (Penman) significantly exceeds rainfall \nfrom May to November–December, giving a growing season \nof around 4–5 months (Pascal, 2011). The rains generally \nstart in early December, with a long hot dry period before \nthat. In terms of vegetation this site holds various types of \ndry forest, miombo woodland, mixed woodland, floodplain \ngrassland, small lakes and grassy drainage lines (Timberlake \net al., 2011; Pascal, 2011). In the coastal zone, there are \nalso mangroves and flooded herbaceous vegetation (MAE, \n2014). This area has a significant diversity of species of wild \nanimals, reptiles, birds and plants (MAE, 2014). This is also \none of the focus areas of armed conflict in Cabo Delgado, \nbetween insurgents and the national defense forces.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Warneckea cordiformis",
+          "iucn_status": "CR",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Grewia limae",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Oxyanthus strigosus",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Pseudomussaenda mozambicensis",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Pavetta lindina",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Vepris allenii",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Tarenna pembensis",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Micklethwaitia carvalhoi",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Stylochaeton tortispathus",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Acacia latispina",
+          "iucn_status": "LC",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Acacia quiterajoensis",
+          "iucn_status": "LC",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Justicia gorongozana",
+          "iucn_status": "LC",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Maerua andradae",
+          "iucn_status": "LC",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Mimosa busseana",
+          "iucn_status": "LC"
+        },
+        {
+          "name": "Ormocarpum schliebenii",
+          "iucn_status": "LC"
+        }
+      ],
       "threats": [
         "Agriculture expansion, logging, armed conflict",
         "20 km"
@@ -431,7 +502,78 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1a, A1b, A1e, B1, B2",
       "description": "A KBA de Quiterajo, é uma área costeira encontrada no distrito \nde Macomia, a cerca de 45 km ao Sul de Mocímboa da Praia, \nna província de Cabo Delgado, norte de Moçambique. Este \nlocal cobre uma área de cerca de 3.063 km2 e segue para o Sul, \nno Parque Nacional das Quirimbas, declarado pela UNESCO \ncomo reserva da biosfera. As temperaturas médias anuais \nestão entre 24 ºC e 26 ºC (MAE, 2014). A média de precipitação \né de cerca de 900 a 1.100 mm / ano. A evapotranspiração \npotencial excede significativamente as chuvas de Maio a \nNovembro-Dezembro, proporcionando uma estação de \ncrescimento de cerca de 4-5 meses (Pascal, 2011). As chuvas \ngeralmente começam no início de Dezembro, com um longo \nperíodo de seca quente antes disso. Em termos de vegetação, \neste local possui vários tipos de floresta seca, florestas de \nMiombo, florestas mistas, planícies inundadas, pequenos \nlagos e linhas de drenagem de gramíneas (Timberlake et \nal., 2011; Pascal, 2011). Na zona costeira, também existem \nmangais e vegetação herbácea alagada (MAE, 2014). Essa área \ntambém possui uma diversidade de espécies de répteis, aves, \nmamíferos e plantas (MAE, 2014). Esta é também uma das \náreas principais de conflicto armado em Cabo Delgado, entre \ninsurgentes e as forças de defesa nacional.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Warneckea cordiformis",
+          "iucn_status": "CR",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Grewia limae",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Oxyanthus strigosus",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Pseudomussaenda mozambicensis",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Pavetta lindina",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Vepris allenii",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Tarenna pembensis",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Micklethwaitia carvalhoi",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Stylochaeton tortispathus",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Acacia latispina",
+          "iucn_status": "LC",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Acacia quiterajoensis",
+          "iucn_status": "LC",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Justicia gorongozana",
+          "iucn_status": "LC",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Maerua andradae",
+          "iucn_status": "LC",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Mimosa busseana",
+          "iucn_status": "LC"
+        },
+        {
+          "name": "Ormocarpum schliebenii",
+          "iucn_status": "LC"
+        }
+      ],
       "threats": [
         "Expansão agrícola, exploração madeireira, conflicto",
         "armado",
@@ -453,7 +595,18 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1a, A1e, B1",
       "description": "Taratibu is an area which is partially within the Quirimbas \nNational Park (QNP) in Cabo Delgado Province, Northern \nMozambique. The KBA covers an area of about 25 km2 and \nlies within the Taratibu concession area, comprised of 35,000 \nhectares located at bloc “A” of the QNP, between southern \nLatitudes 12º 0’ S and 12º 38’ S, and Eastern Longitudes \n39º 32’ E and 39º 58’ E (Nanvonamuquitxo et al., 2019). The \nclimate in this site is dry sub-humid with two distinctive \nseasons which include a hot and rainy season, and a much \ncooler and dry season from May to September. The average \ntemperature throughout the year varies between 20 ºC and \n25 ºC (Nanvonamuquitxo et al., 2019). The annual rainfall \nranges from 800 to 1,200 mm, between October and March. \nThe typical phytoecology of the region is the miombo \nwoodland (Nanvonamuquitxo et al., 2019, Sitoe et al., 2010). \nAccording to Nanvonamuquitxo et al. (2019), this area has a \nhistory of disturbance by logging, fire use and the common \npractice of shifting agriculture.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Nothophryne unilurio",
+          "iucn_status": "CR",
+          "note": "TARATIBU ENDEMIC"
+        },
+        {
+          "name": "Rytigynia torrei",
+          "iucn_status": "EN",
+          "note": "TARATIBU ENDEMIC"
+        }
+      ],
       "threats": [
         "Logging, slash and burn shifting agriculture, poaching",
         "2 km"
@@ -470,7 +623,18 @@
       "preexisting_designation": "Incluída no Parque Nacional, Zona",
       "kba_criteria": "A1a, A1e, B1",
       "description": "Taratibu é uma área que se encontra inteiramente dentro \ndo Parque Nacional das Quirimbas (PNQ) na província de \nCabo-Delgado, Norte de Moçambique. De acordo com \nNanvonamuquitxo et al. (2019), Taratibu é uma área de \nconcessão compreendendo 35.000 hectares localizados \nno bloco “A” do PNQ entre as latitudes 12º 0 'S e 12º 38' S \ne 39º 32 'E e 39º 58' E. A KBA proposta em Taratibu cobre \numa área de cerca de 25 km2. O clima neste local é seco e \nhúmido, com duas estações distintas, que incluem uma \nestação quente e chuvosa, e uma estação mais húmida e \nseca de Maio a Setembro. A temperatura média ao longo \ndo ano varia entre 20 °C e 25 °C (Nanvonamuquitxo et al., \n2019). A precipitação anual varia de 800 a 1.200 mm entre \nOutubro e Março. A fitoecologia típica da região é a floresta \nde Miombo (Nanvonamuquitxo et al., 2019, Sitoe et al., 2010). \nDe acordo com Nanvonamuquitxo et al., 2019, esta área tem \num histórico de distúrbios por exploração madeireira, uso de \nfogo e prática comum de agricultura itinerante.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Nothophryne unilurio",
+          "iucn_status": "CR",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Rytigynia torrei",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        }
+      ],
       "threats": [
         "Exploração madeireira, agricultura itinerante de corte",
         "e queimada",
@@ -493,7 +657,13 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1a, B1",
       "description": "This KBA falls under Eráti District in Nampula Province, \nNorthern Mozambique. The borders of Eráti District include \nCabo Delgado Province to the north, Nacaroa District to the \nsouth, Memba District to the east and Mecuburi District to \nthe west (MAE, 2014). One of the biggest river systems in the \ncountry, Lurio River, runs through and forms the northern \nboundary with Cabo Delgado Province, and to the south \nthere is the Mecuburi River (MAE,, 2014). The KBA lies within \nthe northern corner of Eráti district covering an area of \n147 km2. The latitude and longitude midpoint of this KBA is \n-13.8743 S and 39.81618 E respectively. \nThe climate of the region is mainly semi-arid and dry subhumid with an average annual rainfall ranging from 800 to \n1,200 mm, but sometimes rainfall can locally exceed 1,500 \nmm, becoming the sub-humid rainy type climate. Because \nof its location in relation to the river system, this area is \nhighly influenced by the Mecúburi and Lúrio River valleys. \nThe River valleys are dominated by dark, deep alluvial soils \n(Fluvisols), heavy to medium texture, moderately to poorly \ndrained, subject to regular flooding. Most soils have medium \nto heavy texture, being deep, moderately well drained (MAE, \n2014). Vegetation in this area is mainly miombo woodland to \nsavannah with thick wooded vegetation patches among the \nrocky cliffs.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Allophylus torrei",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        }
+      ],
       "threats": [
         "Agriculture expansion",
         "5 km"
@@ -510,7 +680,13 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1a, B1",
       "description": "Esta KBA, encontra-se no distrito de Eráti, na província de \nNampula, norte de Moçambique. As fronteiras do distrito \nEráti incluem a província de Cabo-Delgado ao Norte, o distrito \nde Nacaroa ao Sul, o distrito de Memba a Leste e o distrito \nde Mecuburi a Oeste (MAE, 2014). Um dos maiores sistemas \nfluviais do país, o rio Lurio, atravessa e forma a fronteira Norte \ncom a província de Cabo-Delgado e, a Sul, encontra-se o rio \nMecubúri (MAE, 2014). A KBA fica no canto norte do distrito \nde Eráti, cobrindo uma área de 147 km2. O ponto médio da \nlatitude e longitude desta KBA é -13.8743 S e 39.81618 E, \nrespectivamente. O clima da região é principalmente semiárido e sub-húmido seco, com uma precipitação média \nanual que varia de 800 a 1.200 mm, mas em determinadas \nsituações, a precipitação pode exceder localmente 1.500 mm, \ntornando-se o clima do tipo chuvoso sub-húmido. Devido \nà sua localização em relação ao sistema fluvial, essa área é \naltamente influenciada pelos vales dos rios Mecubúri e Lúrio. \nOs vales dos rios são dominados por solos aluviais escuros \ne profundos (fluvisolos), de textura pesada a média, com \ndrenagem moderada a fraca, sujeitos a inundações regulares. \nA maioria dos solos possui textura média a pesada, sendo \nprofundos e moderadamente bem drenados (MAE, 2014). A \nvegetação nesta área é principalmente de floresta de miombo \npara savana, com trechos densos de vegetação arborizada \nentre os penhascos rochosos.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Allophylus torrei",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        }
+      ],
       "threats": [
         "Expansão agrícola",
         "5 km"
@@ -531,7 +707,13 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1a, B1",
       "description": "The Matibane Forest Reserve (MFR) is located in Mossuril \nDistrict, situated in North-eastern Mozambique, in Nampula \nProvince (Dudley, N and S. Stolton 2012; Müller et al., \n2005). The area is mainly flat but presents some sections \nthat are slightly undulated. The entire reserve is on sandy \nsoils, perhaps of poor nutrients (Dudley, N and S. Stolton \n2012; Müller et al., 2005). The MFR was established in 1957 \n(MICOA, 1997) with the aim of ensuring sustainable harvest \nof Androstachys johnsonii (Mecrusse). Mecrusse, with very \nhard wood, was found to be a suitable commercial species \nin construction, particularly for railway, houses and fencing. \nThis species is thought to be dominant in the reserve, \nfollowed by Icuria dunensis, which is common in some areas. \nThe main vegetation type in the MFR is dry coastal forest \n(Dudley, N and S. Stolton 2012; Müller et al., 2005). The core \nzone of the reserve, comprising about 2,000 to 2,500 hectares, \nremains in good condition. However, the surrounding buffer \nzone shows signs of human disturbance including charcoal \nproduction, logging, and subsistence agriculture. According \nto Müller et al., 2005, the core zone has a canopy cover which \ndoes not exceed 75%. The main canopy layer species include \nBalanites maughanii, Afzelia quanzensis, Albizia forbesii, Albizia \nglaberrima, together with Icuria dunensis and Androstachys \njohnsonii.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Icuria dunensis",
+          "iucn_status": "EN",
+          "note": "NORTH MOZAMBIQUE ENDEMIC"
+        }
+      ],
       "threats": [
         "Agriculture expansion, Charcoal production, logging",
         "5 km"
@@ -548,7 +730,13 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1a, B1",
       "description": "A Reserva Florestal de Matibane (RFM) fica no Distrito de \nMossuril, situado no nordeste de Moçambique, na Província \nde Nampula (Dudley, N e S. Stolton 2012; Müller et al., 2005). \nA KBA na RFM cobre uma área de aproximadamente 109 \nkm2. A área é principalmente plana, mas apresenta algumas \nsecções ligeiramente onduladas. Toda a reserva está em \nsolos arenosos, provavelmente com poucos nutrientes \n(Dudley, N e S. Stolton 2012; Müller et al., 2005). A RFM foi \ncriada em 1957 (MICOA, 1997) com o objectivo de garantir \na colheita sustentável de Androstachys johnsonii (Mecrusse). \nVerificou-se que o Mecrusse, com madeira muito dura, é uma \nespécie comercial adequada na construção, principalmente \npara ferrovias, casas e cercas. Pensa-se que esta espécie seja \na dominante na reserva, seguida por Icuria dunensis, que é \ncomum em algumas áreas. O principal tipo de vegetação na \nRFM é a floresta costeira seca (Dudley, N e S. Stolton 2012; \nMüller et al., 2005). A zona central da reserva, compreendendo \ncerca de 2.000 a 2.500 hectares, permanece em boas \ncondições. No entanto, a zona tampão circundante mostra \nsinais de perturbação humana, incluindo produção de carvão \nvegetal, exploração madeireira e agricultura de subsistência. \nSegundo Müller et al., 2005, a zona central possui uma \ncobertura de copa que não excede 75%. As principais espécies \nda camada de copa incluem Balanites maughanii, Afzelia \nquanzensis, Albizia forbesii, Albizia glaberrima, juntamente com \nIcuria dunensis e Androstachys johnsonii.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Icuria dunensis",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        }
+      ],
       "threats": [
         "Expansão da agricultura, produção de carvão vegetal",
         "exploração madeireira",
@@ -570,7 +758,73 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1a, A1b, A1e, B1, B2",
       "description": "The Ribàué-Mphalwe are two adjacent inselbergs which \nform the Ribàué massif, with a narrow valley running in \nbetween (Conrandie et al., 2016). The KBA covers an area of \nnearly 265 km2 and is found in Ribàué District, located at the \nwestern side of Nampula Province in Northern Mozambique. \nAt the base of these mountains lays the Ribàué town which \nhas municipality status (MAE, 2014). The areas surrounding \nRibàué-Mphalwe are mainly covered by miombo woodland, \nbut with montane forest in the higher areas (at about 500 m \naltitude), including gallery forests running through the valley. \nThe major water courses are East-West oriented providing a \nstaircase disposition of the relief towards the Indian Ocean. \nThese two peaks are formed by granitic rocks. \nThe climate in this area is humid tropical (about 65% \nhumidity) presenting two annual seasons, one dry and \ncold with very limited precipitation, and a rainy and hot \nseason characterized by high precipitation reaching 1,500 \nmm per annum. This climate experiences strong influence \nfrom the medium and high plateau-dominated relief of the \ncontinuation of the Chire-Namuli formations (MAE, 2014). \nBecause Ribàué-Mphalwe is situated in an intermediate \nregion between the Lichinga plateaus and the coastal \nplain of Nampula Province, the area is usually cooler. The \ntemperatures range from 20 ºC to 25 ºC between December \nand February, which is the warmest period, and 15 ºC to 20 \nºC during the dry and cooler months (MAE, 2014).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Dipsadoboa montisilva",
+          "iucn_status": "NT",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Rhampholeon tilburyi",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Nothophryne ribauensis",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Aloe rulkensii",
+          "iucn_status": "CR",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Aloe ribauensis",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Streptocarpus myoporoides",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Dombeya leachii",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Polysphaeria ribauensis",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Memecylon nubigenum",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Cynanchum oresbium",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Cissus aristolochiifolia",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Vepris macedoi",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Plectranthus cucullatus",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        }
+      ],
       "threats": [
         "Agriculture expansion, human encroachment",
         "5 km"
@@ -587,7 +841,73 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1a, A1b, A1e, B1, B2",
       "description": "O Ribàué-Mphalwe é constituído por dois inselbergs \nadjacentes que formam o maciço de Ribàué, com um vale \nestreito que se estende pelo meio (Conrandie et al., 2016). \nA KBA abrange uma área de cerca de 264 km2 e encontra-se \nno distrito de Ribàué, localizado no lado Oeste da província \nde Nampula, no Norte de Moçambique. Na base dessas \nmontanhas fica a vila de Ribàué, com estauto de município \n(MAE, 2014). As áreas circundantes a Ribàué-Mphalwe são \ncobertas principalmente por florestas de miombo, mas com \nflorestas montanhosas nas áreas altas (a cerca de 500 m \nde altitude), incluindo florestas de galeria que atravessam o \nvale. Os principais cursos de água têm orientação leste-oeste, \nproporcionando uma disposição em escada do relevo em \ndirecção ao Oceano Índico. Estes dois picos são formados por \nrochas graníticas. O clima na região é tropical húmido (cerca de \n65% de humidade), apresentando duas estações anuais, uma \nseca e fria, com precipitação muito limitada, e uma estação \nchuvosa e quente caracterizada por elevada precipitação, \natingindo 1.500 mm por ano. Este clima encontra-se sob forte \ninfluência do relevo médio e alto dominado pelo planalto da \ncontinuação das formações de Chire-Namuli (MAE, 2014). \nComo Ribàué-Mphalwe está situado numa região intermédia \nentre os planaltos de Lichinga e a planície costeira da província \nde Nampula, a área é geralmente mais fria. As temperaturas \nvariam de 20 ºC a 25 ºC entre Dezembro e Fevereiro, que é \no período mais quente, e de 15 ºC a 20 ºC durante os meses \nmais secos e frios (MAE, 2014).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Dipsadoboa montisilva",
+          "iucn_status": "NT",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Rhampholeon tilburyi",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Nothophryne ribauensis",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Aloe rulkensii",
+          "iucn_status": "CR",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Aloe ribauensis",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Streptocarpus myoporoides",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Dombeya leachii",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Polysphaeria ribauensis",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Memecylon nubigenum",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Cynanchum oresbium",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Cissus aristolochiifolia",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Vepris macedoi",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Plectranthus cucullatus",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        }
+      ],
       "threats": [
         "Expansão agrícola",
         "5 km"
@@ -608,7 +928,18 @@
       "preexisting_designation": "KBA (old criteria), AZE",
       "kba_criteria": "A1a, A1e, B1, B2",
       "description": "Mount Inago is in Malema District, in the western section of \nNampula Province, Northern Mozambique. Malema District \nis bordered by Zambezia Province to the south and Niassa \nProvince to the north (Bayliss et al., 2010). The geology of Mt \nInago, which is mainly granite-porphyrite, is very similar to \nthe Namuli massif, due to their close proximity. According \nto Timberlake et al. (2009), granite-porphyrite encroached \nthe migmatites of the Nampula and Namarroi series around \n1,100 – 850 million years ago. The Inago massif elevation \nranges from 300–1,870 m, with the main peak reaching 1,804 \nm altitude. Rainfall in the Malema District shows an average \nof 1,300 mm per annum. The major vegetation surrounding \nthe mountain is the miombo woodland, particularly up to \n1,000 m. From 1,000 to 1,600 m of altitude, the vegetation is \nmainly forest, with stream valleys covered by riverine forest. \nBeyond 1,500 m elevation, grasslands and rocky shrublands \nare also found.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Rhampholeon bruessoworum",
+          "iucn_status": "CR",
+          "note": "MOZ. ENDEMIC"
+        },
+        {
+          "name": "Nothophryne inagoensis",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        }
+      ],
       "threats": [
         "Deforestation for small scale agriculture, ongoing",
         "slash and burn shifting agriculture in the forest with",
@@ -627,7 +958,18 @@
       "preexisting_designation": "KBA (critérios antigos), AZE",
       "kba_criteria": "A1a, A1e, B1, B2",
       "description": "O Monte Inago fica no distrito de Malema, na secção oeste \nda província de Nampula, norte de Moçambique. O distrito \nde Malema faz fronteira a Sul com a província da Zambézia \ne a Norte com a província do Niassa (Bayliss et al., 2010). A \ngeologia do Monte Inago, que é principalmente granitoporfirita, é muito semelhante ao maciço de Namuli, devido \nà sua proximidade. De acordo com Timberlake et al. (2009), \no granito-porfirito invadiu os migmatitos das séries de \nNampula e Namarroi à volta de 1.100 - 850 milhões de anos \natrás. A elevação do maciço de Inago varia de 300 a 1.870 m, \ncom o pico principal atingindo 1.804 m de altitude. As chuvas \nno distrito de Malema mostram uma média de 1.300 mm \npor ano. A principal vegetação que circunda a montanha é a \nfloresta de miombo, particularmente até 1.000 m. De 1.000 \na 1.600 m de altitude, a vegetação é principalmente floresta, \ncom vales de riachos cobertos por floresta ribeirinha. Além \ndos 1.500 m de altitude, também são encontrados prados e \nmatagais rochosos.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Rhampholeon bruessoworum",
+          "iucn_status": "CR",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Nothophryne inagoensis",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        }
+      ],
       "threats": [
         "Desmatamento para agricultura de pequena escala",
         "agricultura itinerante de corte e queimada contínua e",
@@ -651,7 +993,13 @@
       "preexisting_designation": "IBA",
       "kba_criteria": "A1a, B1",
       "description": "This KBA is located along the coast of Zambezia and \nNampula provinces, in front of the Archipelago of Primeras \nand Segundas Islands and covers an area of approximately \n2,506 km2. The southernmost group of islands, considered \nthe Primeiras Islands, lies in the Zambezia province and \nthe northernmost group, the Segundas Islands, lies in \nthe Nampula province, forming an almost continuous \narchipelago between the cities of Pebane and Angoche in \nnortheastern Mozambique (Salm, 1983; Schleyer & Celliers, \n2000). The KBA covers only the coastal/terrestrial part of \nthe existing Environmental Protection Area (APA) at the site, \nknown as Área de Protecção Ambiental das Ihas Primeiras \ne Segundas (APAIPS), a conservation category in which the \nsustainable use of resources is allowed. The coastal area is \ncharacterized by dune systems, beaches and rare miombo \nforest. This section is part of the Zanzibar-Inhambane Coastal \nForest Mosaic, which has a high biodiversity value (Tabor \net al., 2010) and is also home to wetlands and scrubland \n(Impacto, 2012), with recognized regional importance (Horril, \n2001). \nThe area is characterized by a tropical semi-humid climate \nwith a wet season from mid-November through March and \na dry season from April to mid-November. The soils are \ngenerally sandy and heaviest in the lowest coastal areas, and \nthey have a reduced water-holding capacity, poor fertility and \nlow cohesion. This makes them prone to erosion, especially \nonce the vegetation has been cleared, and therefore the soils \nhave low-to-moderate potential for agriculture (Impacto, \n2012). This KBA includes sand dunes, mangrove forest and \nterrestrial vegetation such as shrubs and miombo forest.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Icuria dunensis",
+          "iucn_status": "EN",
+          "note": "NORTH MOZAMBIQUE ENDEMIC"
+        }
+      ],
       "threats": [
         "Agriculture expansion, Coastal mining",
         "50 km"
@@ -668,7 +1016,13 @@
       "preexisting_designation": "IBA",
       "kba_criteria": "A1a, B1",
       "description": "Esta KBA localiza-se ao longo da costa das províncias da \nZambézia e Nampula, em frente ao arquipélago das Ilhas \nPrimeiras e Segundas e cobre uma área de aproximadamente \n2,506 km2. O grupo mais ao sul de ilhas, considerado Ilhas \nPrimeiras, fica na província da Zambézia e o grupo mais \nao norte, as Ilhas Segundas, fica na província de Nampula, \nformando um arquipélago quase contínuo entre as cidades de \nPebane e Angoche, no nordeste de Moçambique. (Salm, 1983; \nSchleyer & Celliers, 2000). A KBA cobre apenas a parte costeira/\nterrestre da Área de Protecção Ambiental das Ihas Primeiras \ne Segundas (APAIPS), sendo que a APA é uma categoria \nde conservação em que o uso sustentável de recursos é \npermitido. A área costeira é caracterizada por sistemas de \ndunas, praias e mata rara de miombo. Esta secção faz parte \ndo Mosaico Florestal Costeiro de Zanzibar-Inhambane, que \npossui um alto valor de biodiversidade (Tabor et al., 2010) \ne inclui também áreas húmidas e matagais (Impacto, 2012) \ncom reconhecida importância regional (Horril, 2001). A área \né caracterizada por um clima tropical semi-húmido, com uma \nestação chuvosa a partir de meados de Novembro a Março e \numa estação seca de Abril a meados de Novembro. Os solos \nsão geralmente arenosos e particularmente mais pesados nas \náreas costeiras mais baixas, apresentando baixa capacidade \nde retenção de água, baixa fertilidade e baixa coesão, o que \nos torna propensos à erosão, principalmente depois da \nvegetação ser removida e, portanto, os solos têm potencial \nagrícola que varia de baixo a moderado (Impacto, 2012). Esta \nKBA inclui habitat de dunas, floresta de mangal e vegetação \nterrestre, como arbustos e floresta de miombo.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Icuria dunensis",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        }
+      ],
       "threats": [
         "Expansão agrícola, mineração costeira",
         "50 km"
@@ -689,7 +1043,113 @@
       "preexisting_designation": "KBA (old criteria), IBA, AZE",
       "kba_criteria": "A1a, A1b, A1e, B1, B2",
       "description": "Mount Namuli KBA covers an area of about 52 km2 in Gurué \ndistrict of Zambézia province, central-northern Mozambique. \nAt 2,419 meters altitude, Mt Namuli is the second highest \npoint in the country, and the Namuli complex forms part \nof the watershed between the Rio Lúrio and Rio Licungo \ncatchments. It is essentially a complex of granitic inselbergs \nor intrusions linked by a high plateau, exposed by millions \nof years of subsequent erosion and it is entirely covered by \nlithic soils (Timberlake et al., 2009). \nThe annual average precipitation is about 1,995.7 mm, \nwith annual average evapotranspiration of 1,226.7 mm. \nThe annual average temperature is 21.9 ºC, the highest in \nNovember (32.5 ºC) and the lowest in July (12.3 ºC). According \nto Timberlake (2009) the vegetation of the Namuli massif \nabove 1,200 m altitude can be broadly categorized into six \nmain groups – forest, woodland, scrub, grassland, thin mats \nor patches on rocky slopes, and cultivated/heavily disturbed \nareas. Being Mozambique’s second highest peak, Namuli \npresents a beautiful landscape, yet its real value is its unique \nflora and fauna, and the ecosystem services it provides to the \nestimated at 8,000-12,000 people residing on the mountain, \nas well as those served by Namuli’s waters far beyond the \nmassif itself (Legado & Lupa, 2017).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Paraxerus vincenti",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Apalis lynesi",
+          "iucn_status": "NT",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Arcanator orostruthus",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Chamaetylas choloensis",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Atheris mabuensis",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Rhampholeon tilburyi",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Arthroleptis francei",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Hyperolius spinigularis",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Nothophryne baylissi",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Agelanthus patelii",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Alloeochaete namuliensis",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Brachystelma nutans",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Coleus namuliensis",
+          "iucn_status": "LC",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Faurea racemosa",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Helixanthera schizocalyx",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Isoglossa namuliensis",
+          "iucn_status": "CR",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Memecylon nubigenum",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Pavetta gurueensis",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Plectranthus mandalensis",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Sclerochiton hirsutus",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Xerophyta kirkii",
+          "iucn_status": "LC"
+        },
+        {
+          "name": "Xerophyta pseudopinifolia",
+          "iucn_status": "LC"
+        },
+        {
+          "name": "Crotalaria namuliensis",
+          "iucn_status": "LC",
+          "note": "MOZAMBIQUE ENDEMIC"
+        }
+      ],
       "threats": [
         "Agriculture expansion (mainly potato cultivation)",
         "widespread and frequent uncontrolled fires, logging",
@@ -708,7 +1168,113 @@
       "preexisting_designation": "KBA (critérios antigos), IBA, AZE",
       "kba_criteria": "A1a, A1b, A1e, B1, B2",
       "description": "A KBA no Monte Namuli cobre uma área de cerca de 52 km2 e \nsitua-se no distrito de Gurué, província da Zambézia, na região \ncentro-norte de Moçambique. A 2.419 metros acima do nível do \nmar, o Monte Namuli é o segundo ponto mais alto do país. O \ncomplexo Namuli faz parte da bacia hidrográfica entre as bacias \ndo Rio Lúrio e do Rio Licungo. É essencialmente um complexo \nde inselbergs graníticos ou intrusões ligadas por um planalto \nelevado, exposto por milhões de anos de erosão subsequente \ne inteiramente coberto por solos líticos (Timberlake et al., 2009). \nA precipitação média anual é de cerca de 1.995,7 mm, com uma \nevapotranspiração média anual de 1.226,7 mm. A temperatura \nmédia anual é de 21,9 ºC, sendo a mais alta em Novembro (32,5 \nºC) e a mais baixa em Julho (12,3 ºC). De acordo com Timberlake \n(2009), a vegetação do maciço da Namuli acima dos 1.200 m \nde altitude pode ser amplamente categorizada em seis grupos \nprincipais - floresta, matas, matagal, pradaria, tapetes finos ou \nmanchas em encostas rochosas, e e áreas cultivadas / altamente \nperturbadas. Sendo o segundo pico mais alto de Moçambique, \no monte Namuli apresenta uma bela paisagem, mas o seu valor \nreal é a sua flora e fauna que são únicas, tal como os serviços \necossistémicos que fornece para um número estimado de 8.000 \na 12.000 pessoas que residem na montanha, bem como para \naqueles que residem fora do Monte, mas que se beneficiam das \náguas proveniente do mesmo (Legado & Lupa, 2017).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Paraxerus vincenti",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Apalis lynesi",
+          "iucn_status": "NT",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Arcanator orostruthus",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Chamaetylas choloensis",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Atheris mabuensis",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Rhampholeon tilburyi",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Arthroleptis francei",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Hyperolius spinigularis",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Nothophryne baylissi",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Agelanthus patelii",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Alloeochaete namuliensis",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Brachystelma nutans",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Coleus namuliensis",
+          "iucn_status": "LC",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Faurea racemosa",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Helixanthera schizocalyx",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Isoglossa namuliensis",
+          "iucn_status": "CR",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Memecylon nubigenum",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Pavetta gurueensis",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Plectranthus mandalensis",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Sclerochiton hirsutus",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Xerophyta kirkii",
+          "iucn_status": "LC"
+        },
+        {
+          "name": "Xerophyta pseudopinifolia",
+          "iucn_status": "LC"
+        },
+        {
+          "name": "Crotalaria namuliensis",
+          "iucn_status": "LC",
+          "note": "ENDÊMICA"
+        }
+      ],
       "threats": [
         "Expansão agrícola (principalmente cultivo de batata)",
         "incêndios generalizados e frequentes, exploração",
@@ -731,7 +1297,63 @@
       "preexisting_designation": "KBA (old criteria), IBA",
       "kba_criteria": "A1a, A1b, B1, B2",
       "description": "This KBA encompasses Mount Mabu, central Mozambique \nand covers an area of about 60.9 km2. Mount Mabu, a \ngranitic massif rising to 1,700 m altitude, is in Lugela District, \nZambezia Province right north of the Lugela River. In relation \nto other important inselbergs in the region, Mabu is about \n95 km south-east of Mulanje Mountain in Southern Malawi, \nand about 120 km south-west of Mt Namuli (Timberlake \net al., 2012; Timberlake and Bayliss, 2016). According to \nTimberlake et al. (2012), the Mabu massif is substantially \nsmaller than the Namuli complex and it does not include \nany significant area of upland plateau. The rock forming the \nMabu massif is syenite, like granite, an igneous intrusion of \nthe younger Precambrian Namarroi series dating back from \n850-100 Mya (Timberlake et al., 2012). \nMean annual rainfall is 2,119.1 mm, ranging from a monthly \nmean of 34.2 mm in September to 362.3 mm in January \n(Timberlake & Bayliss, 2016). Mean annual temperature \nis 23.7 ⁰C, ranging from 21 ⁰C in July to 25.5⁰C in October. \nDuring cooler winter months potential evapotranspiration is \nroughly equivalent to rainfall, but in October it is more than \nthree times monthly rainfall (Timberlake & Bayliss, 2016). \nWith respect to vegetation, all studies on Mount Mabu have \nshowed that the area of moist forest is very extensive for \nthe region (between 5,500 and 7,900 ha), with the great \nmajority of it being found between 1,000 and 1,400 m. Such \nmid-altitude forest type is increasingly rare in the Southern \nAfrican region as these areas have often been cleared in the \npast 100 years for timber and agriculture.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Chamaetylas choloensis",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Arcanator orostruthus",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Swynnertonia swynnertoni",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Atheris mabuensis",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Dipsadoboa montisilva",
+          "iucn_status": "NT",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Nadzikambia baylissi",
+          "iucn_status": "NT",
+          "note": "MOUNT MABU ENDEMIC"
+        },
+        {
+          "name": "Rhampholeon maspictus",
+          "iucn_status": "NT",
+          "note": "MOUNT MABU ENDEMIC"
+        },
+        {
+          "name": "Arthroleptis francei",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Faurea racemose",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Helixanthera schizocalyx",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Pavetta gurueensis",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Sclerochiton hirsutus",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        }
+      ],
       "threats": [
         "Uncontrolled fires, hunting for bush meat (small",
         "mammals)"
@@ -748,7 +1370,63 @@
       "preexisting_designation": "KBA (critérios antigos), IBA",
       "kba_criteria": "A1a, A1b, B1, B2",
       "description": "Esta KBA situa-se no Monte Mabu, centro de Moçambique, e \ncobre uma área de cerca de 60,9 km2. O Monte Mabu, consiste \nnum maciço granítico de 1.700 m de altitude, localizado no \ndistrito de Lugela (ao norte do rio Lugela) na província da \nZambézia. Em relação a outros inselbergs importantes na \nregião, o monte Mabu fica a cerca de 95 km a sudeste da \nMontanha Mulanje, no sul do Malawi, e a cerca de 120 km a \nsudoeste do Monte Namuli (Timberlake et al., 2012; Timberlake \n& Bayliss, 2016). De acordo com Timberlake et al. (2012), o \nmaciço de Mabu é substancialmente menor que o complexo \nde Namuli e não inclui nenhuma área significativa de planalto. \nA rocha que forma o maciço do monte Mabu é sienita (como \no granito), uma intrusão ígnea da mais jovem série précambriana Namarroi, datada entre 850-100 milhões de anos \natrás (Timberlake et al., 2012). A precipitação média anual da \nregião é de 2.119,1 mm, variando de uma média mensal de \n34,2 mm em Setembro a 362,3 mm em Janeiro (Timberlake \n& Bayliss, 2016). A temperatura média anual é de 23,7 °C, \nvariando de 21 °C em Julho a 25,5 °C em Outubro. Durante os \nmeses mais frios no período do inverno, a evapotranspiração \npotencial é aproximadamente equivalente à precipitação, \nmas em Outubro é três vezes superior à precipitação mensal \n(Timberlake & Bayliss, 2016). Relativamente à vegetação, todos \nos estudos no Monte Mabu mostraram que a área de floresta \nhúmida é muito extensa para a região (entre 5.500 e 7.900 \nha), com a grande maioria sendo encontrada entre 1.000 e \n1.400 m. Este tipo de floresta de altitude média é cada vez \nmais rara na região da África Austral, pois estas áreas foram \ndesmatadas nos últimos 100 anos para extracção madeireira \ne agricultura.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Chamaetylas choloensis",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Arcanator orostruthus",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Swynnertonia swynnertoni",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Atheris mabuensis",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Dipsadoboa montisilva",
+          "iucn_status": "NT",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Nadzikambia baylissi",
+          "iucn_status": "NT",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Rhampholeon maspictus",
+          "iucn_status": "NT",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Arthroleptis francei",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Faurea racemose",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Helixanthera schizocalyx",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Pavetta gurueensis",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Sclerochiton hirsutus",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        }
+      ],
       "threats": [
         "Queimadas descontroladas, Caça de pequenos",
         "mamíferos para alimentação"
@@ -769,7 +1447,17 @@
       "preexisting_designation": "KBA (old criteria), IBA",
       "kba_criteria": "A1b, B1, B2",
       "description": "The KBA falls on the Mount Chiperone in Northern \nMozambique and covers an area of about 35.97 km2. The \nMount Chiperone is a semi-isolated peak located about 50 \nkm south of the Mount Mulanje massif in Southern Malawi \n(Timberlake et al., 2007). It lies 40 km south of the frontier \ntown of Milange district in Zambezia Province. The central \npoint of the massif is 16º 29'S, 35º 43'E, with the highest \npoint at 2,054 m (c. 16º 28'44\"S, 35º 42'88\"E) (Jonathan \net al., 2007). The mountain’s geology consists of recent \nsyenite (Jurassic/Cretaceous period, about 150 Million years \nago) (Timberlake et al., 2007). The region is influenced by \nthe tropical rainy savanna climate with an average annual \nrainfall varying mostly between 1,200 and 1,400mm. The \nrainy period is between November and the end of March \nwhich overlaps with the hot season (MAE, 2014). The \ntemperature annual average ranges from 24 ºC to 26 ºC \nand the Potential evapotranspiration registers average \nvalues which range from 1,000 to 1,400 mm (MAE, 2014). \nAccording to Timberlake et al. (2007) Mount Chiperone is \ncovered with medium and higher altitude forest above about \n1,000 m. Below that altitude together with the ridges with \nshallow soils, there is miombo or similar woodland types. \nThe topography on the mid-slopes is very dissected and \noften steep, hence soils are shallow (Timberlake et al., 2007). \nThe lower slopes of the mount originally supported a drier \nmiombo woodland with Brachystegia spiciformis, B. boehmii, \nB. utilis and Julbernardia globiflora, but much of this has been \ncleared for agriculture on the southern and eastern slopes. \nBurning of the remaining woodland is common. Fallow areas \nare often colonized by the bamboo Oxytenanthera abyssinica \nand secondary woodland (Timberlake et al., 2007).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Chamaetylas choloensis",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Rhampholeon nebulauctor",
+          "iucn_status": "VU",
+          "note": "CHIPERONE ENDEMIC"
+        }
+      ],
       "threats": [
         "Slash and burn shifting agriculture, agriculture",
         "expansion, logging, hunting and fishing"
@@ -786,7 +1474,17 @@
       "preexisting_designation": "KBA (critérios antigos), IBA",
       "kba_criteria": "A1b, B1, B2",
       "description": "Esta KBA situa-se no Monte Chiperone, na região centronorte de Moçambique, e cobre uma área de cerca de 35,97 \nkm2. O Monte Chiperone é um pico semi-isolado localizado a \ncerca de 50 km ao sul do maciço do Monte Mulanje, no sul do \nMalawi (Timberlake et al., 2007). Fica a 40 km ao sul da cidade \nfronteiriça do distrito de Milange, província da Zambézia. O \nponto central do maciço é 16o29'S, 35o 43'E, com o ponto \nmais alto a 2,.054 m (c. 16o 28'44 \"S, 35o 42'88\" E) (Jonathan et \nal., 2007). A geologia da montanha consiste em sienito recente \n(período Jurássico / Cretáceo, cerca de 150 milhões de anos \natrás) (Timberlake et al., 2007). A região é influenciada pelo \nclima tropical húmido, com uma precipitação média anual \nque varia principalmente entre 1.200 e 1.400 mm. O período \nchuvoso é entre Novembro e final de Março, que se sobrepõe \nà estação quente (MAE, 2014). A temperatura média anual \nvaria de 24 ºC a 26 oC e a evapotranspiração potencial regista \nvalores médios que variam de 1.000 a 1.400 mm (MAE, 2014).\nDe acordo com Timberlake et al. (2007) o Monte Chiperone é \ncoberto por florestas de altitude média e alta, acima de 1.000 \nm. Abaixo dessa altitude, juntamente com as cristas de solos \nrasos, ocorrem miombo ou tipos de florestas semelhantes. \nA topografia nas encostas médias é geralmente muito \ndissecada e frequentemente íngreme, portanto os solos são \nrasos (Timberlake et al., 2007). As encostas mais baixas do \nmonte sustentavam originalmente uma floresta de miombo \nseco composto por Brachystegia spiciformis, B. boehmii, B. utilis \ne Julbernardia globiflora, mas grande parte foi destruído pela \nagricultura nas encostas Sul e Leste. A prática de queimadas \nna floresta restante é frequente. As áreas de pousio são \nfrequentemente colonizadas por bambu Oxytenanthera \nabyssinica e floresta secundária (Timberlake et al., 2007).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Chamaetylas choloensis",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Rhampholeon nebulauctor",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        }
+      ],
       "threats": [
         "Agricultura itinerante de corte e queimada, expansão",
         "agrícola, exploração florestal, caça e, pesca"
@@ -807,7 +1505,18 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1b, B1",
       "description": "This KBA covers an area of about 3,984 km2, and falls on \nDerre Forest Reserve (DFR), which runs through three \nDistricts including Derre, Murrumbala and Mopeia district, all \nin Zambezia province, Central Mozambique. The KBA follows \nthe existing boundaries of DFR in the northwest part (under \nthe Murrumbala and Derre districts) and extends to the \nsoutheast, covering most of the district of Mopeia. According \nto the Köppen climate classification, the region is dominated \nby tropical rainy savannah climate. The average annual \ntemperature is about 23°C, with maximum and minimum \naverages of 29 °C and 17 °C, respectively (MAE, 2005). The \nmonthly average rainfall is 1,017mm, with January being the \nwettest month (MAE, 2005). Geomorphologically, the region \nis dominated by a plateau with an altitude above 400 m. \nThis site is mostly of alluvial clay soils (MITADER, 2015 b) and \nthere are several rivers running through including Chire, \nLuala, Luamba, Muelide, Missongue, Thambe, Luó , Bualizo \nand among others, with the Chire River standing out for its \nimportance (MEF & MITADER, 2015a). In terms of vegetation, \nthe northwest section is dominated by Miombo forests, with \nmostly deciduous species, where Brachystegia spp. and \nJulbemardia paniculata are the dominant species. There are \nalso dry forests, woods and acacia scrub, swamps, alluvial \nzones, sandbanks/islands and riverine forests along the \nmain lines of water (MEF & MITADER, 2015a). The vegetation \nin the southeast is also quite diverse and has different types \nof habitats which form more or less continuous patches of \nvegetation (MEF & MITADER, 2015b). The species that gave \nthe status of a Forest Reserve (Swartzia madagascariensis and \nPterocarpus angolensis) are recovering after years of illegal \nlogging, now represented in the young cohort.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Nothobranchius krysanovi",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Tarenna longipedicellata",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        }
+      ],
       "threats": [
         "Agriculture expansion, settlements, slash and burn",
         "shifting agriculture, illegal logging",
@@ -825,7 +1534,18 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1b, B1",
       "description": "Esta KBA cobre uma área de cerca de 3.984 km2 e sobrepõese à Reserva Florestal de Derre, abrangendo três Distritos, \nnomeadamente Derre, Murrumbala e Mopeia, todos na \nprovíncia da Zambézia, região centro de Moçambique. A KBA \nsegue os limites existentes da Reserva Florestal de Derre na parte \nnoroeste (sob os distritos de Murrumbala e Derre) e estendese para Sudeste, cobrindo a maior parte do distrito de Mopeia. \nDe acordo com a classificação climática de Köppen, a região é \ndominada pelo clima tropical de savana chuvosa. A temperatura \nmédia anual é de cerca de 23 °C, com médias máxima e mínima \nde 29 °C e 17 °C, respectivamente (MAE, 2005). A precipitação \nmédia mensal é de 1,017 mm, sendo Janeiro o mês mais chuvoso \n(MAE, 2005). Geomorfologicamente, a região é dominada por \num planalto com altitude acima de 400 m. O local é constituído \nprincipalmente por solos argilosos aluviais (MITADER, 2015b) \ne existem vários rios que atravessam, incluindo Chire, Luala, \nLuamba, Muelide, Missongue, Thambe, Luó, Bualizo entre \noutros, com o rio Chire destacando-se pela sua importância \n(MEF & MITADER, 2015a). Em termos de vegetação, a secção \nNoroeste é dominada pelas florestas de Miombo, com espécies \nprincipalmente decíduas sendo Brachystegia spp. e Julbemardia \npaniculata as espécies dominantes. Também existem florestas \nsecas, matas e acácias, pântanos, zonas aluviais, bancos de \nareia / ilhas e florestas ribeirinhas ao longo das principais linhas \nde água (MEF & MITADER, 2015a). A vegetação no Sudeste \ntambém é bastante diversa e possui diferentes tipos de habitats \nque formam trechos mais ou menos contínuos de vegetação \n(MEF & MITADER, 2015b). As espécies que deram o estatuto \nde Reserva Florestal (Swartzia madagascariensis e Pterocarpus \nangolensis) estão a recuperar após anos de abate ilegal, agora \nrepresentadas na coorte jovem.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Nothobranchius krysanovi",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Tarenna longipedicellata",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        }
+      ],
       "threats": [
         "Expansão agrícola, assentamentos, agricultura",
         "itinerante de corte e queimada, corte illegal de madeira",
@@ -847,7 +1567,16 @@
       "preexisting_designation": "IBA",
       "kba_criteria": "A1a, A1b, A1c, A1d",
       "description": "This KBA covers Tchuma Tchato, the first and largest \nCommunity Conservation Area in Mozambique, and the \nMagoé National Park both located in Tete province (Filimão et \nal., 2000). This is where Mozambique's largest artificial lake, \nCahora Bassa, is also located. The region, is characterized by \na prominent Jurassic basalt outcrop to the southeast, known \nas \"the Luia dome\" and covers part of the Zambezi valley, \nwhich consists mainly of Cretaceous and Karoo sediments, \npredominantly sandstones (Cunliffe, 2002). \nThe climate is strongly seasonal, being dominated by a long \ndry season from May to November (Cunliffe, 2002). Annual \nrainfall is dependent on altitude, varying from about 600800 mm at the valley area, to about 1,000-1,200 mm in \nthe northern plateau area (Cunliffe, 2002). Mean annual \ntemperatures are relatively high within the valley, with some \naverage summer temperatures above 32 °C, but is milder on \nthe plateau (Brown, 1998). The valley environment is thus \nstrongly semi-arid, with moisture being the major limiting \nfactor for plant growth, whilst conditions on the plateau are \nconsiderably more mesic (Cunliffe, 2002). The predominant \nvegetation in the region is Acacia and Mopane Savannah. \nNarrow bands of flood-plain vegetation occur along the \nZambezi and the Lake shores and along other major rivers \nsuch as the Mpanhame and Musengezi (Brown, 1998). \nTourism is the basic source of revenue for operationalization \nof the Tchuma Tchato program and, it is stimulating socioeconomic, cultural, and environmental development, job \npromotion, infrastructure development and communication \nat the local level (MITADER, 2017).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Hippopotamus amphibius",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Oreochromis mortimeri",
+          "iucn_status": "CR"
+        }
+      ],
       "threats": [
         "Agricultural expansion, poaching (including use of",
         "snares and poison)",
@@ -865,7 +1594,16 @@
       "preexisting_designation": "IBA",
       "kba_criteria": "A1a, A1b, A1c, A1d",
       "description": "Esta KBA alberga o Tchuma Tchato, a primeira e a maior \nÁrea de Conservação Comunitária em Moçambique, e o \nParque Nacional de Magoé ambos localizados na província \nde Tete (Filimão et al., 2000). É neste local que se encontra \ntambém o maior lago artificial de Moçambique, o Cahora \nBassa. A região, é caracterizada por um afloramento de \nbasalto jurássico proeminente a sudeste, conhecido como \n“the Luia dome” e abrange parte do vale do Zambeze, que \nconsiste principalmente em sedimentos cretáceos e karoo, \npredominantemente areníticos (Cunliffe, 2002). O clima é \nfortemente sazonal, sendo dominado por uma longa estação \nseca de Maio a Novembro (Cunliffe, 2002). A precipitação \nanual depende da altitude, variando entre 600-800 mm na \nárea do vale e cerca de 1,000-1,200 mm na área do planalto \nmais ao norte (Cunliffe, 2002). As temperaturas médias anuais \nsão relativamente altas no vale e mais amenas na zona do \nplanalto. No vale, a temperatura media no verão é geralmente \nacima de 32 °C (Brown, 1998). O ambiente do vale é, portanto, \nfortemente semi-árido, sendo a humidade o principal factor \nlimitante para o crescimento das plantas, enquanto que as \ncondições no planalto são consideravelmente mais favoráveis \n(Cunliffe, 2002). A vegetação predominante na região é a \nsavana de Acácia e Mopane. Também ocorrem estreitas \nmanchas de vegetação de planície de inundação ao longo das \nmargens do rio Zambeze, do lago Cahora Bassa e de outros \ngrandes rios, como Mpanhame e Musengezi (Brown, 1998). O \nturismo é a fonte básica de receita para a operacionalização \ndo programa Tchuma Tchato e estimula o desenvolvimento \nsocioeconómico, cultural e ambiental, assim como a promoção \nde empregos, o desenvolvimento de infraestruturas e a \ncomunicação ao nível local (MITADER, 2017).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Hippopotamus amphibius",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Oreochromis mortimeri",
+          "iucn_status": "CR"
+        }
+      ],
       "threats": [
         "Expansão agrícola, caça ilegal (incluindo uso de",
         "armadilhas e veneno)",
@@ -887,7 +1625,12 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1b",
       "description": "This KBA falls on Serra Choa (Choa Mountains), which are \nsituated at the northern end of the eastern highlands in \nManica Province, western-central Mozambique (Cizek, 2009 \nand MAE, 2005).The eastern slope of the Choa mountains \nrises steeply from the surrounding plateau, forming a 20 km \nlong escarpment which runs on a north-south axis to the \nnorthwest of Catandica (Cizek, 2009). Only small areas of the \nrange exceed 1500 m elevation, and the highest point is over \n1,800 m (Cizek, 2009). \nAccording to the Köppen climate classification, the Choa \nMountains have a tropical humid climate (MAE, 2005). The \nrainy season is mainly between November and April, and \nthe rain varies significantly in quantity and distribution, from \n1000 to 1,400 mm in the plateau region, and from 1,300 \nto 1,700 mm in the mountainous region (MAE, 2005). The \neastern slopes of Choa Mountains intercept the moist air \nthat moves in from the Mozambique Channel (Indian Ocean) \nacross the Manica Platform, where it meets the highlands \nand is forced to rise, creating orographic rainfall (Cizek, \n2009). This rainfall sustains lush montane grasslands with \npockets of montane evergreen forest at higher elevations, \nwith lower altitude areas mainly vegetated by miombo \nwoodland (Cizek, 2009). In terms of hydrology, the western \nslopes of the mountains are drained by the Gairezi River, \nwhich flows northwards towards the Zambezi River from its \nsource in the Nyanga Mountains. The eastern slopes of the \nmountains are drained by the Nhazonia River (also known as \nthe Nyadzonya River), a tributary of the Pungwe River (Cizek, \n2009; MAE, 2005).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Hirundo atrocaerulea",
+          "iucn_status": "VU"
+        }
+      ],
       "threats": [
         "Largely disturbed by human settlements, crop",
         "agriculture, macadamia nut orchards, cattle grazing",
@@ -906,7 +1649,12 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1b",
       "description": "Esta KBA encontra-se na Serra Choa (Montanhas Choa), \nsituada no extremo norte das Terras Altas Orientais da \nProvíncia de Manica, centro-oeste de Moçambique (Cizek, \n2009 e MAE, 2005). A encosta oriental das montanhas Choa \nergue-se acentuadamente a partir do planalto circundante, \nformando uma escarpa de 20 km de comprimento que se \nestende no eixo norte-sul a noroeste do districto de Catandica \n(Cizek, 2009). Apenas algumas áreas atingem a elevação de \n1.500 m, sendo que o ponto mais alto é superior a 1.800 \nm (Cizek, 2009). De acordo com a classificação climática de \nKöppen, as Montanhas Choa apresentam um clima tropical \nhúmido (MAE, 2005). A estação chuvosa ocorre principalmente \nentre Novembro e Abril, em que a precipitação varia \nsignificativamente em quantidade e distribuição, de 1.000 a \n1.400 mm na região do Planalto e de 1.300 a 1.700 mm na \nregião montanhosa (MAE, 2005). As encostas orientais das \nMontanhas Choa interceptam o ar húmido que se move a \npartir do Canal de Moçambique (oceano Índico) através da \nPlataforma de Manica, onde encontram as zonas altas, sendo \nforçado a subir, criando chuvas orográficas (Cizek, 2009). Estas \nchuvas sustentam pradarias montanhosas exuberantes com \nmanchas de floresta montanhosa perene em altitudes mais \nelevadas, sendo as áreas de menor altitude principalmente \nvegetadas pela floresta de Miombo (Cizek, 2009). Em termos \nde hidrologia, as encostas ocidentais das montanhas são \ndrenadas pelo rio Gairezi, que flui para o norte em direção ao \nrio Zambeze a partir de sua nascente nas montanhas Nyanga. \nAs encostas orientais das montanhas são drenadas pelo rio \nNhazonia (também conhecido como rio Nyadzonya), um \nafluente do rio Púnguè (Cizek, 2009; MAE, 2005).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Hirundo atrocaerulea",
+          "iucn_status": "VU"
+        }
+      ],
       "threats": [
         "Área amplamente perturbada por assentamentos",
         "agricultura, pomares de noz de macadâmia, pastagem",
@@ -929,7 +1677,16 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1b",
       "description": "This KBA covers an area of about 756 km2 and falls under \nMachipanda administrative post, in Manica District, one of 9 \ndistricts of Manica Province, central Mozambique. The site is \nin the west of Manica district, with an elongated and narrow \nshape, the western boundary is the Republic of Zimbabwe. \nThe climate in this region according to the Köppen climate \nclassification is wet temperate type with annual average \nrainfall in the order of 1,000 and 1,200 mm. In the region \nthere are two very distinct seasons, the rainy season and the \ndry season. The rainy season which occurs from November \nto April and the cold and dry season from May to September. \nThe annual average temperature is 21.2 oC (Tuzine et al., \n2011; MAE, 2014). Vegetation in the site is mainly miombo \nalongside with grasslands or wooded grassland (MAE, 2014). \nThe western part that borders the Republic of Zimbabwe is \ncharacterized by mountain ranges that extend from south \nto north. This formation comprises basalts, rhyolites and \nalkaline lavas. Most outcrops form ridges and mountain \nranges that reach an altitude of 1,500 to 2,000 m (MAE, \n2014). The Manica region is drained by the Revuè River and \nits tributaries, itself a tributary of the Búzi River, which is the \nmain hydrographic basin.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Carpitalpa arendsi",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Hirundo atrocaerulea",
+          "iucn_status": "VU"
+        }
+      ],
       "threats": [
         "Bauxite mining, agricultural expansion",
         "15km"
@@ -946,7 +1703,16 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1b",
       "description": "Esta KBA cobre uma área de cerca de 756 km2 e localiza-se no \nposto administrativo de Machipanda, no distrito de Manica, \num dos 9 distritos da província de Manica, no centro de \nMoçambique. Especificamente a oeste do distrito de Manica, \napresenta uma forma alongada e estreita, sendo que o seu \nlimite ocidental é a República do Zimbábue. De acordo com a \nclassificação climática de Köppen O clima na região é do tipo \ntemperado húmido, com precipitação média anual na ordem \nde 1.000 a 1.200 mm. Na região existem duas estações muito \ndistintas, a estação chuvosa e a estação seca. A chuvosa que \nocorre de Novembro a Abril e a estação fria e seca de Maio a \nSetembro. A temperatura média anual é de 21,2 oC (Tuzine et \nal., 2011; MAE, 2014).\nA vegetação no local é principalmente composta por miombo, \nassim como por pradarias ou pradarias arborizadas (MAE, \n2014). A parte ocidental, que faz fronteira com a República \ndo Zimbábue, é caracterizada por cadeias montanhosas \nque se estendem de sul a norte. Esta formação consiste \nessencialmente em basaltos, riólitos e lavas alcalinas. A \nmaioria dos afloramentos forma cordilheiras que atingem \numa altitude que varia de 1.500 a 2.000 m (MAE, 2014). A \nregião de Manica é drenada pelo rio Revuè e seus afluentes \nque, por sua vez, é um afluente do rio Búzi, que é a principal \nbacia hidrográfica.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Carpitalpa arendsi",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Hirundo atrocaerulea",
+          "iucn_status": "VU"
+        }
+      ],
       "threats": [
         "Mina de bauxite, expansão agrícola",
         "15km"
@@ -967,7 +1733,63 @@
       "preexisting_designation": "KBA (old criteria), IBA, AZE",
       "kba_criteria": "A1a, A1b, A1e, B1",
       "description": "This KBA encompasses all the Chimanimani National ParkCNP (formerly known as Chimanimani National Reserve-CNR), \nincluding its buffer zone and covers an area of about 2,370 km2. \nThis site includes the well-known Chimanimani mountains that lie \non the border between Mozambique and Zimbabwe, with most \nof the range (perhaps three-quarters) lying within Mozambique \n(Timberlake et al., 2016; Timberlake, 2017). The highland area \ncovers about 530 km2 and ranges in altitude from around 500 m in \nthe south to the highest peak of Mt Binga at 2,436 m, which is the \nhighest point of Mozambique (Timberlake et al., 2016; da Costa \nand Tovela, 2018). Most of the main plateau lies at around 1,000 \nto 1,800 m. The mountains are protected on both sides of the \nborder, and together form part of a Trans-Frontier Conservation \nArea (TFCA) (Timberlake et al., 2016; Timberlake, 2017). In terms \nof hydrology, the CNP area is lying in the Búzi River basin and \nis ranging between Mussapa Pequena River and Lucite River, \nlimits north and south, respectively. The eastern border is the \nMussapa River flowing southwards until its confluence with the \nLucite River. The southern and central mountains are drained \nby the Lucite and Mussapa rivers, the northern mountains are \nflowing northward into the Revue River, tributary of Búzi River \n(da Costa and Tovela, 2018). The main vegetation types recorded \non Chimanimani mountains are: Forest (Dry montane forest and \nMarginal forest); Woodlands (miombo); Scrub (Ericaceous scrub \nand Predaceous scrub); Grassland; Aquatic communities and \nLithophytic communities (Timberlake et al., 2016)",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Carpitalpa arendsi",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Rhampholeon marshalli",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Smaug mossambicus",
+          "iucn_status": "LC"
+        },
+        {
+          "name": "Hyperolius swynnertoni",
+          "iucn_status": "LC"
+        },
+        {
+          "name": "Strongylopus rhodesianus",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Pterocephalus centennii",
+          "iucn_status": "CR",
+          "note": "MOZ. ENDEMIC"
+        },
+        {
+          "name": "Danthoniopsis chimanimaniensis",
+          "iucn_status": "EN",
+          "note": "AREA ENDEMIC"
+        },
+        {
+          "name": "Morella chimanimaniana",
+          "iucn_status": "EN",
+          "note": "AREA ENDEMIC"
+        },
+        {
+          "name": "Neobolusia ciliata",
+          "iucn_status": "EN",
+          "note": "AREA ENDEMIC"
+        },
+        {
+          "name": "Olinia chimanimani",
+          "iucn_status": "EN",
+          "note": "AREA ENDEMIC"
+        },
+        {
+          "name": "Empogona jenniferae",
+          "iucn_status": "EN",
+          "note": "AREA ENDEMIC"
+        },
+        {
+          "name": "Ficus muelleriana",
+          "iucn_status": "EN",
+          "note": "MOZ. ENDEMIC"
+        }
+      ],
       "threats": [
         "Gold mining, invasive species, uncontrolled fires",
         "15km"
@@ -984,7 +1806,63 @@
       "preexisting_designation": "KBA (critérios antigos), IBA, AZE",
       "kba_criteria": "A1a, A1b, A1e, B1",
       "description": "A KBA abrange todo o Parque Nacional de Chimanimani (PNC) \n(anteriormente conhecido como Reserva Nacional de ChimanimaniCNR), incluindo a sua zona-tampão, e cobre uma área de cerca \nde 2.370 km2. Este local inclui as conhecidas montanhas de \nChimanimani, situadas na zona transfronteiriça entre Moçambique \ne Zimbábue, com a maior faixa de distribuição (talvez três quartos) \ndentro de Moçambique (Timberlake et al., 2016; Timberlake, 2017). \nA área montanhosa cobre cerca de 530 km2, com uma altitude \nque varia de aproximadamente 500 m no Sul até ao pico mais \nalto do Monte Binga a 2.436 m, que constitui o ponto mais alto \nde Moçambique (Timberlake et al., 2016; da Costa e Tovela, 2018). \nA maior parte do planalto principal fica entre 1.000 a 1.800 m. As \nmontanhas são protegidas em ambos os lados da fronteira e juntas \nformam parte de uma Área de Conservação Transfronteiriça (TFCA) \n(Timberlake et al., 2016; Timberlake, 2017). Em termos hidrológicos, \na área do PNC situa-se dentro da bacia do rio Búzi, que se estende \nentre os rios Mussapa Pequena (limite norte) e o rio Lucite (limite \nsul), respectivamente. O limite oriental é o rio Mussapa, que flui \npara o sul até à sua confluência com o rio Lucite. As montanhas, \nna parte sul e central, são drenadas pelos rios Lucite e Mussapa, \nenquanto que as montanhas do Norte drenam para o norte no rio \nRevue, afluente do rio Búzi (da Costa e Tovela, 2018). Os principais \ntipos de vegetação registrados nas montanhas Chimanimani são: \nFloresta (floresta seca de montana e floresta marginal); Bosques \n(miombo); Matagal (Matagal de Ericáceas e Matagal de Predáceas); \npradarias; Comunidades aquáticas e comunidades litofíticas/ \nepifíticas (Timberlake et al., 2016)",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Carpitalpa arendsi",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Rhampholeon marshalli",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Smaug mossambicus",
+          "iucn_status": "LC"
+        },
+        {
+          "name": "Hyperolius swynnertoni",
+          "iucn_status": "LC"
+        },
+        {
+          "name": "Strongylopus rhodesianus",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Pterocephalus centennii",
+          "iucn_status": "CR",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Danthoniopsis chimanimaniensis",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Morella chimanimaniana",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Neobolusia ciliata",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Olinia chimanimani",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Empogona jenniferae",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Ficus muelleriana",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        }
+      ],
       "threats": [
         "Mineração de ouro, espécies invasoras, queimadas descontroladas",
         "15km"
@@ -1005,7 +1883,92 @@
       "preexisting_designation": "KBA (old criteria), IBA, Ramsar",
       "kba_criteria": "A1a, A1b, A1c, A1d, A1e, B1",
       "description": "This KBA comprises Gorongosa National Park (GNP) and \nbuffer zone in the West, and the Marromeu Complex in the \nEast. Within GNP is Gorongosa Mountain (also called “Serra \nda Gorongosa”), perched on the midlands of the Rift Valley \ncomplex, extending down from Ethiopia through Kenya and \nTanzania. It is an isolated massif about 30 km (N-S) long and \n20 km (E-W) wide. The highest point is the Gogogo peak with \n1,863 m above sea level. (Vogier, 2009; Stalmans and Beilfuss, \n2008). The Marromeu Complex covers the southern half of \nthe Zambezi delta, including existing forest reserves, hunting \nconcessions, agricultural land and community lands (Beilfuss \net al., 2010; Beilfuss,2015). The climate in this region varies \nwith altitude (Vogier, 2009). In general, the region is under a \ntropical savanna climate, except for Gorongosa mountain \nwhich has a warm rainy climate (Vogier, 2009). Within the GNP \narea, the seasonal flooding and waterlogging of the valley \ncomposed of a mosaic of different soil types creates a variety \nof distinct ecosystems (Parque Nacional da Gorongosa, 2010). \nGrasslands are dotted with patches of Acacia, savanna and dry \nforest. The plateaus contain miombo forest (Parque Nacional \nda Gorongosa, 2010). The Gorongosa Mountain consists of \nBrachystegia woodland on the lower slopes, dense evergreen \nforest at altitudes between 1,200m and 1,500m, and montane \ngrassland at the summit, with forest patches in the ravines \n(Müller et al., 2012). The Marromeu Complex is part of the \nLower Zambezi Freshwater Ecoregion and includes a mosaic of \nwetland communities grading from acacia and palm savanna \nat the floodplain periphery to seasonally flooded grassland, \npapyrus swamps, evergreen forests, and open water bodies on \nthe low-lying plains to mangrove forest and mudflats bordered \nby dunes near the coast (Beilfuss et al., 2010; Beilfuss, 2015).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Lycaon pictus",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Hippopotamus amphibius",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Panthera leo",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Loxodonta africana",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Gyps africanus",
+          "iucn_status": "CR"
+        },
+        {
+          "name": "Trigonoceps occipitalis",
+          "iucn_status": "CR"
+        },
+        {
+          "name": "Balearica regulorum",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Bugeranus carunculatus",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Afroedura gorongosa",
+          "iucn_status": "LC",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Cycloderma frenatum",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Rhampholeon gorongosae",
+          "iucn_status": "EN",
+          "note": "GORONGOSA ENDEMIC"
+        },
+        {
+          "name": "Nothobranchius kadleci",
+          "iucn_status": "NT",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Acacia torrei",
+          "iucn_status": "LC"
+        },
+        {
+          "name": "Impatiens wuerstenii",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Justicia gorongozana",
+          "iucn_status": "LC",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Streptocarpus brachynema",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Cordia stuhlmannii",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Dorstenia zambesiaca",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Tarenna longipedicellata",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        }
+      ],
       "threats": [
         "Unsustainable wildlife hunting, slash and burn",
         "shifting agriculture, logging, prospecting, drilling for",
@@ -1024,7 +1987,92 @@
       "preexisting_designation": "KBA (critérios antigos), IBA, Ramsar",
       "kba_criteria": "A1a, A1b, A1c, A1d, A1e, B1",
       "description": "Esta KBA cobre uma área total de cerca de 23.087 km2, abrangendo \no Parque Nacional da Gorongosa (PNG) e a sua zona tampão a \noeste, e o Complexo de Marromeu a leste. O PNG (porção ocidental) \nestá situado na extremidade sul do sistema do Grande Vale do Rift, \nque se estende da Etiópia, na África Oriental, até Moçambique \n(Stalmans e Beilfuss, 2008). Inclui também o Monte Gorongosa \n(Serra da Gorongosa), um maciço isolado com cerca de 30 km (N-S) \nde comprimento e 20 km (E-W) de largura. O pico de Gogogo é o \nseu ponto mais alto a 1.863 m acima do nível do mar (Vogier, 2009; \nStalmans e Beilfuss, 2008). O Complexo de Marromeu (a porção \nleste) cobre a parte sul do Delta do Zambeze, e inclui 2 reservas \nflorestais, 4 concessões de caça (coutadas), terras agrícolas e \ncomunitárias (Beilfuss et al., 2010; Beilfuss, 2015). O clima na região \nvaria com a altitude (Vogier, 2009). Em geral, a região está sob um \nclima de savana tropical, excepto a montanha da Gorongosa, que \npossui um clima quente e chuvoso (Vogier, 2009). Na região do \nPNG, as inundações e alagamentos sazonais do vale, compostos \npor um mosaico de diferentes tipos de solo, criam uma variedade \nde ecossistemas distintos (Parque Nacional da Gorongosa, 2010). \nAs pradarias são possuem manchas de Acácia pontuais, savanas e \nflorestas secas. Os planaltos apresentam floresta de miombo (PNG, \n2010). O monte Gorongosa consiste em bosques de Brachystegia \nnas encostas mais baixas, floresta densa e perene nas altitudes entre \n1.200m e 1.500m e prados montanhosos no cume, apresentando \ntambém manchas de floresta nos desfiladeiros (Müller et al., 2012). \nO Complexo de Marromeu faz parte da Ecorregião de Água Doce \ndo Baixo Zambeze e inclui um mosaico de comunidades vegetais \ntípicas das terras húmidas que variam entre acácias e savanas \nde palmeiras na periferia de planície de inundação, a pradarias \nsazonalmente inundadas, pântanos de papiros, florestas verdes e \ncorpos de águas abertas nas planícies baixas a floresta de mangal \ne lodaçais marginados por dunas próximas à costa (Beilfuss et al., \n2010; Beilfuss, 2015).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Lycaon pictus",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Hippopotamus amphibius",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Panthera leo",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Loxodonta africana",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Gyps africanus",
+          "iucn_status": "CR"
+        },
+        {
+          "name": "Trigonoceps occipitalis",
+          "iucn_status": "CR"
+        },
+        {
+          "name": "Balearica regulorum",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Bugeranus carunculatus",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Afroedura gorongosa",
+          "iucn_status": "LC",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Cycloderma frenatum",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Rhampholeon gorongosae",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Nothobranchius kadleci",
+          "iucn_status": "NT",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Acacia torrei",
+          "iucn_status": "LC"
+        },
+        {
+          "name": "Impatiens wuerstenii",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Justicia gorongozana",
+          "iucn_status": "LC",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Streptocarpus brachynema",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Cordia stuhlmannii",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Dorstenia zambesiaca",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Tarenna longipedicellata",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        }
+      ],
       "threats": [
         "Caça insustentável de fauna bravia, agricultura",
         "itinerante de corte e queimada, exploração florestal",
@@ -1048,7 +2096,33 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1a, A1b, B1",
       "description": "This KBA, located in the province of Inhambane, southern \nMozambique (MAE, 2014), covers an area of about 5,357 km². It \nincludes the coastal and inland region of the Inhassoro district in its \nnorthern section, and the inland region of the Vilankulos district in its \nsouthern section. The region's climate is dominated by dry tropical \nzones in the inland, and a humid coastal zone. The hot and rainy \nseason runs from October to March and the cool and dry season \nfrom April to September (MICOA, 2012). The coastal region has an \nannual average temperature between 18 °C and 33 °C and the annual \nrainfall average in the rainy season (October from March) is 1,500 \nmm with greater incidence in the months of February and March \nwhen floods occur (MAE, 2014). The inland region has an annual \nrainfall average of 1,000 to 1,500 mm with high temperatures, often \ncausing water deficiency (MAE, 2014). The KBA constitutes three \npredominant vegetation types: dune vegetation, thickets or miombo \nwoods and deciduous forest mosaic (MICOA, 2012). In coastal dunes, \npioneer species such as Sesuvium portulacastrum, Cyperus maritimus, \nScaevola thunbergii, and Ipomoea pes-caprae create conditions for \nthe establishment of coastal thickets. In the eastern region, in the \nsublittoral zone, miombo woodlands predominate in sandy soils \nconsisting of Brachystegia spiciformis accompanied by secondary \nspecies such as Albizia adianthifolia, Garcinia livingstoney, Afzelia \nquanzensis, Pterocarpus angolensis, etc. This region also includes a \nnarrow strip of wetlands, formed by the Govuro River (MICOA, 2012). \nInland there are forests of Brachystegia spiciformis - Julbernardia \nglobiflora in a mosaic with deciduous forests of Afzelia - Sideroxylon - \nBalanites. The forest consists of small patches that pass to savanna \ngrasslands with scattered trees of Adansonia digitata, Cordyla africana, \nKirkia acuminata, Sterculia africana, Acacia nigrescens, etc. The most \nextensive areas of grassland are concentrated in the western interior \nclose to the border with the district of Mabote (MICOA, 2012).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Croton inhambanensis",
+          "iucn_status": "VU",
+          "note": "MOZ. ENDEMIC"
+        },
+        {
+          "name": "Ecbolium hastatum",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Ozoroa gomesiana",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Croton aceroides",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Xylia mendoncae",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        }
+      ],
       "threats": [
         "Human settlements, housing development",
         "for tourism, agriculture expansion, slash and",
@@ -1067,7 +2141,33 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1a, A1b, B1",
       "description": "Esta KBA, cobre uma área de cerca de 5.357 km² e está localizada na \nprovíncia de Inhambane, sul de Moçambique (MAE, 2014). Inclui a região \ncosteira e interior do distrito de Inhassoro na parte norte e a região interior \ndo distrito de Vilankulos na parte sul. O clima da região é dominado por \nzonas tropicais secas, no interior e húmidas em direcção à costa com duas \nestações: a estação quente e chuvosa, de Outubro a Março, e a estação \nfria e seca, de Abril a Setembro (MICOA, 2012). A região costeira apresenta \numa temperatura média anual entre 18 °C e 33 °C. A precipitação média \nanual na estação chuvosa (Outubro a Março) é de 1.500 mm, com maior \nincidência nos meses de Fevereiro e Março, quando ocorrem inundações \n(MAE, 2014). A região interior apresenta uma média anual de chuvas \nque varia de 1.000 a 1.500 mm com temperaturas altas, que causam \ndeficiência de água (MAE, 2014). Do litoral ao interior do distrito de \nInhassoro, distinguem-se três regiões principais, de acordo com o tipo de \nvegetação predominante: vegetação dunar na região litoral, matagais ou \nmatas de miombo e o mosaico de matas de miombo decíduo – florestas \ndecíduas (MICOA, 2012). Nas dunas costeiras ocorrem espécies pioneiras \ncomo Sesuvium portulacastrum, Cyperus maritimus, Scaevola thunbergii, \nIpomoea pes-caprae, criando condições para o estabelecimento de brenha \ncosteiras. Na região leste, na zona sublitoral, predominam as matas de \nmiombo sobre solos arenosos constituídos por Brachystegia spiciformis, \nacompanhados por espécies secundárias como Albizia adianthifolia, \nGarcinia livingstoney, Afzelia quanzensis, Pterocarpus angolensis, etc. Esta \nregião também inclui uma faixa estreita de áreas húmidas, de norte a sul, \nformado pelo curso do rio Govuro (MICOA, 2012). No interior, existem \nflorestas de Brachystegia spiciformis - Julbernardia globiflora em mosaico \ncom florestas decíduas de Afzelia-Sideroxylon - Balanites. A floresta \nconsiste em pequenos trechos que passam a pradarias de savanas com \nárvores dispersas de Adansonia digitata, Cordyla africana, Kirkia acuminata, \nSterculia africana, Acacia nigrescens, etc. As áreas mais extensas de \npradarias estão concentradas no interior ocidental, próximo à fronteira \ncom o distrito de Mabote e Massinga (MICOA, 2012).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Croton inhambanensis",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Ecbolium hastatum",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Ozoroa gomesiana",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Croton aceroides",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Xylia mendoncae",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        }
+      ],
       "threats": [
         "Assentamentos humanos, desenvolvimento",
         "habitacional para o turismo, expansão da",
@@ -1091,7 +2191,40 @@
       "preexisting_designation": "IBA, IMMA",
       "kba_criteria": "A1a, A1b, A1c, A1d, B1",
       "description": "This KBA covers an area of about 5,236 km2, encompassing \nthe Bazaruto Archipelago and the São Sebastião peninsula, \nlocated in the Inhambane province, between the districts \nof Vilankulo and Inhassoro, southern Mozambique. The \nBazaruto archipelago is comprised of five islands: Bazaruto, \nthe largest (12,000 ha), Benguérua (2,500 ha); Magaruque \n(600 ha); Santa Carolina (500 ha) and the tiny island of Bangué, \nwith about 5 ha. The Bazaruto archipelago was formed from \nthe São Sebastião Peninsula about 7,000 years ago (Everett \net al., 2008) The São Sebastião Peninsula lies southeast of the \ntown of Vilankulo, forming the continental extension of the \nBazaruto archipelago (Jacobsen et al., 2010). \nThe climate in the region is hot and humid, with rainfall \nranging from 600 to 800 mm per year (Jacobsen et al., 2010). \nAverage temperatures are around 30 °C in summer and \n18 °C in winter, with an average annual temperature of 24 \n°C (Everett et al., 2008). The Bazaruto archipelago is known \nfor its diverse marine habitats, including mangrove forests, \ncoastal dunes, rocky beaches, seagrass meadows, coral \nreefs, lagoons, and white sand beaches. The São Sebastião \npeninsula is dominated by miombo woodland interspersed \nwith a diversity of habitats that include wetlands, freshwater \nlakes, tidal mudflats, salt marshes and mangrove swamps. \nThe marine area includes estuaries, a sand peninsula barrier \nalong the seaward boundary of the Inhambane Estuary, \nislands, and coral reefs (Lambrechts, 2001 in Peel, 2002).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Dugong dugon",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Sousa plumbea",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Sterna balaenarum",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Mochlus lanceolatus",
+          "iucn_status": "LC",
+          "note": "G. BAZARUTO ENDEMIC"
+        },
+        {
+          "name": "Scelotes insularis",
+          "iucn_status": "LC",
+          "note": "G. BAZARUTO ENDEMIC"
+        },
+        {
+          "name": "Scelotes duttoni",
+          "iucn_status": "LC",
+          "note": "BAZARUTO ENDEMIC"
+        },
+        {
+          "name": "Jatropha subaequiloba",
+          "iucn_status": "VU",
+          "note": "G. BAZARUTO ENDEMIC"
+        }
+      ],
       "threats": [
         "Overexploitation by artisanal fisheries, slash and",
         "burn shifting agriculture",
@@ -1109,7 +2242,40 @@
       "preexisting_designation": "IBA, IMMA",
       "kba_criteria": "A1a, A1b, A1c, A1d, B1",
       "description": "Esta KBA cobre uma área de cerca de 5.236 km2, abrangendo \no Arquipélago de Bazaruto e a península de São Sebastião, \nlocalizada na província de Inhambane, entre os distritos de \nVilankulo e Inhassoro, sul de Moçambique. O arquipélago \ndo Bazaruto é composto por cinco ilhas: Bazaruto, a maior \n(12.000 ha), Benguérua (2.500 ha); Magaruque (600 ha); Santa \nCarolina (500 ha) e a minúscula ilha de Bangué, com cerca \nde 5 ha. O arquipélago de Bazaruto foi formado a partir da \nPenínsula de São Sebastião há cerca de 7.000 anos (Everett \net al., 2008) A península de São Sebastião fica a sudeste da \ncidade de Vilankulo, formando a extensão continental do \narquipélago do Bazaruto (Jacobsen et al., 2010). O clima na \nregião é quente e húmido, com chuvas variando de 600 a 800 \nmm por ano (Jacobsen et al., 2010). As temperaturas médias \nestão em torno de 30 °C no verão e 18 °C no inverno, com \numa temperatura média anual de 24 °C (Everett et al., 2008). \nO arquipélago de Bazaruto é conhecido pelos seus habitats \nmarinhos diversos, incluindo florestas de mangal, dunas \ncosteiras, praias rochosas, pradarias de ervas marinhas, recifes \nde coral, lagoas e praias de areia branca. A península de São \nSebastião é dominada por matas de miombo, intercaladas \ncom uma diversidade de habitats que incluem áreas húmidas, \nlagos de água doce, planícies de maré, pântanos salgados e \nmangais. A área marinha inclui estuários, uma barreira de \npenínsula de areia ao longo da fronteira marítima do estuário \nde Inhambane, ilhas e recifes de coral (Lambrechts, 2001 in \nPeel, 2002).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Dugong dugon",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Sousa plumbea",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Sterna balaenarum",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Mochlus lanceolatus",
+          "iucn_status": "LC",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Scelotes insularis",
+          "iucn_status": "LC",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Scelotes duttoni",
+          "iucn_status": "LC",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Jatropha subaequiloba",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        }
+      ],
       "threats": [
         "Sobreexploração por pesca artesanal, agricultura",
         "itinerante de corte e queimada",
@@ -1131,7 +2297,24 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "D1b",
       "description": "This KBA covers mostly the Tofo region located in Inhambane \nProvince, southern Mozambique. The main ecological feature \nof the region is a complex system of parabolic coastal dunes \nwith associated vegetation and barrier lakes, extending \nnorthwards to the Inhambane Bay, characterized by shallow \nseagrass meadows and mangroves under strong tidal \ninfluence. On the ocean front, exposed to strong wave action \nand the Mozambique Current, there is a series of reefs that \noriginate from fossilized sand dunes, now colonized by a \nthin veneer of hermatypic corals (Motta et al. 2002).The reef \nsystem extends along about 40 km of coastline, 500 m to 15 \nkm offshore, with depth varying between 22 and 32 m. \nWith a sub-tropical climate regime, water temperature varies \nseasonally from a high of 30 °C during summer months (Dec−\nMar) to 16 °C during the winter (Jul−Sep) (Rohner et al. 2013). \nTofo is a small and relatively undeveloped town dependent \non tourism, mainly around diving, surfing and beaches. It is \nfamous amongst tourists as a marine megafauna hotspot, \nwhere whale sharks, manta rays, dolphins, humpback whales \nand sea turtles can be sighted year-round for most. It is one \nof few places globally where year-round populations of whale \nshark, Rhincodon typus and manta rays, Manta birostris and \nM. alfredi occur (Tibiriçá et al., 2011). Since many of the reefs \noffshore of Tofo serve as cleaning stations for elasmobranchs, \nmost notably both species of manta rays, this stretch of \ncoast is the most popular diving location in Mozambique, \nreceiving the highest number of recreational divers per year \ncountrywide (Saoirse et al, 2019).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Mobula alfredi",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Mobula birostris",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Rhincodon typus",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Stegostoma tigrinum",
+          "iucn_status": "EN"
+        }
+      ],
       "threats": [
         "Over-fishing, illegal fishing, heavy sand mining",
         "excessive, unmanaged tourist activity",
@@ -1149,7 +2332,24 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "D1b",
       "description": "Esta KBA cobre maioritariamente a região de Tofo, localizada \nna província de Inhambane, sul de Moçambique. A principal \ncaracterística ecológica da região consiste num sistema \ncomplexo de dunas costeiras parabólicas com vegetação \nassociada e lagos de barreira, e que se estende para o norte \naté à baía de Inhambane, caracterizada por prados rasos de \nervas marinhas e mangais sob forte influência das marés. Na \nfrente oceânica, exposta a fortes acções das ondas e à Corrente \nde Moçambique, há uma série de recifes que têm origem em \ndunas fossilizadas, agora colonizadas por uma fina camada de \ncorais hermatípicos (Motta et al. 2002). O sistema de recifes \nestende-se por cerca de 40 km ao longo da costa, de 500 m a 15 \nkm da costa, com profundidades variando entre 22 e 32 m. Com \num regime climático subtropical, a temperatura da água varia \nsazonalmente, de 30 °C durante os meses de Verão (Dezembro \na Março) a 16 °C durante o Inverno (Julho a Setembro) (Rohner \net al. 2013). O Tofo é uma pequena vila e relativamente pouco \ndesenvolvida, dependente do turismo, principalmente em \ntorno de mergulho, atividades de surf e praias. É famosa entre \nos turistas como um hotspot de megafauna marinha, onde \ntubarões-baleia, raias-manta, golfinhos, baleias-jubarte e \ntartarugas marinhas podem ser maioritariamente observados \ntodo o ano. É um dos poucos lugares a nível mundial onde \nocorrem, durante todo o ano, populações de tubarão-baleia, \nRhincodon typus e raias-manta, Manta birostris e M. alfredi \n(Tibiriçá et al., 2011). Uma vez que muitos dos recifes ao longo de \nTofo servem como estações de limpeza para elasmobrânquios, \nprincipalmente para as espécies de raias, este trecho de costa \né, portanto, o local de mergulho mais popular em Moçambique, \nrecebendo o maior número de mergulhadores recreativos por \nano em todo o país (Saoirse et al, 2019).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Mobula alfredi",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Mobula birostris",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Rhincodon typus",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Stegostoma tigrinum",
+          "iucn_status": "EN"
+        }
+      ],
       "threats": [
         "Sobrepesca, pesca ilegal, mineração de areias",
         "pesadas, actividade turística excessiva sem maneio",
@@ -1172,7 +2372,12 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1b, B1",
       "description": "This KBA covers an area of about 32 km2 and is located \non the coast of the Chongoene district in Gaza province, \nsouthern Mozambique. The Chongoene district was formerly \nknown as an administrative post of Xai-Xai district, having \nbeing changed to district in 2016. The borders include \nChibuto district to the north, the Indian Ocean to the South, \nManjacaze District to the East and the Xai-Xai city to the West \n(Governo da Província de Gaza, 2017).\nThe region is influenced by the anticyclones of the Indian and \nAtlantic oceans, by the high-pressure continental cell during \nthe cool season and by the continental depression of thermal \norigin during the hot season (MAE, 2014). The average annual \ntemperature is 22.9 °C with February being the warmest \nmonth (26 °C ) and July the coldest (19.1 °C ) (MICOA, 2012). \nThe average annual rainfall in the region is 768 mm and the \nannual evapotranspiration 1,190 mm. The soils are mainly \nsandy of coastal dunes and coastal sandstone with recent \nalluvium (MICOA, 2012; MAE, 2014). The sandy beaches of \nthis site are characterized by parabolic dunes that extend up \nto 10 km inland and along the entire coastline. The region \nis covered by the Tongoland-Pondoland Regional Mosaic, \nwhich extends along the Indian Ocean from the mouth of \nthe Limpopo River to the foothills of the Drankensberg in \nPorth Elizabeth, South Africa. This ecoregion has distinct \ncharacteristics, because it represents a meeting between the \nZambesiaca and temperate African Floras (MICOA, 2012).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Iolaus lulua",
+          "iucn_status": "VU"
+        }
+      ],
       "threats": [
         "Human settlements, housing development for",
         "tourism, agriculture expansion, fires"
@@ -1189,7 +2394,12 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1b, B1",
       "description": "Esta KBA cobre uma área de cerca de 32 km2 e está localizada \nna costa do distrito de Chongoene, província de Gaza, sul de \nMoçambique. O distrito de Chongoene era anteriormente \num posto administrativo do distrito de Xai-Xai, tendo sido \nelevado à categoria de distrito em 2016. As suas fronteiras \nincluem o distrito de Chibuto ao norte, o Oceano Índico ao \nsul, o distrito de Manjacaze ao leste e a cidade de Xai-Xai ao \noeste (Governo da Província de Gaza, 2017).\nA região é influenciada pelos anticiclones dos oceanos Índico \ne Atlântico, pela célula continental de alta pressão durante a \nestação fria e pela depressão continental de origem térmica \ndurante a estação quente (MAE, 2014). A temperatura média \nanual é de 22,9 °C, sendo Fevereiro o mês mais quente (26 \nºC) e Julho o mais frio (19,1 °C) (MICOA, 2012). A precipitação \nmédia anual na região é de 768 mm e a evapotranspiração \nanual é de 1.190 mm. Os solos são principalmente arenosos \nde dunas costeiras e arenitos costeiros com aluvião recente \n(MICOA, 2012; MAE, 2014).\nAs praias são caracterizadas por dunas parabólicas que \nse estendem por 10 km para o interior e por toda a costa. \nA região é coberta pelo mosaico regional TongolandPondoland, que se estende ao longo do Oceano Índico \ndesde a foz do rio Limpopo até às encostas do Drankensberg \nem Porth Elizabeth, África do Sul. Esta ecorregião possui \ncaracterísticas distintas, porque representa um encontro \nentre as Floras Zambesiaca e da África temperada (MICOA, \n2012).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Iolaus lulua",
+          "iucn_status": "VU"
+        }
+      ],
       "threats": [
         "Assentamentos humanos",
         "desenvolvimento",
@@ -1213,7 +2423,21 @@
       "preexisting_designation": "KBA (old criteria)",
       "kba_criteria": "A1a, A1b, A1e, B1",
       "description": "This KBA covers an area of about 2,070 km2 and is located \non the southern coast of Mozambique across two provinces, \nMaputo and Gaza, covering the region of Limpopo River \nbasin. The average annual temperature of the region is \n22.9°C, with February being the hottest month (26°C) and \nJuly the coldest (19°C) (Ekblom et al., 2011). The average \nannual rainfall is 768 mm, however, there is a significant \ninterannual variation. Monthly rainfall is only higher than \nevapotranspiration for 4 months of the year, namely from \nDecember to March (IMPACTO, 2012a). \nThe site is characterized by the presence of coastal dunes \nand coastal sandstones. It is located in the area of the great \ncoastal plains of the country, with the altitude rising slightly \nfrom the coast to the interior. The region is covered by the \nTongoland-Pondoland Regional Mosaic, which stretches \nalong the Indian Ocean, from the mouth of the Limpopo \nRiver to the foot of Drakensberg, in Port Elizabeth, South \nAfrica (IMPACTO, 2012a). The Tongoland-Pondoland Regional \nMosaic is a mosaic of low and high thickets along waterways \nthat flow into the Indian Ocean. Levels of endemism in this \narea are relatively low, although there are records of 6,000 \nto 7,000 plant species that occur in this ecoregion. The \nscrub vegetation is different from other scrub in this region \nbecause there is a predominance of evergreen sclerophilic \nplants and succulent trees and shrubs (IMPACTO, 2012b). The \nsite is almost continuously bordered by lakes and lagoons. \nCoastal areas located behind the dune systems in the region \npresent greater representativeness given the occurrence \nof wetlands. The area includes several seasonal ponds and \nsprings that are mostly used for irrigation (IMPACTO, 2012b).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Chetia brevis",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Memecylon incisilobum",
+          "iucn_status": "CR",
+          "note": "MANHIÇA BILENE ENDEMIC"
+        },
+        {
+          "name": "Raphia australis",
+          "iucn_status": "VU"
+        }
+      ],
       "threats": [
         "Industrial agriculture, wood-cutting for charcoal",
         "production, slash and burn shifting agriculture",
@@ -1231,7 +2455,21 @@
       "preexisting_designation": "KBA (old criteria)",
       "kba_criteria": "A1a, A1b, A1e, B1",
       "description": "Esta KBA cobre uma área de cerca de 2.070 km2 e está \nlocalizada na costa sul de Moçambique em duas províncias, \nMaputo e Gaza, abrangendo a região da bacia hidrográfica \ndo rio Limpopo. A temperatura média anual na região é de \n22,9 °C, sendo Fevereiro o mês mais quente (26 °C) e Julho \no mais frio (19 °C) (Ekblom et al., 2011). A pluviosidade \nmédia anual é de 768 mm, no entanto, existe uma \nvariação interanual significativa. A precipitação mensal é \napenas superior à evapotranspiração durante 4 meses do \nano, nomeadamente de Dezembro a Março (IMPACTO, \n2012a). O local é caracterizado pela presença de dunas \ncosteiras e arenitos costeiros, e está localizado na área das \ngrandes planícies costeiras do país, com a altitude subindo \nligeiramente da costa para o interior. A região é coberta pelo \nmosaico regional Tongoland-Pondoland, que se estende \nao longo do Oceano Índico, desde a foz do rio Limpopo até \nà proximidade do Drankensberg, em Port Elizabeth, África \ndo Sul (IMPACTO, 2012a). O mosaico regional TongolandPondoland é um mosaico de matas baixas e altas ao longo de \ncursos de água que desembocam no Oceano Índico. Os níveis \nde endemismo nessa área são relativamente baixos, embora \nhaja registos de ocorrência de 6.000 a 7.000 espécies de \nplantas nessa ecorregião. A vegetação arbustiva é diferente \nde outros arbustos na região porque há predominância de \nplantas esclerofílicas sempre-verdes e árvores e arbustos \nsuculentos (IMPACTO, 2012b). O local é quase continuamente \ncercado por lagos e lagoas. As áreas costeiras localizadas \natrás dos sistemas de dunas da região apresentam maior \nrepresentatividade, devido à ocorrência de zonas húmidas. A \nárea inclui várias lagoas e nascentes sazonais que são usadas \nprincipalmente para irrigação (IMPACTO, 2012b).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Chetia brevis",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Memecylon incisilobum",
+          "iucn_status": "CR",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Raphia australis",
+          "iucn_status": "VU"
+        }
+      ],
       "threats": [
         "Agricultura industrial, corte de madeira para",
         "produção de carvão vegetal, agricultura itinerante de",
@@ -1254,7 +2492,18 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1b, B1",
       "description": "This KBA is within the Matutuine district, located in Maputo \nprovince, Southern Mozambique, and covers an area \nof about 195 km2. The site lies north of the Licúati Forest \nReserve (LFR) and its boundaries include the city of Maputo \nto the north and mainly the Porto Henrique - Bela Vista road \nto the south (although it covers a small portion beyond the \nroad southwards), Maputo Bay to the east and the Tembe \nRiver to the west. The site is completely flat and falls entirely \nwithin the Maputaland Endemism Center.\nThe climate of the region is generally warm to hot, humid \nand subtropical given its location within a transitional \nzone between the tropics to the north and the subtropical \ncoastal conditions to the south. Rainfall has significant \nspatial variability from the coast to the inland, decreasing \nas it moves inland (MAE, 2014). Being a continuation of the \nLicuati Forest vegetation type, it is expected that the site’s \nannual average rainfall will not be over 800 mm. The soils \nare mostly sandy, characterized by poor water retention \ncapacity and consequently a high infiltration rate (MICOA, \n2012; MAE, 2014). Vegetation of the site is mainly comprised \nof shrubland with patches of Licuati Forest, to the south, and \nopen woodland.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Polygala francisci",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Sclerochiton apiculatus",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        }
+      ],
       "threats": [
         "Human settlements for housing and small business",
         "infrastructure"
@@ -1271,7 +2520,18 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1b, B1",
       "description": "Esta KBA situa-se no distrito de Matutuíne, localizado na \nprovíncia de Maputo, sul de Moçambique, e cobre uma área \nde cerca de 195 km2. O local situa-se a norte da Reserva \nFlorestal de Licúati (RFL) e as suas fronteiras incluem a cidade \nde Maputo ao norte e, principalmente, a estrada Porto \nHenrique - Bela Vista ao sul (embora cubra uma pequena \nporção para além da estrada em direcção ao sul), baía de \nMaputo a leste e rio Tembe a oeste. O local é completamente \nplano e enquadra-se inteiramente no centro de Endemismo \nde Maputaland.\nO clima da região é geralmente morno a quente, húmido \ne subtropical, devido à sua localização numa zona de \ntransição entre os trópicos, ao norte, e as condições \ncosteiras subtropicais ao sul. As chuvas apresentam \nvariabilidade espacial significativa da costa para o interior, \ndiminuindo à medida que se avança para o interior (MAE, \n2014). Correspondendo à continuação do tipo de vegetação \nda floresta de Licuáti, espera-se que a precipitação média \nanual do local não seja superior a 800 mm. Os solos são \npredominantemente arenosos, caracterizados por baixa \ncapacidade de retenção de água e, consequentemente, alta \ntaxa de infiltração (MICOA, 2012; MAE, 2014). A vegetação do \nlocal é principalmente de matagal, com manchas da floresta \nde Licúati, ao sul, e bosques abertos.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Polygala francisci",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Sclerochiton apiculatus",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        }
+      ],
       "threats": [
         "Assentamentos humanos para habitação e",
         "infraestrutura para pequenas empresas"
@@ -1292,7 +2552,34 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1a, A1b, B1",
       "description": "This KBA encompasses the Licuáti Forest Reserve (LFR) \nsituated in the Matutuíne District in Maputo Province, \nSouthern Mozambique, near the South African and \nSwaziland borders to the south and west, respectively, and \ncovers an area of about 141 km2. It is locally well known as \nLicuáti Forest and it falls between the Tembe and Maputo \nRivers, and the Porto Henrique-Bela Vista, and Bela VistaCatuane roads (Izidine, 2003). The LFR is found on ancient \ndunes perhaps of Pleistocene-age. The core LFR is of thicket \nforest vegetation type, mainly of five meters height with \nsome emergent trees such as Afzelia quanzensis, Newtonia \nhildebrandtii and Balanites maughamii, reaching 12 m tall. In \nSouth Africa the Licuati Forest vegetation type is called short \nsand forest (Izidine, 2003). The surrounding areas of LFR are \nmainly of woodland, open grasslands and dry coastal forest. \nThe climate of the region is generally warm to hot, humid \nand subtropical given its location within a transitional zone \nbetween the tropics to the north and the subtropical coastal \nconditions to the south. Precipitation is low with an annual \naverage rainfall ranging from 500 to 600 mm. Due to this \nfact, the Licuati vegetation is maintained by moisture blown \nfrom the sea.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Xylopia torrei",
+          "iucn_status": "EN",
+          "note": "MOZAMBIQUE ENDEMIC"
+        },
+        {
+          "name": "Sclerochiton apiculatus",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Psydrax fragrantissima",
+          "iucn_status": "NT"
+        },
+        {
+          "name": "Empogona maputensis",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Warneckea parvifolia",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Polygala francisci",
+          "iucn_status": "VU",
+          "note": "MOZAMBIQUE ENDEMIC"
+        }
+      ],
       "threats": [
         "Wood-cutting for charcoal production"
       ],
@@ -1308,7 +2595,34 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1a, A1b, B1",
       "description": "Esta KBA alberga a Reserva Florestal de Licuáti (RFL), situada \nno Distrito de Matutuíne, na Província de Maputo, sul de \nMoçambique, perto da fronteira Sul-africana e da Suazilândia \na sul e oeste, respectivamente, e cobre uma área de cerca \nde 141 km2. É bem conhecida localmente como Floresta de \nLicuáti e fica entre os rios Tembe e Maputo e as estradas \nPorto Henrique-Bela Vista e Bela Vista-Catuane (Izidine, 2003). \nA RFL encontra-se em dunas antigas, provavelmente da época \nPleistocénica. O núcleo da RFL é do tipo de vegetação de \nfloresta espessa, principalmente de cinco metros de altura, \ncom algumas árvores emergentes tais como Afzelia quanzensis, \nNewtonia hildebrandtii e Balanites maughamii, atingindo 12 m \nde altura. Na África do Sul, o tipo de vegetação florestal de \nLicuáti é chamado de floresta arenosa curta (Izidine, 2003). \nAs áreas circundantes à RFL são principalmente de floresta, \npradarias abertas e floresta costeira seca. O clima da região \né geralmente morno a quente, húmido e subtropical dada \na sua localização dentro de uma zona de transição entre os \ntrópicos, a norte, e as condições costeiras subtropicais a sul. A \nprecipitação é baixa, com uma precipitação média anual que \nvaria de 500 a 600 mm. Devido a esse facto, a vegetação de \nLicuati é mantida pela humidade proveniente do mar.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Xylopia torrei",
+          "iucn_status": "EN",
+          "note": "ENDÊMICA"
+        },
+        {
+          "name": "Sclerochiton apiculatus",
+          "iucn_status": "VU"
+        },
+        {
+          "name": "Psydrax fragrantissima",
+          "iucn_status": "NT"
+        },
+        {
+          "name": "Empogona maputensis",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Warneckea parvifolia",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Polygala francisci",
+          "iucn_status": "VU",
+          "note": "ENDÊMICA"
+        }
+      ],
       "threats": [
         "Corte de madeira para produção de carvão vegetal"
       ],
@@ -1328,7 +2642,28 @@
       "preexisting_designation": "IBA, Ramsar",
       "kba_criteria": "A1a, A1b, A1c, B1",
       "description": "Covering an area of about 1,039 km2 the proposed KBA encompasses \nthe whole Maputo Special Reserve (MSR) including the Futi Corridor. \nThe MSR lies in the Matutuíne District of Maputo Province in Southern \nMozambique, south of Machangulo Peninsula. Its current boundaries \nare the Maputo Bay in the north, the Indian Ocean to the east, the \nMaputo River, the Futi River and a line 2 km east of the Salamanga- \nPonta do Ouro road in the west, and the southern end of Lake \nXingute and the southern restriction of Lake Piti in the south. This \nprotected area lies within the Maputaland Centre of Endemism, an \narea running through north-east KwaZulu-Natal to eastern Eswatini \nand southernmost Mozambique, which is believed to hold about \n2,500 endemic plant species or infraspecific taxa (Van Wyk, 1996). The \nsite's altitude ranges from sea level to 194m above sea level, with the \nhigher areas characterized by dunes on the eastern, seaward side of \nthe Reserve and the lower areas on the floodplain of the Maputo River \non the western side. The climate is characterized by a warm and rainy \nseason (from October to March, with temperatures ranging from 26 \nºC to 30 ºC) and a cold and dry season (from April to September, with \ntemperatures ranging from 14 ºC to 26 ºC). Annual average rainfall \nis between 690-1,000 mm (de Boer and Ntumi, 2001). The soils are \nsandy, with low nutrient content except along the Futi and Maputo \nriver floodplains, where the soils are alluvial, with clay and organic \nmatter and are generally fertile (De Boer and Ntumi, 2001). The soils \nare mainly Aeolian sand deposits of marine origin, which rest on an \nundulating impermeable Cretaceous siltstone floor. The undulating \nsand ridges are interspersed with depressions that can have a higher \nclay content (Parker and de Boer, 2000). According to DNAC (2010), \nthe vegetation of the MSR is characterized by a unique mosaic of \nvaried ecosystems including: mangroves, dune vegetation, wooded \ngrasslands, sand forest-woodland mosaic, sand forest, savannah and \nriverine vegetation.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Loxodonta africana",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Silhouettea sibayi",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Scarabaeus bornemizzai",
+          "iucn_status": "NT"
+        },
+        {
+          "name": "Amblyphymus adspersus",
+          "iucn_status": "NT"
+        },
+        {
+          "name": "Sclerochiton apiculatus",
+          "iucn_status": "VU"
+        }
+      ],
       "threats": [
         "Deforestation (firewood, charcoal and",
         "precious timber harvesting), harvesting of",
@@ -1347,7 +2682,28 @@
       "preexisting_designation": "IBA, Ramsar",
       "kba_criteria": "A1a, A1b, A1c, B1",
       "description": "Cobrindo uma área de cerca de 1039 km2, esta KBA engloba toda a \nReserva Especial de Maputo (REM), incluindo o Corredor de Fúti. A REM \nsitua-se no Distrito de Matutuíne, na Província de Maputo, no sul de \nMoçambique, a sul da Península de Machangulo. Os seus limites actuais \nsão a Baía de Maputo a norte, o Oceano Índico a Este, o Rio Maputo, \no Rio Fúti e uma linha a 2 km a este da estrada Salamanga-Ponta do \nOuro a oeste, e o extremo Sul do Lago Xingute e a restrição Sul do Lago \nPiti a sul. Esta área protegida fica dentro do Centro de Endemismo de \nMaputaland, uma área que atravessa o nordeste de KwaZulu-Natal até \no leste de Eswatini e zona mais ao sul de Moçambique, que se acredita \npossuir cerca de 2.500 espécies endémicas de plantas ou táxones infraespecíficos (Van Wyk, 1996). A altitude no local, varia entre o nível do \nmar e 194m acima do mar, com as zonas mais altas caracterizadas por \ndunas no lado oriental e as zonas mais baixas na planície inundável \ndo rio Maputo, no lado ocidental da Reserva. O clima é caracterizado \npor uma estação quente e chuvosa (de Outubro a Março, com \ntemperaturas variando de 26 a 30 ºC) e uma estação fria e seca (de Abril \na Setembro, com temperaturas variando de 14 a 26 ºC). A precipitação \nmédia anual situa-se entre 690-1.000 mm (de Boer e Ntumi, 2001). Os \nsolos são arenosos, com baixo teor de nutrientes, excepto ao longo \nda planície de inundação dos rios Fúti e Maputo, onde os solos são \naluviais, com argila e matéria orgânica e são geralmente férteis (De \nBoer e Ntumi, 2001). Os solos são principalmente depósitos de areia \neólica de origem marinha, que repousam sobre um piso de siltito \ncretáceo impermeável e ondulado. As cristas ondulantes da areia são \nintercaladas com depressões que podem ter um maior teor de argila \n(Parker e de Boer, 2000). De acordo com o DNAC (2010), a vegetação da \nREM é caracterizada por um mosaico único de ecossistemas variados, \nincluindo: mangais, vegetação dunar, prados arborizados, mosaico de \nflorestas-bosques arenosos, florestas arenosas, savanas e vegetação \nribeirinha.",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Loxodonta africana",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Silhouettea sibayi",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Scarabaeus bornemizzai",
+          "iucn_status": "NT"
+        },
+        {
+          "name": "Amblyphymus adspersus",
+          "iucn_status": "NT"
+        },
+        {
+          "name": "Sclerochiton apiculatus",
+          "iucn_status": "VU"
+        }
+      ],
       "threats": [
         "Desflorestamento (lenha e extracção de",
         "carvão e madeira preciosa), Colheita de",
@@ -1371,7 +2727,20 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1b, A1c, D1b",
       "description": "The proposed KBA covers an area about 698 km2 and follows the boundaries \nof the Ponta do Ouro Partial Marine Reserve (POPMR) located in southern \nMozambique. Established in 2009, the POPMR is under review at time of \nwriting (in 2021) by UNESCO to become a World Heritage Site. The reserve \nstretches for 86 km along the coast from the border with South Africa to its \nnorthernmost point past Inhaca Island and into Maputo Bay at the Maputo \nRiver mouth. It extends three nautical miles offshore and to the base of the \ndunes inland and is regulated by a three-zone management plan (Lucrezi \net al., 2016). The POPMR is located within a biogeographical transition area \nreferred to as the Delagoa Bioregion (Daly et al., 2018). The average annual \nsea surface temperature in the area is about 24 °C, ranging from 22.5 °C in \nthe winter to 26.4 °C in the summer (DNAC, 2011). Primary reef formations \nin this site are characterized by submerged late Pleistocene beach rock that \nis colonized by a thin veneer of Indo-Pacific corals (Ramsay & Mason, 1990; \nRamsay, 1994) and are associated with a diverse Indo-Pacific fish community \n(Daly et al., 2015). Recreational fishing within the POPMR is restricted to \nmultiple-use zones and is subject to partial restrictions (only pelagic fish may \nbe targeted, including giant trevally, Caranx ignobilis) and bag limits of 10 fish \nper person per day. No industrial or semi-industrial fishing is allowed, and \ncommercial fishing is restricted to multiple-use zones for registered smallscale fisheries from local communities (Daly et al., 2018). The POPMR is a \npopular tourist destination due to the scuba diving industry, mainly for shark \ndiving (Lucrezi et al., 2016), whale watching and dolphin sighting. Reefs in \nthe POPMR are a valuable ecological asset as they play a pivotal role in the \ntourism industry (Daly et al., 2015) and constitute a prominent and unique \necological feature, comprising some of the highest-latitude reefs in the world \n(Celliers and Schleyer, 2008), and the southernmost coral reef complex of \nEast Africa. The occurrence of large, resident fishes such as potato bass \n(Epinephelus tukula), several species of sharks and marine turtles has resulted \nin specific dive sites such as ‘Bass City’ and ‘Pinnacles’, near Ponta Malongane, \nbecoming popular with divers (Robertson et al., 1996).",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Sousa plumbea",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Caranx ignobilis",
+          "iucn_status": "LC"
+        },
+        {
+          "name": "Parablennius lodosus",
+          "iucn_status": "VU"
+        }
+      ],
       "threats": [
         "Overfishing, illegal fishing, tourist",
         "activity and expansion, uncontrolled",
@@ -1390,7 +2759,20 @@
       "preexisting_designation": "N/A",
       "kba_criteria": "A1b, A1c, D1b",
       "description": "Esta KBA abrange uma área de 698 km² e segue os limites da Reserva Marinha \nParcial de Ponta do Ouro (RMPPO), localizada no sul de Moçambique. Fundada \nem 2009, à data de 2021, a RMPPO está sendo analisada pela UNESCO para se \ntornar Património Mundial. A reserva estende-se por 86 km ao longo da costa, \ndesde a fronteira com a África do Sul até ao ponto mais ao norte, passando \npela Ilha Inhaca, até à Baía de Maputo, na foz do rio Maputo. Estende-se por \ntrês milhas náuticas no mar e até à base das dunas no interior e é regulada \npor um plano de maneio com três zonas (Lucrezi et al., 2016). A RMPPO está \nlocalizada dentro de uma área de transição biogeográfica denominada Bioregião \nDelagoa (Daly et al., 2018). A temperatura média anual da superfície do mar na \nárea é de cerca de 24 °C, variando de 22,5 °C no inverno a 26,4 °C no verão \n(DNAC, 2011). As formações primárias de recifes neste local são caracterizadas \npor rochas do Pleistoceno submersas da praia, que são colonizadas por uma \nfina camada de corais Indo-Pacífico (Ramsay & Mason, 1990; Ramsay, 1994) e \nestão associadas a uma comunidade diversa de peixes Indo-Pacífico (Daly et al., \n2015). A pesca recreativa na RMPPO é restrita a zonas de utilização múltipla e \nestá sujeita a restrições parciais (apenas peixes pelágicos podem ser pescados, \nincluindo Caranx ignobilis) e a um limite de 10 peixes por pessoa por dia. \nNenhuma pesca industrial ou semi-industrial é permitida e a pesca comercial \né restrita a zonas de uso múltiplo para pescarias de pequena escala registadas \nnas comunidades locais (Daly et al., 2018). A RMPPO é um destino turístico \npopular devido à indústria de mergulho, principalmente para mergulho com \ntubarões (Lucrezi et al., 2016), observação de baleias e de golfinhos. Os recifes \nna RMPPO são um activo ecológico valioso: desempenham um papel central na \nindústria do turismo (Daly et al., 2015) e constituem uma característica ecológica \nproeminente e única, compreendendo alguns dos recifes de maior latitude do \nmundo (Celliers e Schleyer, 2008) e o complexo de recifes de coral mais ao sul \nda África Oriental. A ocorrência de peixes grandes e residentes, como o robalo \n(Epinephelus tukula), várias espécies de tubarões e tartarugas marinhas resultou \nem locais de mergulho específicos, como 'Bass City' e 'Pinnacles' perto de Ponta \nMalongane, que se tornaram populares entre os mergulhadores (Robertson et \nal. 1996).\nEspécies que activaram \nos critérios",
-      "trigger_species": [],
+      "trigger_species": [
+        {
+          "name": "Sousa plumbea",
+          "iucn_status": "EN"
+        },
+        {
+          "name": "Caranx ignobilis",
+          "iucn_status": "LC"
+        },
+        {
+          "name": "Parablennius lodosus",
+          "iucn_status": "VU"
+        }
+      ],
       "threats": [
         "Sobrepesca, pesca ilegal, actividade",
         "turística e expansão urbana costeira",

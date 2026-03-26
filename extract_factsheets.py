@@ -236,6 +236,19 @@ def process_pdf(pdf_path, labels, sections_map, rationale_hdr, references_hdr, l
 
         site_id = fields.get("site_id", "")
         trigger_species = parse_trigger_species(sections.get("trigger_species", ""))
+
+        # PDF column layout often pushes the species list to after "SITE ID: XXXXX"
+        # (EN) or "Código: XXXXX" (PT). Scan that tail and merge any extra species.
+        site_id_m = re.search(r'(?:SITE ID|C[oó]digo):\s*\n?\s*\d+\n', page1_text, re.IGNORECASE)
+        if site_id_m:
+            tail_text = page1_text[site_id_m.end():]
+            extra = parse_trigger_species(clean(tail_text))
+            existing_names = {s['name'] for s in trigger_species}
+            for sp in extra:
+                if sp['name'] not in existing_names:
+                    trigger_species.append(sp)
+                    existing_names.add(sp['name'])
+
         threats = parse_threats(sections.get("threats", ""))
 
         site_data = {
