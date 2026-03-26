@@ -661,6 +661,7 @@
 </div>
 
 <script src="kba-data.js"></script>
+<script src="validated_species.js"></script>
 <script>
 // ── Language ────────────────────────────────────────────────────────────────
 window.LANG = 'en';
@@ -966,18 +967,19 @@ function openPanel(feature, layer) {
   if (instr) { instr.style.opacity = '0'; setTimeout(() => instr.remove(), 600); }
 }
 
-// Wrap only known trigger species names in <em> tags
+// Wrap validated species names in <em> tags
+// Uses VALIDATED_SPECIES (from validated_species.js) when available,
+// otherwise falls back to the passed speciesList.
 function italiciseLatin(text, speciesList) {
-  if (!text || !speciesList || speciesList.length === 0) return text;
-  // Sort longest names first to avoid partial-match issues
-  const names = speciesList
-    .map(s => s.name)
-    .filter(Boolean)
-    .sort((a, b) => b.length - a.length);
+  if (!text) return text;
+  const nameList = (typeof VALIDATED_SPECIES !== 'undefined' && VALIDATED_SPECIES.length)
+    ? VALIDATED_SPECIES.slice().sort((a, b) => b.length - a.length)
+    : (speciesList || []).map(s => s.name).filter(Boolean).sort((a, b) => b.length - a.length);
+  if (!nameList.length) return text;
   let result = text;
-  for (const name of names) {
+  for (const name of nameList) {
     const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    result = result.replace(new RegExp(`\\b${escaped}\\b`, 'g'), `<em>${name}</em>`);
+    result = result.replace(new RegExp(`\\b${escaped}\\b`, 'gi'), `<em>${name}</em>`);
   }
   return result;
 }
