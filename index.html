@@ -877,7 +877,7 @@ function openPanel(feature, layer) {
         const iucnClass = status ? `iucn-badge iucn-${status}` : 'iucn-badge iucn-DD';
         const note = s.note ? `<span class="species-note">(${s.note})</span>` : '';
         const iconHTML = s.icon
-          ? `<div class="species-icon"><img src="icons/${s.icon}.png" alt="${s.icon}"></div>`
+          ? `<div class="species-icon"><img src="${s.icon}" alt=""></div>`
           : `<div class="species-icon"></div>`;
         return `<div class="species-item">
           ${iconHTML}
