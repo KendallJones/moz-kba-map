@@ -780,6 +780,22 @@ function loadKBAData() {
   }
   document.getElementById('loading').style.display = 'none';
 
+  // Build a global species list from all sites for italics matching
+  const ALL_SPECIES = (() => {
+    const seen = new Set();
+    const list = [];
+    for (const f of KBA_GEOJSON.features) {
+      const p = f.properties;
+      for (const sp of [...(p.trigger_species || []), ...(p.trigger_species_pt || [])]) {
+        if (sp && sp.name && !seen.has(sp.name)) {
+          seen.add(sp.name);
+          list.push(sp);
+        }
+      }
+    }
+    return list;
+  })();
+
   const geojsonLayer = L.geoJSON(KBA_GEOJSON, {
     style: feature => MARINE_SITES.has(feature.properties.name) ? styleMarine : styleDefault,
     onEachFeature(feature, layer) {
@@ -861,7 +877,7 @@ function openPanel(feature, layer) {
   // Description
   const descHTML = desc
     ? `<div class="section-label">${t.description}</div>
-       <p class="section-text">${italiciseLatin(desc, species)}</p><div class="divider"></div>`
+       <p class="section-text">${italiciseLatin(desc, ALL_SPECIES)}</p><div class="divider"></div>`
     : '';
 
   // Threats
@@ -940,7 +956,7 @@ function openPanel(feature, layer) {
     <div class="divider"></div>
 
     <div class="section-label">${t.rationale}</div>
-    <p class="section-text">${italiciseLatin(rationale, species) || t.noRationale}</p>
+    <p class="section-text">${italiciseLatin(rationale, ALL_SPECIES) || t.noRationale}</p>
 
     ${photosHTML ? `<div class="divider"></div>${photosHTML}` : ''}
   `;
