@@ -163,6 +163,9 @@ def main():
         shp_name = p.get('name', '')
         site_id  = p.get('site_id', '')
 
+        # Clean underscores from display name
+        p['name'] = shp_name.replace('_', ' ')
+
         # Match to factsheet
         key = best_match(shp_name, fs_keys)
         if key:
