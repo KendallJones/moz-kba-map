@@ -312,12 +312,35 @@ def extract_rationale(page2_text, rationale_header, references_header):
         return ""
     rat_start = rat_pos + len(rationale_header)
 
-    # Rationale ends at references or end of page
-    ref_pos = text_lower.find(references_header.lower(), rat_start)
-    if ref_pos == -1:
-        rat_text = page2_text[rat_start:]
-    else:
-        rat_text = page2_text[rat_start:ref_pos]
+    # Rationale ends at the earliest of: references section, or a
+    # "trigger species (continued)" overflow block that appears on page 2
+    # for sites with long species lists.
+    end_markers = [
+        references_header,
+        "trigger species (continued)",
+        "espécies que activaram os critérios (continuação)",
+    ]
+    end = len(page2_text)
+    for marker in end_markers:
+        pos = text_lower.find(marker.lower(), rat_start)
+        if pos != -1:
+            end = min(end, pos)
+
+    rat_text = page2_text[rat_start:end]
+
+    # Strip trailing lines that are bare species-name photo captions
+    # (1-3 words, no digits, no sentence punctuation).
+    lines = rat_text.split('\n')
+    while lines:
+        last = lines[-1].strip()
+        if last == '':          # skip blank trailing lines
+            lines.pop()
+            continue
+        if re.match(r'^[A-Za-z][\w\-]+(?: [A-Za-z][\w\-]+){0,2}$', last):
+            lines.pop()
+        else:
+            break
+    rat_text = '\n'.join(lines)
 
     return clean(rat_text)
 
