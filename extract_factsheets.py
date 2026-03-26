@@ -161,14 +161,27 @@ def parse_trigger_species(raw_text):
 
 
 def parse_threats(raw_text):
-    """Split threats text into a list."""
+    """Split threats text into a list, using commas as the delimiter."""
     if not raw_text:
         return []
-    # Split on commas or semicolons followed by space
-    parts = re.split(r'[;]|\n', raw_text)
+
+    # Remove scale-bar lines: lone numbers or patterns like "0", "5 km", "2 miles"
+    lines = raw_text.split('\n')
+    kept = []
+    for line in lines:
+        s = line.strip()
+        if re.match(r'^\d+(\s*(km|miles?))?\s*$', s, re.IGNORECASE):
+            continue
+        kept.append(s)
+
+    # Join lines (PDF wraps long threat strings across lines)
+    joined = ' '.join(kept)
+
+    # Split on commas; also honour semicolons as separators
+    parts = re.split(r'[,;]', joined)
     threats = []
     for p in parts:
-        p = p.strip().strip(',').strip()
+        p = p.strip()
         if len(p) > 3:
             threats.append(p)
     return threats
