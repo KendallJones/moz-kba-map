@@ -183,7 +183,7 @@ def parse_threats(raw_text):
     for p in parts:
         p = p.strip()
         if len(p) > 3:
-            threats.append(p)
+            threats.append(p[0].upper() + p[1:].lower())
     return threats
 
 
