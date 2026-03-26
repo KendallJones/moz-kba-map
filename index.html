@@ -529,6 +529,22 @@
     }
     #sites-list-btn:hover { background: var(--leaf); border-color: var(--moss); }
 
+    /* ── Language Toggle Button ─────────────────────────────────────────── */
+    #lang-toggle-btn {
+      background: transparent;
+      color: var(--moss);
+      border: 1px solid var(--canopy);
+      font-family: 'Playfair Display', serif;
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 7px 14px;
+      border-radius: 4px;
+      cursor: pointer;
+      letter-spacing: 0.06em;
+      transition: background 0.2s, color 0.2s, border-color 0.2s;
+    }
+    #lang-toggle-btn:hover { background: var(--canopy); color: var(--sand); border-color: var(--leaf); }
+
     /* ── Sites List Drawer ──────────────────────────────────────────────── */
     #sites-drawer {
       position: fixed;
@@ -712,6 +728,7 @@
     </div>
   </div>
   <div class="header-right">
+    <button id="lang-toggle-btn" onclick="toggleLanguage()">PT</button>
     <button id="sites-list-btn" onclick="toggleSitesDrawer()">&#9776; <span id="sites-list-label">All Sites</span></button>
     <div class="site-count">
       <span id="kba-count">—</span> <span id="sites-label">Sites Mapped</span>
@@ -837,6 +854,15 @@ function chooseLang(lang) {
   applyUILanguage();
 }
 
+function toggleLanguage() {
+  window.LANG = window.LANG === 'en' ? 'pt' : 'en';
+  applyUILanguage();
+  // Re-render open panel if one is showing
+  if (document.getElementById('side-panel').classList.contains('open') && window._openPanelArgs) {
+    openPanel(...window._openPanelArgs);
+  }
+}
+
 function applyUILanguage() {
   const t = UI[window.LANG];
   document.getElementById('sites-label').textContent      = t.sitesLabel;
@@ -845,9 +871,10 @@ function applyUILanguage() {
   document.getElementById('legend-kba').textContent       = t.legendKBA;
   document.getElementById('legend-marine').textContent    = t.legendMarine;
   document.getElementById('sat-placeholder').textContent  = t.noPhoto;
-  document.getElementById('sites-list-label').textContent = t.allSites;
+  document.getElementById('sites-list-label').textContent  = t.allSites;
   document.getElementById('sites-drawer-title').textContent = t.drawerTitle;
-  document.getElementById('sites-search').placeholder     = t.searchPlaceholder;
+  document.getElementById('sites-search').placeholder      = t.searchPlaceholder;
+  document.getElementById('lang-toggle-btn').textContent   = window.LANG === 'en' ? 'PT' : 'EN';
   buildSitesList();
 }
 
@@ -945,6 +972,7 @@ function loadKBAData() {
 
 // ── Open Panel ───────────────────────────────────────────────────────────────
 function openPanel(feature, layer) {
+  window._openPanelArgs = [feature, layer];
   const p = feature.properties;
   const t = UI[window.LANG];
   const isPT = window.LANG === 'pt';
